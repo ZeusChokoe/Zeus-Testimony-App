@@ -19,26 +19,32 @@ import androidx.compose.ui.unit.sp
 import com.example.data.Book
 import com.example.data.Verse
 import com.example.data.VerseRepository
+import com.example.data.Volume
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReaderScreen(
-    volume: String,
+    volumeId: String,
     onNavigateBack: () -> Unit
 ) {
-    val isOldTestament = volume == "old"
-    val books = if (isOldTestament) VerseRepository.oldTestament else VerseRepository.newTestament
-    val volumeTitle = if (isOldTestament) "VOLUME I: The Legacy Myths" else "VOLUME II: The Scientific Truth"
+    val volume = VerseRepository.volumes.find { it.id == volumeId }
     
     var selectedVerse by remember { mutableStateOf<Verse?>(null) }
     var showBottomSheet by remember { mutableStateOf(false) }
+
+    if (volume == null) {
+        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+            Text("Volume not found.", color = MaterialTheme.colorScheme.onBackground)
+        }
+        return
+    }
 
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { 
                     Text(
-                        text = volumeTitle, 
+                        text = "${volume.title}: ${volume.subtitle}", 
                         style = MaterialTheme.typography.titleMedium,
                         color = MaterialTheme.colorScheme.onSurface
                     ) 
@@ -70,7 +76,7 @@ fun ReaderScreen(
                 Spacer(modifier = Modifier.height(24.dp))
             }
             
-            books.forEach { book ->
+            volume.books.forEach { book ->
                 item {
                     Text(
                         text = book.title.uppercase(),
@@ -100,8 +106,8 @@ fun ReaderScreen(
                         VerseItem(
                             verse = verse,
                             onClick = {
-                                if (isOldTestament && verse.scientificEquivalentId != null) {
-                                    selectedVerse = VerseRepository.getNewTestamentEquivalent(verse.scientificEquivalentId)
+                                if (verse.scientificEquivalentId != null) {
+                                    selectedVerse = VerseRepository.getVerse(verse.scientificEquivalentId)
                                     showBottomSheet = true
                                 }
                             }

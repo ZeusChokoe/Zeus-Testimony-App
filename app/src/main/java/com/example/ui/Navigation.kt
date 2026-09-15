@@ -14,14 +14,13 @@ fun AppNavigation() {
     NavHost(navController = navController, startDestination = "home") {
         composable("home") {
             HomeScreen(
-                onNavigateToOldTestament = { navController.navigate("reader/old") },
-                onNavigateToNewTestament = { navController.navigate("reader/new") }
+                onNavigateToVolume = { volumeId -> navController.navigate("reader/$volumeId") }
             )
         }
-        composable("reader/{volume}") { backStackEntry ->
-            val volume = backStackEntry.arguments?.getString("volume") ?: "old"
+        composable("reader/{volumeId}") { backStackEntry ->
+            val volumeId = backStackEntry.arguments?.getString("volumeId") ?: "vol_1"
             ReaderScreen(
-                volume = volume,
+                volumeId = volumeId,
                 onNavigateBack = { navController.popBackStack() }
             )
         }

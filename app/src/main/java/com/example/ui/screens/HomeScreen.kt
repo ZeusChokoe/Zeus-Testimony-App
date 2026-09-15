@@ -17,11 +17,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.R
 
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import com.example.data.VerseRepository
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
-    onNavigateToOldTestament: () -> Unit,
-    onNavigateToNewTestament: () -> Unit
+    onNavigateToVolume: (String) -> Unit
 ) {
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background
@@ -30,6 +33,7 @@ fun HomeScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
+                .verticalScroll(rememberScrollState())
         ) {
             Box(
                 modifier = Modifier
@@ -58,10 +62,10 @@ fun HomeScreen(
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.image),
+                        painter = painterResource(id = R.drawable.zeus_icon_transparent),
                         contentDescription = "Zeus Testimony Logo",
                         modifier = Modifier
-                            .size(100.dp)
+                            .size(64.dp)
                             .padding(bottom = 16.dp)
                     )
                     Text(
@@ -91,22 +95,18 @@ fun HomeScreen(
                     .fillMaxWidth()
                     .padding(horizontal = 24.dp)
             ) {
-                VolumeCard(
-                    title = "VOLUME I",
-                    subtitle = "The Legacy Myths",
-                    description = "The ancient Hellenic framework and the Hesiodic error.",
-                    onClick = onNavigateToOldTestament,
-                    modifier = Modifier.padding(bottom = 16.dp)
-                )
-
-                VolumeCard(
-                    title = "VOLUME II",
-                    subtitle = "The Scientific Truth",
-                    description = "Astrochemical genesis and the true architectural primacy.",
-                    onClick = onNavigateToNewTestament,
-                    modifier = Modifier.padding(bottom = 16.dp)
-                )
+                VerseRepository.volumes.forEach { volume ->
+                    VolumeCard(
+                        title = volume.title,
+                        subtitle = volume.subtitle,
+                        description = volume.description,
+                        onClick = { onNavigateToVolume(volume.id) },
+                        modifier = Modifier.padding(bottom = 16.dp)
+                    )
+                }
             }
+            
+            Spacer(modifier = Modifier.height(32.dp))
         }
     }
 }
