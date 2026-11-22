@@ -1,5 +1,8 @@
 # Changes
 
+## 2.7.0
+- Deepened the remaining 34 six-verse chapters; every chapter now has at least 7 verses (990 verses total).
+
 ## 2.6.0
 - First-launch introduction: four swipeable pages (the premise, the claim, how to read science versus myth, the reader tools) with Skip, and a way to re-open it from About.
 - Deepened 27 of the shortest chapters with 3 to 5 new verses each (886 verses total), including Milankovitch cycles, Mercury's iron core, the Jack Hills zircons, Red Spot Junior, the polar cyclones, Io's lava temperatures and Juno's Galileo plaque.

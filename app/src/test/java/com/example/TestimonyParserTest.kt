@@ -83,7 +83,7 @@ class TestimonyParserTest {
             assertTrue("${v.title} lacks summary", v.summary.isNotBlank())
             assertEquals(v.chapters.size, v.chapters.map { it.title }.toSet().size)
             v.chapters.forEach {
-                assertTrue("${it.title} has too few verses", it.verses.size >= 5)
+                assertTrue("${it.title} has too few verses", it.verses.size >= 7)
                 assertTrue("${it.title} lacks an epigraph", !it.epigraph.isNullOrBlank())
             }
         }
