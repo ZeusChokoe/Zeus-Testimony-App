@@ -58,4 +58,22 @@ class ResumeAndLegalTest {
         rule.onNodeWithText("Terms of Use").performClick()
         waitFor("Republic of South Africa")
     }
+
+    @Test
+    fun sealOpensWhenVolumeIsFinished() {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        ReadingPrefs(context).introSeen = true
+        val testimony = com.example.data.TestimonyParser.parse(java.io.File("src/main/assets/testimony.txt").readText())
+        val read = org.json.JSONObject()
+        testimony.volumes[0].chapters.forEach { read.put("0.${it.index}", 1L) }
+        context.getSharedPreferences("library", Context.MODE_PRIVATE).edit().putString("read", read.toString()).commit()
+        rule.setContent { AppTheme(darkTheme = true) { AppNavigation() } }
+        waitFor("THE ZEUS TESTIMONY")
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("The Unnamed Source"))
+        rule.onAllNodesWithText("The Unnamed Source")[0].performClick()
+        waitFor("VOLUME I")
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("THE SEAL IS BROKEN"))
+        rule.onNodeWithText(testimony.volumes[0].seal!!).assertExists()
+        rule.onRoot().captureRoboImage("build/screens/10_seal.png")
+    }
 }

@@ -75,12 +75,13 @@ class TestimonyParserTest {
     @Test
     fun bundledTestimonyIsWellFormed() {
         val t = TestimonyParser.parse(File("src/main/assets/testimony.txt").readText())
-        assertEquals(12, t.volumes.size)
+        assertEquals(13, t.volumes.size)
         val raw = File("src/main/assets/testimony.txt").readText()
         assertTrue("em or en dash in content", '\u2014' !in raw && '\u2013' !in raw)
         t.volumes.forEach { v ->
             assertTrue("${v.title} has too few chapters", v.chapters.size >= 4)
             assertTrue("${v.title} lacks summary", v.summary.isNotBlank())
+            assertTrue("${v.title} lacks a seal", !v.seal.isNullOrBlank())
             assertEquals(v.chapters.size, v.chapters.map { it.title }.toSet().size)
             v.chapters.forEach {
                 assertTrue("${it.title} has too few verses", it.verses.size >= 7)

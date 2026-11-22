@@ -15,4 +15,4 @@ Android device backup if you have backup enabled. Uninstalling the app or cleari
 
 **Changes:** any change to this policy will be published at this same address with a new effective date.
 
-**Contact:** the developer email address shown on the app's Google Play page.
+**Contact:** thezeustower@gmail.com

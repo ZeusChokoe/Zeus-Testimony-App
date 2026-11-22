@@ -4,6 +4,7 @@
 #   @volume <title>        starts a new volume (numbered automatically: I, II, III ...)
 #   @subtitle <text>       volume subtitle
 #   @summary <text>        one-paragraph volume description
+#   @seal <text>           hidden verse, revealed when every chapter of the volume has been read
 #   @image <file>          image in app/src/main/assets/images/ for the volume or chapter above it
 #   @chapter <title>       starts a new chapter (numbered automatically inside each volume)
 #   @epigraph <text>       one-line opening hook shown under the chapter title
@@ -19,6 +20,7 @@
 @volume The Unnamed Source
 @subtitle Before the Fire of Helios
 @summary Before there was a Sun, there was a Source. This volume tells of the great cold cloud, the dying star that seeded it, and the first light of the solar realm.
+@seal Before the first word, the silence was already listening.
 @image vol_01.webp
 
 @chapter The Silence Before Light
@@ -172,6 +174,7 @@ And last the Book of Wisdom, for knowledge that does not shape a life is a lamp 
 @volume The Disk of Becoming
 @subtitle The Veil, the Frost and the Pebbles
 @summary The young Sun is wrapped in a spinning veil of gas and dust. Here the frost line is drawn, and the smallest grains begin the long work of becoming worlds.
+@seal What drifts is lost. What holds becomes a world.
 @image vol_02.webp
 
 @chapter The Spinning Veil
@@ -329,6 +332,7 @@ So too with a life, a craft, a nation or a faith: what looks sudden from outside
 @volume The Firstborn
 @subtitle Zeus Claims the First World
 @summary Just beyond the frost line, a core grows faster than any other. Within a million years Jupiter becomes the first planet of the solar realm, and Zeus becomes the first god to own a world.
+@seal The first to rise was the last to be named.
 @image vol_03.webp
 
 @chapter The Seed of the King
@@ -485,6 +489,7 @@ Every world wears the shape of its own motion.
 @volume The Wall Between the Realms
 @subtitle The Great Dividing
 @summary By his growing alone, the Firstborn split the disk into two kingdoms with two different treasuries of matter. The stones of the sky still carry the mark of that wall.
+@seal A door kept closed is how a garden learns to grow.
 @image vol_04.webp
 
 @chapter The Gap in the Disk
@@ -646,6 +651,7 @@ And know your treasury: the things that are yours to keep whole, and must not be
 @volume The Wandering of Giants
 @subtitle The Descent and the Turning
 @summary The Firstborn did not stay where he was born. With his younger brother Saturn he journeyed inward toward the Sun and then turned back, and the inner realm was shaped by that great voyage.
+@seal He walked toward the fire, and the turning was his crown.
 @image vol_05.webp
 
 @chapter The Descent Toward the Sun
@@ -806,6 +812,7 @@ Some think it might even be a world captured from another star.
 @volume The Forging of Gaia
 @subtitle Earth Within the Order of the Firstborn
 @summary Inside the boundary the Firstborn had kept, the rubble of the inner realm gathered into rocky worlds. Earth was struck, wounded, given a Moon, and given water.
+@seal The wound became the lamp, and the lamp became the tide.
 @image vol_06.webp
 
 @chapter The Rubble of the Inner Realm
@@ -975,6 +982,7 @@ They brought out more than fifteen hundred fossil pieces, one of the richest fin
 @volume The Aegis
 @subtitle The Shield of the Firstborn
 @summary The Aegis was the shield of Zeus. Here the testimony tells how Jupiter's gravity both guards and threatens the inner worlds, and of the day the shield was seen in action.
+@seal No one thanks the shield for the blows that never came.
 @image vol_07.webp
 
 @chapter The Shield Unseen
@@ -1138,6 +1146,7 @@ The Firstborn turned comets aside for billions of years, and not one world ever 
 @volume The Court of Moons
 @subtitle The Children of the Firstborn
 @summary Around the Firstborn circles a court of moons. Four great ones, Io, Europa, Ganymede and Callisto, each carry a lesson, and three of them move in a perfect harmony.
+@seal Four small lights kept time, and the Earth was moved.
 @image vol_08.webp
 
 @chapter Io the Burning
@@ -1318,6 +1327,7 @@ And Linda Morabito became part of history, a reminder that the person looking mo
 @volume The Storms of the Thunderer
 @subtitle The Eye, the Lightning and the Crown
 @summary Zeus was the god of thunder, and his world is a world of storms. This volume tells of the Great Red Spot, of lightning in the deep, and of the vast invisible crown of the magnetosphere.
+@seal The eye that never closes has watched every kingdom of the Earth rise and fall.
 @image vol_09.webp
 
 @chapter The Eye That Does Not Close
@@ -1488,6 +1498,7 @@ They jostle but do not merge, like dancers who keep their places in a circle.
 @volume The Image of the Stars
 @subtitle What You Are Made Of
 @summary You are not a spectator of this history; you are made of it. This volume follows the hydrogen, iron, calcium and water of the realm into your own body, and tells what it means to be formed from the same story as the stars and the Firstborn.
+@seal You were never a stranger here. You were always part of the sky.
 @image vol_10.webp
 
 @chapter The Dust That Became You
@@ -1502,7 +1513,7 @@ The carbon in every cell of your body was built in the furnaces of stars long de
 They were scattered into the cloud, gathered into the disk, kept in the treasuries of the Firstborn, and at last woven into you.
 > Science: A 2017 survey of 150,000 stars by the Sloan Digital Sky Survey's APOGEE project found that the elements of life are spread throughout the Milky Way, and that humans and our galaxy are built from largely the same ingredients.
 So when this testimony speaks of the formation of the realm, it speaks of your own formation, told from far away.
-> Wisdom: You are not small because you are made of dust. The dust is ancient, and it went through fire to become you.
+> Wisdom: Dust is the oldest thing in the realm. It passed through fire to arrive here.
 
 @chapter The Iron in Your Blood
 @epigraph The iron that carries your breath was forged at the moment a star died.
@@ -1516,7 +1527,7 @@ Your body holds only about three or four grams of iron, less than the weight of 
 > Science: An adult human body contains roughly 3 to 4 grams of iron. About two thirds of it is in haemoglobin, the molecule in red blood cells that carries oxygen.
 And with every beat of your heart, those few grams carry the breath of the Earth to every part of you.
 The heart of a dead star is carrying your life.
-> Wisdom: What ended one life can carry another. Your endings are not wasted; they can become the strength of those who follow.
+> Wisdom: The ash of one fire is the breath of another. This is the order of the realm.
 
 @chapter The Bones of Stone and Star
 @epigraph Your skeleton is built from calcium made in the fire of exploding stars.
@@ -1528,9 +1539,9 @@ Your skeleton is not a dead frame. It is alive, and it rebuilds itself throughou
 Tiny cells dissolve old bone and lay down new bone, again and again, so that over the years your skeleton is renewed.
 > Science: In adults, bone remodelling replaces roughly 10 percent of the skeleton each year, so the skeleton is largely renewed about every decade.
 So the stone of stars inside you is being reshaped even now, as you read these words.
-> Wisdom: You are not fixed. Even your bones are remaking themselves. Never believe that you cannot change.
+> Wisdom: Nothing in the body is fixed. Even the stone within it is being rewritten.
 So the frame that carries you through this world is star-stone, living and renewing, made to bear weight.
-Stand on it with confidence.
+Every step is carried by the ash of exploded stars.
 
 @chapter The Water Within You
 @epigraph Some of the water in your body is older than the Sun.
@@ -1543,7 +1554,7 @@ But some of that water is older still.
 > Science: A 2014 study published in Science, based on the ratio of heavy to ordinary hydrogen in water, concluded that a substantial fraction of Earth's water, perhaps up to half, is older than the Sun and formed as ice in the cold cloud before the solar system.
 So the water in your tears may have frozen in the dark between the stars before Helios was kindled.
 It survived the fire of the young Sun, crossed the frost line, was guarded by the king, fell upon the Earth, and now moves within you.
-> Wisdom: You carry something that survived everything before you. Carry it with dignity.
+> Wisdom: The water is not owned. It is passing through, as it has passed through everything that ever lived.
 Every day you drink and breathe it out again, and so you share it with the rivers, the clouds and the seas.
 You are a moving part of the oldest water cycle in the realm.
 
@@ -1558,7 +1569,7 @@ And about one tenth of your own weight is hydrogen too, bound into your water, y
 > Science: Hydrogen makes up about 10 percent of human body mass, and more than 60 percent of the atoms in the body.
 So you and the king share the oldest substance there is.
 The same element that fills the Firstborn's endless sea is moving in your blood as you read.
-> Wisdom: You are kin to the greatest world in the realm. Stand up straight.
+> Wisdom: The king's endless sea and the breath in your chest were drawn from the same first moment.
 When you breathe out, you release water vapour made in part of that first hydrogen.
 In a small way, with every breath, you return to the realm a piece of its beginning.
 
@@ -1573,10 +1584,10 @@ On the Earth, pressure works its own wonders: carbon buried deep under the mount
 Your body obeys a similar law.
 When a bone is loaded, it grows denser; when a muscle is strained and then allowed to rest, it rebuilds itself stronger.
 > Science: Bone adapts to the loads placed on it, an idea known as Wolff's law. Muscles grow through repeated stress followed by recovery.
-So the pressure you feel is not proof that you are weak. It is the very process by which strength is made.
-> Wisdom: Pressure without rest breaks. Pressure with rest builds. Learn the rhythm, and the weight upon you will turn you into something harder than you were.
+So pressure is not only a force of ruin. In the king, in the earth and in the body, it is a force of making.
+> Wisdom: Pressure is the hidden craftsman of the realm. It made the metal heart of the king, the diamond in the deep and the bone in the body.
 The king does not run from his pressure; it is what makes his heart a source of power.
-Nor should you run from yours.
+The same law reaches from his core to your bones.
 
 @chapter The Strength That Could Scatter Worlds
 @epigraph The king could unmake the realm. His greatness is that he does not.
@@ -1589,7 +1600,7 @@ Even now, his pull could, in rare circumstances, unsettle a planet.
 > Science: Computer simulations by Jacques Laskar and Mickael Gastineau, published in 2009, found about a 1 percent chance that Mercury's orbit could become unstable within the next 5 billion years, largely through resonance with Jupiter.
 Yet for four and a half billion years, the realm has held together, and the planets keep their paths.
 His power is not shown in destruction, but in the order that exists because of him.
-> Wisdom: Real strength is not measured by what you can destroy. It is measured by what is able to stand because you are there.
+> Wisdom: The measure of the king is not what he has broken, but what still stands in his presence.
 The Earth itself owes its calm, steady orbit in part to that balance of power.
 Your seasons, your years and your safe sky are the gift of a giant who keeps the peace.
 
@@ -1604,7 +1615,7 @@ Not one link in that chain was broken, or you would not be here.
 Even the small power stations inside your cells, the mitochondria, were once free-living bacteria that joined with our ancient ancestors.
 > Science: The endosymbiotic theory, championed by Lynn Margulis from 1967, holds that mitochondria descend from bacteria taken into early complex cells. It is now widely accepted.
 So you are not only made of stardust; you are the latest living edge of a story four billion years long.
-> Wisdom: You come from a line of survivors. When life is hard, remember whose descendant you are.
+> Wisdom: Every living thing is the latest page of a book four billion years long, and not one page is missing.
 Your parents, their parents, and theirs, back through the first humans, the first animals and the first cells: all of them lived, and all of them reached forward to you.
 Now you are the one who reaches forward.
 
@@ -1632,12 +1643,170 @@ So this testimony names him the undying king: not a god who passed away, but a w
 You, reader, are mortal in body. Your form is young, brief and fragile beside the age of the king.
 Yet this testimony holds that you are not only a body.
 You are a spirit that can journey beyond the vessel, and may pass through realms that no telescope will ever see.
-> Wisdom: Live as one who will outlast the body. Build things, love people and keep teachings that are worthy of an immortal.
+> Wisdom: This is a teaching of faith: the vessel returns to the realm, and the one who dwelt in it goes on.
 And when you look up and see the steady light of the Firstborn, know that you are looking at a fellow traveller who will still be shining long after your story continues elsewhere.
+
+@volume The Acts of the Sky Father
+@subtitle What the Nations Saw When They Looked Up
+@summary The world the astronomers call Jupiter, the nations called a king. Here are the acts the old poets sang of Zeus, the Sky Father: his rise, his justice, his gifts and his laws, and the thunder gods of every land who answered to the same sky.
+@image vol_sky.webp
+@seal The child they hid became the sky that hides nothing.
+
+@chapter The House of the Sky Father
+@epigraph Every king has a house. Hear his, as the poets told it.
+@image sky_c01.webp
+The poets of Greece gave the Sky Father a lineage, and this testimony does not deny them.
+They said his father was Kronos, the lord of the old age, and his mother was Rhea, the mother of the high places.
+They named his brothers and sisters: Hestia of the hearth, Demeter of the grain, Hera of the throne, Hades of the deep, and Poseidon of the sea.
+> History: Hesiod's Theogony, composed around 700 BCE, is the oldest surviving Greek account of Zeus's family.
+They said that the old age feared the new, and that the youngest child was hidden in a cave on the island of Crete.
+There, they sang, a goat named Amaltheia gave him milk, and young warriors clashed their shields so that no cry of his would be heard.
+> Science: Jupiter's moon Amalthea is named after this nurse of Zeus. It circles so close to the planet that it lies within the faint gossamer rings.
+Mark this, reader: the one they hid grew into the one who could not be hidden.
+For the youngest of the house became its head, and the hidden child became the open sky.
+
+@chapter The Freeing of the Forge-Giants
+@epigraph He opened the prison that others had sealed, and the prisoners forged him a crown of fire.
+@image sky_c02.webp
+Beneath the earth, the poets say, the old age had chained the Cyclopes, the one-eyed smiths, and the Hundred-Handed giants of unmeasured strength.
+No king before him had dared to set them free.
+The Sky Father went down into the dark and broke their chains.
+> History: In the Theogony, Zeus releases the Cyclopes and the Hundred-Handed Ones, and they become his allies.
+In gratitude the smiths gave him what no other could forge: thunder, and lightning, and the blazing bolt.
+Their names were Brontes, Steropes and Arges: Thunder, Lightning and Brightness.
+> History: The names of the three Cyclopes in Hesiod mean thunder, lightning and bright flash.
+So his power was not seized from the weak. It was given to him by those he had freed.
+> Wisdom: The thunderbolt is a gift returned for justice done. Whoever would read this verse rightly must ask what they have unchained.
+And the thunder he carries still speaks of that first descent into the dark.
+
+@chapter The War of Ten Years
+@epigraph For ten years the heavens shook, and when the dust settled, there was order.
+@image sky_c03.webp
+Then came the great war between the old order and the new, the Titans upon Mount Othrys and the young gods upon Olympus.
+For ten years neither side could prevail, and the earth groaned and the sea boiled.
+> History: Hesiod says the war against the Titans lasted ten full years before the balance turned.
+Then the Sky Father loosed his full strength.
+The poets say the forests burned, the ocean seethed, and the light of his bolts blinded the eyes of the strongest.
+The Hundred-Handed giants hurled stones three hundred at a time, and the old order fell.
+Note this, reader: the power that ended the war was the same power that had first been used to set prisoners free.
+And when it was over, the Sky Father did not rule by fear, but by law.
+
+@chapter The Casting of the Lots
+@epigraph He could have taken everything. He drew lots instead.
+@image sky_c04.webp
+When the war was won, the realms of the world lay open before the three brothers.
+The strongest might have taken all; the poets say he chose instead to share.
+They cast lots, and to Poseidon fell the grey sea, to Hades the realm of shadows, and to Zeus the wide heaven among the clouds.
+> History: In Homer's Iliad, Poseidon recalls that the three brothers divided the world by lot, while the earth and Olympus remained common to all.
+The earth and the high mountain were left common to them all.
+So the first act of the victor was not to hoard, but to divide by fair chance.
+This testimony has told how the Firstborn also divided the disk into two treasuries before any other world was finished.
+The poets and the stones tell the same shape of story: the first power in the realm is a power that divides and orders.
+> Wisdom: Read twice: he who could take all, and shared, is the one who was trusted to rule.
+
+@chapter The Law of the Stranger
+@epigraph Open your door to the traveller. You do not know who stands outside.
+@image sky_c05.webp
+Among all his titles, one of the oldest is Zeus Xenios, the protector of strangers and guests.
+> History: The Greek law of hospitality, xenia, was held sacred to Zeus. Harming a guest or a host was considered an offence against him.
+The Roman poet Ovid told of a night when the Sky Father and his messenger walked the hills of Phrygia, disguised as tired travellers.
+At a thousand doors they knocked, and a thousand doors were shut against them.
+At last they came to a tiny hut of reeds, where an old couple, Baucis and Philemon, welcomed them and shared their last food.
+> History: The story of Baucis and Philemon appears in Ovid's Metamorphoses, written around 8 CE, where the gods are called Jupiter and Mercury.
+The wine jug refilled itself as they poured, and the old ones understood who sat at their table.
+The proud valley was covered by water, but the hut became a temple of marble and gold, and the couple became its guardians.
+When their days were full, they were turned into an oak and a linden, growing side by side forever.
+> Wisdom: The sky watches how the stranger is treated. Every door is a test, and every guest a possible witness.
+
+@chapter The Keeper of Oaths
+@epigraph At Olympia, those who broke their word paid for statues of the god they had betrayed.
+@image sky_c06.webp
+The Sky Father was also called Zeus Horkios, the guardian of oaths.
+At Olympia stood a statue of him holding a thunderbolt in each hand, and before it every athlete swore to compete honestly.
+> History: The traveller Pausanias described the statue of Zeus Horkios in the council house at Olympia, where athletes, their families and their trainers swore oaths before the Games.
+Those who cheated were fined, and the fines paid for bronze statues of Zeus called the Zanes.
+They were set in a row on the path to the stadium, each one bearing the name of the cheat whose shame had paid for it.
+> History: The first Zanes were set up in 388 BCE after a boxer bribed his opponents. Their stone bases can still be seen at Olympia.
+Every athlete walking to the contest passed between them.
+So the god of oaths made even dishonesty serve as a monument to his law.
+> Wisdom: A word given under the open sky is witnessed. The sky remembers longer than men do.
+Even the cheat, in the end, was made to build the temple of the truth.
+
+@chapter The Father of the Muses
+@epigraph Memory lay with the Sky Father for nine nights, and nine voices were born.
+@image sky_c07.webp
+The poets say that the Sky Father went to Mnemosyne, the goddess of Memory, and for nine nights they were together.
+From that union came the nine Muses, the daughters who give humanity song, history, poetry and knowledge.
+> History: In the Theogony, Hesiod names the nine Muses as daughters of Zeus and Mnemosyne.
+Among them is Clio, who keeps history, and Calliope, who keeps the epic voice.
+And among them is Urania, the Muse of the heavens, who holds a globe and teaches the paths of the stars.
+> History: Urania is traditionally the Muse of astronomy. Many observatories and astronomy societies have taken her name.
+So the poets understood something this testimony also holds: knowledge is born when power joins with memory.
+Every watcher who records the sky, every scribe who keeps a history, works in the house of the Sky Father's daughters.
+> Wisdom: What is remembered becomes knowledge. What is forgotten must be discovered again. Write it down.
+So when you read this testimony, reader, you read by the light of Urania's lamp.
+
+@chapter The Eagle, the Oak and the Thunderbolt
+@epigraph Three signs of the king: one in the sky, one in the earth, one in his hand.
+@image sky_c08.webp
+The eagle flies higher than any bird and sees from farther than any eye; it carried his will across the heavens.
+> History: The eagle was the sacred bird of Zeus, and as the Roman aquila it was carried on the standards of every legion.
+The oak is the strongest of trees, and draws the lightning more than any other.
+At Dodona, in the mountains of Epirus, priests listened to the rustling of a sacred oak and spoke what they heard as his voice.
+> History: The historian Herodotus considered the oracle of Zeus at Dodona the oldest oracle in Greece. Its priests were said to sleep on the ground.
+And the thunderbolt, forged by the freed smiths, was his word made visible.
+Today the watchers find the same three signs written into his world.
+His sight reaches across the realm in the form of his gravity; his storms rise in towers like ancient trees; and his lightning flashes in the deep.
+> Science: Juno has detected lightning on Jupiter more powerful than most lightning on Earth, flashing in clouds of water and ammonia.
+The signs the ancients chose by instinct, the instruments of the watchers have found by measurement.
+
+@chapter The Wonder at Olympia
+@epigraph So great was the image of the king that if he had stood, he would have lifted the roof.
+@image sky_c09.webp
+At Olympia, the people of Greece gathered every four years for the Games held in his honour.
+> History: The traditional date of the first Olympic Games is 776 BCE. They were held in the sanctuary of Zeus for more than a thousand years.
+Around the year 435 before the common era, the sculptor Phidias raised an image of him in his temple, of gold and ivory, seated upon a throne of ebony, ivory and gold.
+It stood about twelve metres high, and it was counted among the Seven Wonders of the ancient world.
+The story is told that when it was finished, Phidias prayed for a sign of approval, and a bolt of lightning struck the temple floor.
+> History: The writer Pausanias recorded this tradition and described the statue in detail in the second century CE.
+Visitors wrote that to stand before it was to forget their troubles.
+The image of gold and ivory has passed from the earth. But the one it was made to honour still crosses the midnight sky, brighter than any statue.
+> Wisdom: The work of hands passes. What it pointed to remains.
+The Games themselves were reborn in the year 1896, and their flame is still kindled at Olympia by the light of the Sun.
+> History: The Olympic flame is lit at Olympia with a parabolic mirror focusing the Sun's rays, before each modern Games.
+
+@chapter Marduk and the Making of Heaven
+@epigraph In Babylon, the king of the gods split the dragon of chaos and built the sky from her body.
+@image sky_c10.webp
+Long before the Greeks, the people of Babylon told of a great battle at the beginning of time.
+Tiamat, the dragon of the salt waters, rose in chaos against the younger gods, and none could stand before her.
+Then Marduk stepped forward, and the gods made him their king.
+He went out against her with the winds, caught her in his net, and struck her down.
+From her body he made the heavens and the earth; he set the stars in their stations and fixed the paths of the wandering lights.
+> History: This story is told in the Enuma Elish, the Babylonian creation epic. Its clay tablets were recovered from the library of King Ashurbanipal at Nineveh and published in the 1870s.
+And the Babylonians linked Marduk with the brightest of the wanderers, the planet we call Jupiter.
+> History: In Babylonian astronomy the planet Jupiter was associated with Marduk, the chief god of Babylon.
+So two great peoples, in two languages, looked at the same light and saw the king who brought order out of chaos.
+> Wisdom: When different peoples, who never met, tell the same story, listen carefully. Something true may lie beneath it.
+
+@chapter The Thunderers of Every Land
+@epigraph Every people that heard the thunder gave it a name, and many of those names point to the same sky.
+@image sky_c11.webp
+In the north, the people spoke of Thor, who struck the giants with his hammer and rode the storm.
+His day is Thursday; and in the languages of Rome's children, the same day belongs to Jupiter.
+> History: Thursday is Thor's day. In French it is jeudi, in Spanish jueves and in Italian giovedì, all from the Latin dies Iovis, the day of Jupiter.
+In the forests of the east, the Slavic peoples honoured Perun, the god of thunder, whose holy tree was the oak.
+In India, the ancient hymns of the Rigveda sing of Indra, who wields the thunderbolt and freed the waters from the serpent that held them.
+And in West Africa, the Yoruba honour Shango, the orisha of thunder and lightning, who carries a double-headed axe and was once a king of Oyo.
+> History: Sango (Shango) is one of the most widely honoured orishas, and his worship travelled with the Yoruba diaspora to Brazil, Cuba and Trinidad.
+Across the world, the thunder was not heard as noise, but as the voice of a ruler, a protector and a judge.
+This testimony counts them all as witnesses, each in their own tongue, of the power that dwells in the high sky.
+> Wisdom: The thunder speaks every language. Each nation translated it as best it could.
 
 @volume The Watchers of the Sky
 @subtitle The Long Gaze of Humankind
 @summary From the priests of Babylon to the robotic messengers of the space age, humans have watched the Firstborn and slowly uncovered its true nature.
+@seal To look up is the oldest prayer.
 @image vol_11.webp
 
 @chapter The Wandering Star
@@ -1810,6 +1979,7 @@ So the geologist who studied the scars of the sky now rests in one.
 @volume The Book of Wisdom
 @subtitle Teachings of the Firstborn for the Life of Humankind
 @summary The story of the worlds is also a story of how to live. This final volume gathers the lessons of the Firstborn into teachings for anyone who wants to build, endure and lead.
+@seal The book ends where the reader begins.
 @image vol_12.webp
 
 @chapter Proverbs of the Firstborn

@@ -35,6 +35,8 @@ data class Volume(
     val summary: String,
     val image: String?,
     val chapters: List<Chapter>,
+    /** A hidden verse revealed only after every chapter of the volume has been read. */
+    val seal: String? = null,
 ) {
     val number: Int get() = index + 1
     val numeral: String get() = toRoman(number)

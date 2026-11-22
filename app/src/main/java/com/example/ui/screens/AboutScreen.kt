@@ -52,7 +52,8 @@ fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onLegal: () -> Un
             )
             Section(
                 "Credits",
-                "Illustrations are used with the permission of their artists.\n" +
+                "Published by Zeus Factor, South Africa. Contact: $SUPPORT_EMAIL\n" +
+                    "Illustrations are used with the permission of their artists.\n" +
                     "Typefaces: Cinzel by Natanael Gama and Lora by Cyreal, both under the SIL Open Font License 1.1.",
             )
             Section(

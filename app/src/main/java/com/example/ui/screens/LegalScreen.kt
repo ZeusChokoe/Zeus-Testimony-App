@@ -13,41 +13,80 @@ import androidx.compose.ui.unit.dp
 
 private const val EFFECTIVE = "Effective 22 November 2026"
 
+const val SUPPORT_EMAIL = "thezeustower@gmail.com"
+
 private val privacy = listOf(
     "In short" to "The Zeus Testimony collects no personal data. It has no accounts, no advertising, no analytics, " +
         "no crash reporting service and no internet permission, so it cannot send anything about you anywhere.",
+    "Who we are" to "The app is published by Zeus Factor, South Africa. Contact: $SUPPORT_EMAIL.",
     "What is stored on your device" to "To make reading comfortable, the app remembers a few things in its own private " +
         "storage on your phone: the chapter and verse you last read, your text size, the chapters you have opened, your " +
         "bookmarks and highlights, and whether you have seen the introduction. This information never leaves your device " +
-        "through the app.",
+        "through the app, and we cannot see it.",
+    "What we do not collect" to "We do not collect your name, email address, phone number, location, contacts, photos, " +
+        "device identifiers, advertising identifiers, usage statistics or any other information about you.",
     "Device backups" to "If you have turned on Android's own backup, your phone may include these reading settings in " +
         "your personal backup, so they can be restored on a new phone. That backup is controlled by you and Google, not by us.",
     "Deleting your information" to "Uninstalling the app, or clearing its storage in your phone's settings, deletes " +
         "everything listed above. Removing a bookmark or highlight in My Library deletes it immediately.",
     "Permissions" to "The app requests no special permissions: no camera, microphone, location, contacts or files. " +
         "Sharing a verse uses Android's standard share window, and you choose where it goes.",
+    "Third parties" to "The app contains no third-party advertising, analytics or tracking code. Google Play, which " +
+        "delivers the app, has its own privacy policy.",
     "Children" to "The app is not directed at children under 13, and it collects no data from anyone.",
+    "Your rights" to "Because we hold no personal information about you, there is nothing for us to access, correct or " +
+        "delete on your behalf. South Africa's Protection of Personal Information Act (POPIA) and similar laws are " +
+        "respected by design: no personal information is processed.",
     "Changes" to "If this policy ever changes, the new version will appear here and on the app's store page with a new date.",
-    "Contact" to "Questions can be sent to the developer email address shown on the app's Google Play page.",
+    "Contact" to "Questions about privacy: $SUPPORT_EMAIL.",
 )
 
 private val terms = listOf(
-    "Agreement" to "By using The Zeus Testimony you agree to these terms. If you do not agree, please uninstall the app.",
-    "What this book is" to "The Zeus Testimony is a creative and inspirational work. It tells the history of how the " +
-        "solar system and life came to be, written in an epic style. Science and History notes summarise published " +
-        "research for general education; they are simplified and may be revised as knowledge grows. Statements about the " +
-        "spirit and the meaning of life are the beliefs of the author, offered for reflection. Nothing in the app is " +
-        "professional, medical, legal or financial advice.",
-    "Your use" to "You may read the app for personal, non-commercial purposes and share individual verses using the " +
-        "share button, with credit to The Zeus Testimony. You may not copy, sell or republish the book, its illustrations " +
-        "or its design as your own.",
-    "Ownership" to "The text and design of the app belong to Zeus Factor. The illustrations are used with the permission " +
-        "of their artists and remain their property. The Cinzel and Lora typefaces are used under the SIL Open Font License 1.1.",
-    "No warranty" to "The app is provided as it is. We work to keep it accurate and working, but we cannot promise it will " +
-        "be free of errors, and we are not liable for losses arising from its use, to the extent the law allows.",
-    "Changes" to "We may update the app and these terms. Continued use after an update means you accept the updated terms.",
-    "Law" to "These terms are governed by the laws of the Republic of South Africa.",
-    "Contact" to "Questions can be sent to the developer email address shown on the app's Google Play page.",
+    "1. Agreement" to "These Terms of Use are an agreement between you and Zeus Factor, the publisher of The Zeus " +
+        "Testimony (the \"app\"). By installing or using the app you accept these terms. If you do not accept them, " +
+        "please uninstall the app.",
+    "2. Who may use the app" to "The app is intended for readers aged 13 and older. If you are under the age of " +
+        "majority where you live, use it with the permission of a parent or guardian.",
+    "3. What this book is" to "The Zeus Testimony is a literary, poetic and educational work. It tells the history of " +
+        "how the solar system, the Earth and life came to be, in the voice of an ancient testimony. It draws on published " +
+        "science, recorded history and the myths and sacred stories of many peoples.",
+    "4. Science and history notes" to "Science and History notes summarise research and historical sources for general " +
+        "education. They are simplified, may be incomplete, and may be revised as knowledge grows. They are not a " +
+        "substitute for the original sources, which are listed in the About screen where relevant.",
+    "5. Faith, myth and meaning" to "The app speaks of gods, of the Sky Father and of the spirit. These passages express " +
+        "the author's beliefs and the traditions of the peoples they come from, offered for reflection and study. They " +
+        "are not presented as scientific findings, and the app does not require any reader to adopt any belief or " +
+        "religion. Readers of every faith and of none are welcome.",
+    "6. Not professional advice" to "Nothing in the app is medical, psychological, legal, financial or other " +
+        "professional advice. Seek a qualified professional for such matters.",
+    "7. Your licence" to "Zeus Factor grants you a personal, non-exclusive, non-transferable, revocable licence to " +
+        "install the app on devices you own or control and to read it for personal, non-commercial purposes.",
+    "8. Sharing" to "You may share individual verses using the app's share and copy buttons for personal, non-commercial " +
+        "purposes, provided you credit \"The Zeus Testimony\" and do not alter the words in a way that changes their meaning.",
+    "9. What you may not do" to "You may not copy, publish, sell, rent or distribute the book as a whole or in substantial " +
+        "parts; extract, reuse or resell its illustrations; decompile, modify or create derivative versions of the app; " +
+        "remove credits or notices; or use the app in any way that breaks the law.",
+    "10. Ownership" to "The text, structure and design of the app are owned by Zeus Factor. The illustrations are used " +
+        "with the permission of their artists and remain their property. The Cinzel and Lora typefaces are used under the " +
+        "SIL Open Font License 1.1. Names of gods, peoples and historical figures belong to the common heritage of humanity.",
+    "11. Your data" to "The app collects no personal data. Everything it remembers is stored only on your device. See " +
+        "the Privacy Policy tab for details.",
+    "12. Availability and changes" to "We may update, change, add to or remove content or features of the app at any " +
+        "time, and we may stop offering the app. Updates are delivered through Google Play.",
+    "13. No warranty" to "The app is provided \"as is\" and \"as available\". To the fullest extent the law allows, " +
+        "we make no promise that it will be free of errors or interruptions, or that its content is complete or current.",
+    "14. Limitation of liability" to "To the fullest extent the law allows, Zeus Factor is not liable for any indirect, " +
+        "incidental or consequential loss arising from your use of the app. Nothing in these terms limits any rights you " +
+        "have that cannot be limited by law, including your rights under South Africa's Consumer Protection Act where it applies.",
+    "15. Google Play" to "Your download of the app is also subject to the Google Play Terms of Service. Google is not " +
+        "responsible for the app or its content.",
+    "16. Ending these terms" to "You may stop using the app at any time by uninstalling it. Your licence ends " +
+        "automatically if you break these terms.",
+    "17. General" to "If any part of these terms is found unenforceable, the rest remains in effect. These terms are " +
+        "the whole agreement between you and us about the app.",
+    "18. Governing law" to "These terms are governed by the laws of the Republic of South Africa, and the courts of " +
+        "South Africa have jurisdiction over any dispute.",
+    "19. Contact" to "Questions about these terms: $SUPPORT_EMAIL.",
 )
 
 @OptIn(ExperimentalMaterial3Api::class)

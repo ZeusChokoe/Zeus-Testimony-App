@@ -1,6 +1,13 @@
 package com.example.ui.screens
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.LockOpen
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -65,12 +72,18 @@ fun VolumeScreen(volume: Volume?, library: LibraryStore, onOpenChapter: (Positio
                     modifier = Modifier
                         .clickable { onOpenChapter(Position(volume.index, chapter.index)) }
                         .padding(horizontal = 8.dp),
-                    overlineContent = { Text("CHAPTER ${chapter.number}", color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.labelSmall) },
-                    headlineContent = { Text(chapter.title, style = MaterialTheme.typography.titleSmall) },
-                    supportingContent = {
+                    overlineContent = {
                         val read = "${volume.index}.${chapter.index}" in library.readChapters
                         Text(
-                            (chapter.epigraph ?: "${chapter.verses.size} verses") + if (read) "  ·  Read" else "",
+                            "CHAPTER ${chapter.number}" + if (read) "  ·  READ" else "",
+                            color = MaterialTheme.colorScheme.primary,
+                            style = MaterialTheme.typography.labelSmall,
+                        )
+                    },
+                    headlineContent = { Text(chapter.title, style = MaterialTheme.typography.titleSmall) },
+                    supportingContent = {
+                        Text(
+                            chapter.epigraph ?: "${chapter.verses.size} verses",
                             style = MaterialTheme.typography.bodySmall,
                             maxLines = 2,
                         )
@@ -81,6 +94,50 @@ fun VolumeScreen(volume: Volume?, library: LibraryStore, onOpenChapter: (Positio
                     },
                 )
             }
+            volume.seal?.let { seal ->
+                item { SealCard(seal, read = library.readCount(volume), total = volume.chapters.size) }
+            }
+        }
+    }
+}
+
+/** The volume's hidden verse: locked until every chapter has been opened. */
+@Composable
+private fun SealCard(seal: String, read: Int, total: Int) {
+    val open = read >= total
+    val gold = Color(0xFFC9A227)
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .padding(24.dp)
+            .clip(RoundedCornerShape(16.dp))
+            .background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, gold.copy(alpha = if (open) 0.9f else 0.35f), RoundedCornerShape(16.dp))
+            .padding(24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Icon(
+            if (open) Icons.Filled.LockOpen else Icons.Filled.Lock,
+            contentDescription = null,
+            tint = gold,
+        )
+        Spacer(Modifier.height(10.dp))
+        Text(if (open) "THE SEAL IS BROKEN" else "A SEAL RESTS ON THIS VOLUME", style = MaterialTheme.typography.labelSmall, color = gold)
+        Spacer(Modifier.height(12.dp))
+        if (open) {
+            Text(
+                seal,
+                style = MaterialTheme.typography.titleSmall.copy(fontStyle = FontStyle.Italic),
+                color = MaterialTheme.colorScheme.onSurface,
+                textAlign = TextAlign.Center,
+            )
+        } else {
+            Text(
+                "Read every chapter of this volume to break the seal ($read of $total).",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
+                textAlign = TextAlign.Center,
+            )
         }
     }
 }
