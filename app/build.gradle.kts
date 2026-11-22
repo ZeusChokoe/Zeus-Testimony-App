@@ -49,6 +49,12 @@ android {
     compose = true
     buildConfig = true
   }
+  testOptions {
+    unitTests {
+      isIncludeAndroidResources = true
+      all { it.systemProperty("roborazzi.test.record", "true") }
+    }
+  }
   dependenciesInfo {
     includeInApk = false
     includeInBundle = true
@@ -73,6 +79,12 @@ dependencies {
   implementation(libs.androidx.navigation.compose)
   implementation(libs.kotlinx.coroutines.android)
   testImplementation(libs.junit)
+  testImplementation(platform(libs.androidx.compose.bom))
+  testImplementation(libs.androidx.compose.ui.test.junit4)
+  testImplementation(libs.androidx.core)
+  testImplementation(libs.robolectric)
+  testImplementation(libs.roborazzi)
+  testImplementation(libs.roborazzi.compose)
   androidTestImplementation(platform(libs.androidx.compose.bom))
   androidTestImplementation(libs.androidx.compose.ui.test.junit4)
   androidTestImplementation(libs.androidx.espresso.core)

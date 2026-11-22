@@ -41,6 +41,14 @@ jobs:
           path: app/build/outputs/apk/debug/*.apk
           retention-days: 14
 
+      - name: Upload UI screenshots
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: ui-screenshots
+          path: app/build/screens/
+          retention-days: 14
+
       - name: Upload reports on failure
         if: failure()
         uses: actions/upload-artifact@v5
