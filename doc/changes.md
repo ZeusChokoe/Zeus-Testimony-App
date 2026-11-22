@@ -1,5 +1,8 @@
 # Changes
 
+## 2.4.0
+- 12 new story chapters (109 total, 720+ verses): the cosmic microwave background, the Orion Nebula, Romer and the speed of light, the Murchison meteorite, the discovery of Neptune, Snowball Earth, Halley's Comet, shadow transits, the Galileo probe's desert, Prometheus, the Golden Record and Pale Blue Dot, and the Seasons of a Life.
+
 ## 2.3.0
 - Fonts bundled in the app (no Google Play services needed); OFL licences in /licenses.
 - Every chapter epigraph rewritten for variety.
