@@ -26,7 +26,7 @@ import org.robolectric.annotation.GraphicsMode
 /** Drives the real app: Home -> Volume III -> Chapter 2 -> Next chapter. Saves screenshots to build/screens. */
 @RunWith(RobolectricTestRunner::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-@Config(sdk = [35], qualifiers = "w411dp-h891dp-xxhdpi")
+@Config(sdk = [35], qualifiers = "w360dp-h640dp-xxhdpi")
 class ReaderFlowTest {
 
     @get:Rule val rule = createComposeRule()

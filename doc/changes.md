@@ -1,5 +1,11 @@
 # Changes
 
+## 2.3.0
+- Fonts bundled in the app (no Google Play services needed); OFL licences in /licenses.
+- Every chapter epigraph rewritten for variety.
+- 12 new chapters (97 total): the Sun's lost siblings, Arrokoth and the gentle gathering, the Year Star of ancient China, iron meteorites and the Hoba meteorite, the Oort Cloud, the Vredefort impact structure, the ATLAS watch at Sutherland, tidal heating, Jupiter's auroras, Metis and Athena, SALT and MeerKAT, and the Daily Watch.
+- Store assets in /store; About screen credits.
+
 ## 2.2.0
 - 24 new chapters (85 total, 559 verses): Patterson and the age of the Earth, organic molecules in space, HL Tauri, hot Jupiters, the Sun-Jupiter barycentre, why Jupiter is not a star, the asteroid belt, Ceres, the Kuiper Belt and Pluto, interstellar visitors, the Great Oxidation, Chicxulub, DART, Tunguska and Chelyabinsk, Europa's plumes, Loki Patera, the Great Blue Spot, helium rain, the signs of Zeus, the Statue at Olympia, the 2020 Great Conjunction, Galileo's final plunge, the Book of Questions, and a letter to the reader.
 - Illustrations for every volume and chapter (98), framed by orientation.
