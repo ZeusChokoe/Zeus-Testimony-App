@@ -1,8 +1,11 @@
-# Changes History
+# Changes
 
-- **2026-09-14**:
-  - Expanded data layer from 2 volumes to 7 volumes (`VerseRepository.kt`).
-  - Added script `generate_7_volumes.py` to rebuild repository.
-  - Updated `HomeScreen.kt` to dynamically list all 7 volumes with `verticalScroll`.
-  - Updated `ReaderScreen.kt` and `Navigation.kt` to support generic volume routing.
-  - Generated Master Product Engineering documentation.
+## 2.0.0
+- Replaced hard-coded `VerseRepository` (7 volumes, every chapter titled "Chapter 1", broken
+  cross-reference IDs) with a parsed `testimony.txt`: 12 volumes, 49 auto-numbered chapters.
+- New Volume and Chapter screens, About screen, continue-reading, text size.
+- Image slots for hero, every volume and every chapter.
+- Removed unused Firebase AI, App Check (including the debug provider), Retrofit, OkHttp, Moshi,
+  Room, KSP, Secrets and Google Services plugins.
+- Release builds now minified and resource-shrunk; signing read from environment variables.
+- Removed broken template tests; added parser and content tests.

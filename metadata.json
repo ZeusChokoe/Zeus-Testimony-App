@@ -1,6 +1,0 @@
-{
-  "name": "Zeus Testimony",
-  "description": "Dual-volume foundational text merging astrophysics and mythology.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

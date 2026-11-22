@@ -59,6 +59,26 @@ val Typography =
         lineHeight = 28.sp,
         letterSpacing = 0.15.sp
     ),
+    displaySmall = TextStyle(
+        fontFamily = CinzelFontFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 40.sp,
+        lineHeight = 48.sp,
+    ),
+    titleSmall = TextStyle(
+        fontFamily = CinzelFontFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 17.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.1.sp
+    ),
+    bodySmall = TextStyle(
+        fontFamily = LoraFontFamily,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp,
+        lineHeight = 20.sp,
+        letterSpacing = 0.2.sp,
+    ),
     labelSmall = TextStyle(
         fontFamily = CinzelFontFamily,
         fontWeight = FontWeight.Medium,

@@ -4,7 +4,12 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
+import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -14,155 +19,161 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.R
+import com.example.data.Position
+import com.example.data.Testimony
+import com.example.data.Volume
+import com.example.ui.components.AssetImage
 
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
-import com.example.data.VerseRepository
-
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
-    onNavigateToVolume: (String) -> Unit
+    testimony: Testimony,
+    lastRead: Position?,
+    onOpenVolume: (Int) -> Unit,
+    onOpenChapter: (Position) -> Unit,
+    onAbout: () -> Unit,
 ) {
-    Scaffold(
-        containerColor = MaterialTheme.colorScheme.background
-    ) { paddingValues ->
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(paddingValues)
-                .verticalScroll(rememberScrollState())
+    Scaffold(containerColor = MaterialTheme.colorScheme.background) { padding ->
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(bottom = padding.calculateBottomPadding() + 32.dp),
         ) {
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(300.dp)
-            ) {
-                Box(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .background(
-                            Brush.verticalGradient(
-                                colors = listOf(
-                                    MaterialTheme.colorScheme.primary,
-                                    MaterialTheme.colorScheme.tertiary,
-                                    MaterialTheme.colorScheme.background
+            item { Hero(testimony, topInset = padding.calculateTopPadding(), onAbout = onAbout) }
+
+            val resume = lastRead?.let { p -> testimony.chapter(p)?.let { p to it } }
+            item {
+                val (position, chapter) = resume ?: (Position(0, 0) to testimony.chapter(Position(0, 0)))
+                if (chapter != null) {
+                    val vol = testimony.volumes[position.volume]
+                    Card(
+                        onClick = { onOpenChapter(position) },
+                        modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 16.dp),
+                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primary),
+                    ) {
+                        Row(Modifier.padding(20.dp), verticalAlignment = Alignment.CenterVertically) {
+                            Icon(Icons.AutoMirrored.Filled.MenuBook, contentDescription = null, tint = Color.White)
+                            Spacer(Modifier.width(16.dp))
+                            Column {
+                                Text(
+                                    if (resume != null) "CONTINUE READING" else "BEGIN THE TESTIMONY",
+                                    style = MaterialTheme.typography.labelSmall,
+                                    color = Color.White.copy(alpha = 0.85f),
                                 )
-                            )
-                        )
+                                Text(
+                                    "Volume ${vol.numeral} · Chapter ${chapter.number}: ${chapter.title}",
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = Color.White,
+                                    maxLines = 2,
+                                    overflow = TextOverflow.Ellipsis,
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+
+            item {
+                Text(
+                    "The Volumes",
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.onBackground,
+                    modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp),
                 )
-                
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(32.dp),
-                    verticalArrangement = Arrangement.Center,
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    Image(
-                        painter = painterResource(id = R.drawable.zeus_icon_transparent),
-                        contentDescription = "Zeus Testimony Logo",
-                        modifier = Modifier
-                            .size(64.dp)
-                            .padding(bottom = 16.dp)
-                    )
-                    Text(
-                        text = "THE ZEUS TESTIMONY",
-                        style = MaterialTheme.typography.titleLarge,
-                        color = Color.White,
-                        fontWeight = FontWeight.Bold
-                    )
-                    Spacer(modifier = Modifier.height(8.dp))
-                    Text(
-                        text = "ARCHAEOASTRONOMICAL REFACTORING",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = Color.White.copy(alpha = 0.8f)
-                    )
-                }
             }
-
-            Text(
-                text = "Sacred Volumes",
-                style = MaterialTheme.typography.titleMedium,
-                color = MaterialTheme.colorScheme.onBackground,
-                modifier = Modifier.padding(horizontal = 24.dp, vertical = 16.dp)
-            )
-
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 24.dp)
-            ) {
-                VerseRepository.volumes.forEach { volume ->
-                    VolumeCard(
-                        title = volume.title,
-                        subtitle = volume.subtitle,
-                        description = volume.description,
-                        onClick = { onNavigateToVolume(volume.id) },
-                        modifier = Modifier.padding(bottom = 16.dp)
-                    )
-                }
+            items(testimony.volumes, key = { it.index }) { volume ->
+                VolumeCard(volume, onClick = { onOpenVolume(volume.index) })
             }
-            
-            Spacer(modifier = Modifier.height(32.dp))
+            item {
+                Text(
+                    "A work of speculative mythology inspired by real planetary science. " +
+                        "Commentary notes mark what is established science, what is hypothesis, and what is myth.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.6f),
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth().padding(24.dp),
+                )
+            }
         }
     }
 }
 
 @Composable
-fun VolumeCard(
-    title: String, 
-    subtitle: String, 
-    description: String,
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier
-) {
-    Card(
-        modifier = modifier
-            .fillMaxWidth()
-            .height(140.dp)
-            .clip(RoundedCornerShape(16.dp))
-            .clickable { onClick() },
-        colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface
-        ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
-    ) {
-        Row(
-            modifier = Modifier.fillMaxSize()
+private fun Hero(testimony: Testimony, topInset: androidx.compose.ui.unit.Dp, onAbout: () -> Unit) {
+    Box(Modifier.fillMaxWidth().height(320.dp + topInset)) {
+        AssetImage(path = "hero.webp", contentDescription = null, modifier = Modifier.fillMaxSize())
+        Box(
+            Modifier.fillMaxSize().background(
+                Brush.verticalGradient(listOf(Color.Black.copy(alpha = 0.25f), Color.Black.copy(alpha = 0.55f), MaterialTheme.colorScheme.background)),
+            ),
+        )
+        IconButton(onClick = onAbout, modifier = Modifier.align(Alignment.TopEnd).padding(top = topInset, end = 8.dp)) {
+            Icon(Icons.Outlined.Info, contentDescription = "About this book", tint = Color.White)
+        }
+        Column(
+            Modifier.fillMaxSize().padding(top = topInset).padding(24.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Box(
-                modifier = Modifier
-                    .width(6.dp)
-                    .fillMaxHeight()
-                    .background(MaterialTheme.colorScheme.primary)
+            Image(
+                painter = painterResource(R.drawable.zeus_icon_transparent),
+                contentDescription = null,
+                modifier = Modifier.size(72.dp),
             )
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(24.dp),
-                verticalArrangement = Arrangement.Center
+            Spacer(Modifier.height(16.dp))
+            Text("THE ZEUS TESTIMONY", style = MaterialTheme.typography.titleLarge, color = Color.White, textAlign = TextAlign.Center)
+            Spacer(Modifier.height(8.dp))
+            Text(
+                "THE FIRSTBORN OF THE SOLAR REALM",
+                style = MaterialTheme.typography.labelSmall,
+                color = Color.White.copy(alpha = 0.85f),
+            )
+            Spacer(Modifier.height(12.dp))
+            Text(
+                "${testimony.volumes.size} volumes · ${testimony.chapterCount} chapters · ${testimony.verseCount} verses",
+                style = MaterialTheme.typography.bodySmall,
+                color = Color.White.copy(alpha = 0.75f),
+            )
+        }
+    }
+}
+
+@Composable
+private fun VolumeCard(volume: Volume, onClick: () -> Unit) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 20.dp, vertical = 8.dp)
+            .clip(RoundedCornerShape(16.dp))
+            .clickable(onClick = onClick),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+    ) {
+        Row(Modifier.height(IntrinsicSize.Min)) {
+            AssetImage(
+                path = volume.image,
+                contentDescription = null,
+                modifier = Modifier.width(104.dp).fillMaxHeight().defaultMinSize(minHeight = 124.dp),
             ) {
+                Text(volume.numeral, style = MaterialTheme.typography.titleLarge, color = Color.White)
+            }
+            Column(Modifier.weight(1f).padding(16.dp)) {
                 Text(
-                    text = title,
+                    "VOLUME ${volume.numeral} · ${volume.chapters.size} CHAPTERS",
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.Bold
+                    fontWeight = FontWeight.Bold,
                 )
-                Spacer(modifier = Modifier.height(4.dp))
+                Spacer(Modifier.height(4.dp))
+                Text(volume.title, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.onSurface)
+                Spacer(Modifier.height(4.dp))
                 Text(
-                    text = subtitle,
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.onSurface,
-                    fontWeight = FontWeight.Bold
-                )
-                Spacer(modifier = Modifier.height(6.dp))
-                Text(
-                    text = description,
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                    volume.subtitle,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
                 )
             }
         }

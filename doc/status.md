@@ -1,9 +1,6 @@
 # Status
 
-- **Current Project State**: Production Ready (V1)
-- **Completed Functionality**: 
-  - 7 Volume data architecture parsing
-  - Epic UI redesign with scrollable Home screen
-  - Reader screen with dynamic Book/Chapter/Verse rendering
-  - Custom launcher icon utilizing provided image
-- **Active Work**: None
+- 12 volumes, 49 chapters, 300+ verses with labelled commentary.
+- Volume -> chapter -> verse reader with continue-reading, text size, cross-volume navigation.
+- Play-readiness: no permissions, no data collection, R8 minification on, env-based signing.
+- Pending: illustrations (62 slots, see `doc/images.md`), privacy policy hosting, Play Console listing.

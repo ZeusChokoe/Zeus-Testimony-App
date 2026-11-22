@@ -1,27 +1,13 @@
 # The Zeus Testimony
 
-Welcome to the definitive archaeoastronomical refactoring of the Theogony. 
+An offline Android reader (Kotlin, Jetpack Compose) for a 12-volume work of speculative mythology:
+Jupiter, the first planet to form, and Zeus, the first god of the solar realm to hold a world.
 
-## Table of Contents
+- Content: `app/src/main/assets/testimony.txt` (format documented in the file header)
+- Validate content: `python3 tools/validate_testimony.py`
+- Illustrations: `doc/images.md`
+- Architecture: `doc/architecture.md`
+- Play Store submission: `doc/play-store-submission.md`
+- Privacy policy: `doc/privacy-policy.md`
 
-### The Volumes
-- [Volume I: The Legacy Myths](#the-sacred-text)
-- [Volume II: The Astrochemical Genesis](#the-sacred-text)
-- [Volume III: The Gravitational Architect](#the-sacred-text)
-- [Volume IV: The Cosmic Aegis](#the-sacred-text)
-- [Volume V: The Galilean Court](#the-sacred-text)
-- [Volume VI: The Storms of the Patriarch](#the-sacred-text)
-- [Volume VII: The Final Anchor](#the-sacred-text)
-
-### Engineering Documentation
-This project adheres to strict, production-grade engineering standards. All intelligence and architecture files can be found in the `doc/` directory.
-
-- [Product Requirements (PRD)](doc/PRD.md)
-- [System Architecture](doc/architecture.md)
-- [Architecture Essentials](doc/architecture-essentials.md)
-- [Project Map](doc/project-intelligence/project-map.md)
-
----
-
-## The Sacred Text
-The application encompasses seven complete volumes merging the ancient Hesiodic framework with cutting-edge astrophysics. The narrative proves that Jupiter (Zeus) is the absolute firstborn, the primordial consciousness, and the undeniable architect of our solar system. Explore the app to read the full verses, cross-reference the ancient myths with isotopic chronometry, and experience the epic truth of the cosmos.
+Build a release bundle: `./gradlew bundleRelease` (signing via env vars, see `app/build.gradle.kts`).
