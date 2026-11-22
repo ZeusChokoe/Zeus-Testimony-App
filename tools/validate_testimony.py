@@ -32,7 +32,7 @@ def main() -> int:
                 volumes.append({"title": value, "summary": "", "image": None, "chapters": []})
             elif vol is None:
                 errors.append(f"line {n}: @{key} before any @volume")
-            elif key in ("subtitle", "summary"):
+            elif key in ("subtitle", "summary", "seal"):
                 vol[key] = value
             elif key == "chapter":
                 vol["chapters"].append({"title": value, "image": None, "epigraph": None, "verses": 0})
@@ -57,6 +57,8 @@ def main() -> int:
 
     wanted = ["hero.webp"]
     for v in volumes:
+        if not v.get("seal"):
+            errors.append(f"volume {v['title']!r}: missing @seal")
         if not v["summary"]:
             errors.append(f"volume {v['title']!r}: missing @summary")
         if len(v["chapters"]) < 4:

@@ -47,10 +47,10 @@ class ReaderFlowTest {
         waitForText("There was a king.")
         shot("0_intro")
         rule.onNodeWithText("Next").performClick()
-        waitForText("The first god to hold a world.")
+        waitForText("You are part of this story.")
         rule.onNodeWithText("Skip").performClick()
         waitForText("THE ZEUS TESTIMONY")
-        rule.onNodeWithText("12 volumes", substring = true).assertExists()
+        rule.onNodeWithText("13 volumes", substring = true).assertExists()
         shot("1_home")
 
         rule.onNode(hasScrollAction()).performScrollToNode(hasText("The Firstborn"))

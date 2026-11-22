@@ -50,6 +50,8 @@ import com.example.data.Verse
 import com.example.data.VerseRef
 import com.example.data.Volume
 import com.example.ui.components.AssetImage
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.filter
 
 /** LazyColumn items before the first verse: illustration, then title block. */
 private const val HEADER_ITEMS = 2
@@ -64,6 +66,7 @@ fun ChapterScreen(
     textScale: Float,
     onTextScaleChange: (Float) -> Unit,
     onRead: (Position) -> Unit,
+    onProgress: (Position, Int) -> Unit,
     onNavigate: (Position) -> Unit,
     onBack: () -> Unit,
 ) {
@@ -74,6 +77,12 @@ fun ChapterScreen(
 
     if (chapter != null) {
         LaunchedEffect(position) { onRead(position) }
+        LaunchedEffect(position) {
+            snapshotFlow { listState.firstVisibleItemIndex - HEADER_ITEMS + 1 }
+                .filter { it in 1..chapter.verses.size }
+                .distinctUntilChanged()
+                .collect { onProgress(position, it) }
+        }
         LaunchedEffect(position, focusVerse) {
             if (focusVerse in 1..chapter.verses.size) listState.scrollToItem(HEADER_ITEMS + focusVerse - 1)
         }

@@ -20,6 +20,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.data.LibraryStore
+import com.example.data.Position
 import com.example.data.Testimony
 import com.example.data.VerseRef
 
@@ -31,6 +32,7 @@ fun LibraryScreen(
     testimony: Testimony,
     library: LibraryStore,
     onOpenVerse: (VerseRef) -> Unit,
+    onOpenChapter: (Position) -> Unit,
     onBack: () -> Unit,
 ) {
     var tab by rememberSaveable { mutableIntStateOf(0) }
@@ -64,6 +66,11 @@ fun LibraryScreen(
             TabRow(selectedTabIndex = tab, containerColor = MaterialTheme.colorScheme.background) {
                 Tab(selected = tab == 0, onClick = { tab = 0 }, text = { Text("Bookmarks (${bookmarks.size})") })
                 Tab(selected = tab == 1, onClick = { tab = 1 }, text = { Text("Highlights (${highlights.size})") })
+                Tab(selected = tab == 2, onClick = { tab = 2 }, text = { Text("History") })
+            }
+            if (tab == 2) {
+                ReadingHistory(testimony, library, onOpenChapter)
+                return@Column
             }
             val entries = if (tab == 0) bookmarks else highlights
             if (entries.isEmpty()) {
@@ -100,6 +107,60 @@ fun LibraryScreen(
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+/** Chapters the reader has opened, most recent first. */
+@Composable
+private fun ReadingHistory(testimony: Testimony, library: LibraryStore, onOpenChapter: (Position) -> Unit) {
+    val now = System.currentTimeMillis()
+    val items = library.readChapters.entries
+        .mapNotNull { (key, time) ->
+            val p = key.split('.').mapNotNull { it.toIntOrNull() }
+            if (p.size != 2) return@mapNotNull null
+            val pos = Position(p[0], p[1])
+            val ch = testimony.chapter(pos) ?: return@mapNotNull null
+            Triple(pos, "Vol. ${testimony.volumes[pos.volume].numeral} · Ch. ${ch.number} · ${ch.title}", time)
+        }
+        .sortedByDescending { it.third }
+    if (items.isEmpty()) {
+        Box(Modifier.fillMaxSize().padding(32.dp), contentAlignment = Alignment.Center) {
+            Text(
+                "Chapters you open will appear here.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
+                textAlign = TextAlign.Center,
+            )
+        }
+        return
+    }
+    Text(
+        "${items.size} of ${testimony.chapterCount} chapters opened",
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.6f),
+        modifier = Modifier.padding(horizontal = 20.dp, vertical = 12.dp),
+    )
+    LazyColumn(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 4.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        items(items, key = { "${it.first.volume}.${it.first.chapter}" }) { (pos, label, time) ->
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(MaterialTheme.colorScheme.surface)
+                    .clickable { onOpenChapter(pos) }
+                    .padding(16.dp),
+            ) {
+                Column(Modifier.weight(1f)) {
+                    Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurface, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        android.text.format.DateUtils.getRelativeTimeSpanString(time, now, android.text.format.DateUtils.MINUTE_IN_MILLIS).toString(),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
+                    )
                 }
             }
         }

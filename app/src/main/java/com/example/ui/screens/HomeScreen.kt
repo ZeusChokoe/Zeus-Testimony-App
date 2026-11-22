@@ -15,6 +15,8 @@ import androidx.compose.material.icons.outlined.Search
 import androidx.compose.runtime.remember
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.withTimeoutOrNull
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -39,14 +41,38 @@ fun HomeScreen(
     testimony: Testimony,
     library: LibraryStore,
     lastRead: Position?,
+    lastVerse: Int,
+    resumePromptChecked: Boolean,
+    onResumePromptChecked: () -> Unit,
     onOpenVerse: (VerseRef) -> Unit,
+    onLegal: () -> Unit,
     onSearch: () -> Unit,
     onLibrary: () -> Unit,
     onOpenVolume: (Int) -> Unit,
     onOpenChapter: (Position) -> Unit,
     onAbout: () -> Unit,
 ) {
-    Scaffold(containerColor = MaterialTheme.colorScheme.background) { padding ->
+    val snackbar = remember { SnackbarHostState() }
+    // Once per app launch: offer to jump back to the exact verse the reader stopped at.
+    LaunchedEffect(Unit) {
+        if (resumePromptChecked) return@LaunchedEffect
+        onResumePromptChecked()
+        val p = lastRead ?: return@LaunchedEffect
+        val ch = testimony.chapter(p) ?: return@LaunchedEffect
+        val verse = lastVerse.coerceIn(1, ch.verses.size)
+        val result = withTimeoutOrNull(5_000) {
+            snackbar.showSnackbar(
+                message = "Pick up where you paused: Vol. ${testimony.volumes[p.volume].numeral} · Ch. ${ch.number}, verse $verse",
+                actionLabel = "Continue",
+                duration = SnackbarDuration.Indefinite,
+            )
+        }
+        if (result == SnackbarResult.ActionPerformed) onOpenVerse(VerseRef(p.volume, p.chapter, verse))
+    }
+    Scaffold(
+        containerColor = MaterialTheme.colorScheme.background,
+        snackbarHost = { SnackbarHost(snackbar) },
+    ) { padding ->
         LazyColumn(
             modifier = Modifier.fillMaxSize(),
             contentPadding = PaddingValues(bottom = padding.calculateBottomPadding() + 32.dp),
@@ -99,14 +125,16 @@ fun HomeScreen(
                 VolumeCard(volume, read = library.readCount(volume), onClick = { onOpenVolume(volume.index) })
             }
             item {
-                Text(
-                    "A work of speculative mythology inspired by real planetary science. " +
-                        "Commentary notes mark what is established science, what is hypothesis, and what is myth.",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.6f),
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.fillMaxWidth().padding(24.dp),
-                )
+                Column(Modifier.fillMaxWidth().padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text(
+                        "An epic history of how the solar system, the Earth and you came to be. " +
+                            "Science and History notes mark what is established and what is still debated.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.6f),
+                        textAlign = TextAlign.Center,
+                    )
+                    TextButton(onClick = onLegal) { Text("Privacy and Terms") }
+                }
             }
         }
     }

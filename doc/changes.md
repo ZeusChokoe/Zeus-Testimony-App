@@ -1,5 +1,17 @@
 # Changes
 
+## 2.9.0
+- New volume, "The Acts of the Sky Father" (11 chapters): Zeus's house and lineage told with honour, the freeing of the Cyclopes, the Titanomachy, the casting of lots, the law of the stranger (Baucis and Philemon), Zeus Horkios and the Zanes, the Muses, the eagle, oak and thunderbolt, the Statue at Olympia, Marduk and the Enuma Elish, and the thunder gods of many peoples (Thor, Perun, Indra, Shango).
+- Seals: each volume carries a hidden verse revealed only when all its chapters have been read.
+- Volume X recast from encouragement to revelation.
+- Terms of Use expanded to 19 sections; Privacy Policy expanded; contact email thezeustower@gmail.com.
+
+## 2.8.0
+- Volume X rewritten as "The Image of the Stars: What You Are Made Of" (10 chapters on the star-forged elements of the human body, pressure and strength, Jupiter's restrained power, the unbroken line of life, conservation of matter, and the undying king and mortal reader). Greek myths of Zeus's family removed throughout.
+- Privacy Policy and Terms of Use screen (About and home footer).
+- Resume prompt on launch: "Pick up where you paused" with the exact verse, shown for 5 seconds.
+- My Library gains a History tab.
+
 ## 2.7.0
 - Deepened the remaining 34 six-verse chapters; every chapter now has at least 7 verses (990 verses total).
 
