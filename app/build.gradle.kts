@@ -16,8 +16,8 @@ android {
     applicationId = "com.zeusfactor.zeustestimony"
     minSdk = 24
     targetSdk = 36
-    versionCode = 12
-    versionName = "2.10.0"
+    versionCode = 13
+    versionName = "2.11.0"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }

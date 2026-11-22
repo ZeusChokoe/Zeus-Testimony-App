@@ -1,5 +1,8 @@
 # Changes
 
+## 2.11.0
+- 8 new chapters (140 total): The Fall of Typhon, The Lord of Justice, The Giver of Rain, The Oracle in the Desert (Zeus-Ammon at Siwa), Ra and the Boat of the Sun, uNkulunkulu and the Reed, The Great Dying, and When the Red Eye Was First Seen.
+
 ## 2.10.0
 - Volume XII recast from life advice into proverb, psalm and testimony: The Song of the Builder, The Psalm of the Storm, The Seven Witnesses, The Testimony Speaks, The Night Watch, The Ages of the Realm, and The First Gathering.
 

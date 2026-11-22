@@ -70,8 +70,8 @@ world, rise beyond the frost line and shape every planet that followed. Follow t
 Earth, the arrival of the oceans, the rise of life, and finally the reader: a being made of
 hydrogen from the first moments of the universe, iron from dying stars and water older than the Sun.
 
-- 13 volumes, 132 chapters, over 1,000 verses, illustrated throughout
-- The acts of the Sky Father and the thunder gods of many nations
+- 13 volumes, 140 chapters, over 1,100 verses, illustrated throughout
+- The acts of the Sky Father, and the gods of Egypt, Babylon, the Zulu, the Yoruba and the North
 - Hidden seals: one sealed verse per volume, opened only by those who read it all
 - Science and History notes explain what is proven and what is still debated
 - Wisdom notes on strength, patience, boundaries and endurance
