@@ -27,6 +27,8 @@ class LightModeTest {
     private fun wait(t: String) = rule.waitUntil(10_000) { rule.onAllNodesWithText(t, substring = true).fetchSemanticsNodes().isNotEmpty() }
     @Test fun light() {
         rule.setContent { AppTheme(darkTheme = false) { AppNavigation() } }
+        wait("Skip")
+        rule.onNodeWithText("Skip").performClick()
         wait("THE ZEUS TESTIMONY")
         rule.onNode(hasScrollAction()).performScrollToNode(hasText("The Disk of Becoming"))
         rule.onRoot().captureRoboImage("build/screens/light_home.png")

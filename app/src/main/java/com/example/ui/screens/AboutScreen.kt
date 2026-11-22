@@ -14,7 +14,7 @@ import com.example.data.Testimony
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AboutScreen(testimony: Testimony, onBack: () -> Unit) {
+fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -60,6 +60,8 @@ fun AboutScreen(testimony: Testimony, onBack: () -> Unit) {
                 "This app collects no personal data. It has no accounts, no advertising, no analytics and no internet " +
                     "access. Your reading position, text size, bookmarks and highlights are stored only on this device.",
             )
+            OutlinedButton(onClick = onShowIntro) { Text("Show the introduction again") }
+            Spacer(Modifier.height(24.dp))
             Text(
                 "Version ${BuildConfig.VERSION_NAME} · ${testimony.volumes.size} volumes · ${testimony.chapterCount} chapters · ${testimony.verseCount} verses",
                 style = MaterialTheme.typography.bodySmall,

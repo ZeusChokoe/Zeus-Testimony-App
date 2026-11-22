@@ -33,6 +33,7 @@ import com.example.data.TestimonyRepository
 import com.example.ui.screens.AboutScreen
 import com.example.ui.screens.ChapterScreen
 import com.example.ui.screens.HomeScreen
+import com.example.ui.screens.IntroScreen
 import com.example.ui.screens.LibraryScreen
 import com.example.ui.screens.SearchScreen
 import com.example.ui.screens.VolumeScreen
@@ -80,7 +81,16 @@ private fun TestimonyNavHost(testimony: Testimony) {
         }
     }
 
-    NavHost(navController = nav, startDestination = "home") {
+    val start = remember { if (prefs.introSeen) "home" else "intro" }
+    NavHost(navController = nav, startDestination = start) {
+        composable("intro") {
+            IntroScreen(onFinish = {
+                prefs.introSeen = true
+                // Re-opened from About: just go back. First launch: replace intro with home.
+                if (nav.previousBackStackEntry != null) nav.popBackStack()
+                else nav.navigate("home") { popUpTo("intro") { inclusive = true } }
+            })
+        }
         composable("home") {
             HomeScreen(
                 testimony = testimony,
@@ -145,7 +155,7 @@ private fun TestimonyNavHost(testimony: Testimony) {
             )
         }
         composable("about") {
-            AboutScreen(testimony = testimony, onBack = { nav.popBackStack() })
+            AboutScreen(testimony = testimony, onShowIntro = { nav.navigate("intro") }, onBack = { nav.popBackStack() })
         }
     }
 }

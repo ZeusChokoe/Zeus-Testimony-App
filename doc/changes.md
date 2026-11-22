@@ -1,5 +1,9 @@
 # Changes
 
+## 2.6.0
+- First-launch introduction: four swipeable pages (the premise, the claim, how to read science versus myth, the reader tools) with Skip, and a way to re-open it from About.
+- Deepened 27 of the shortest chapters with 3 to 5 new verses each (886 verses total), including Milankovitch cycles, Mercury's iron core, the Jack Hills zircons, Red Spot Junior, the polar cyclones, Io's lava temperatures and Juno's Galileo plaque.
+
 ## 2.5.0
 - Fix: home screen volume cards stretched to the full height of portrait thumbnails; cards now have a fixed height.
 - New LightModeTest renders the light theme.

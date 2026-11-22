@@ -68,7 +68,7 @@ as scripture-style verses, from the cold cloud before the Sun to the storms and 
 Its central idea: Jupiter was the first planet to form, so Zeus, the god whose name it carries, is
 the first god of the solar realm to hold a world.
 
-- 12 volumes, 121 chapters, 790+ verses
+- 12 volumes, 121 chapters, 880+ verses
 - Science notes summarising real research, labelled when an idea is still a hypothesis
 - Myth and History notes on Hesiod, Galileo, Voyager, Juno and Europa Clipper
 - Wisdom notes on building, patience, boundaries and endurance
