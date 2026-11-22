@@ -139,6 +139,19 @@ This testimony does not claim to know the hand behind it; it names that hand onl
 But reader, know this: a faint part of the static on an old untuned television set is that same ancient light.
 > Wisdom: The greatest discoveries often arrive disguised as annoyances. Do not scrub away a mystery before you have listened to it.
 
+@chapter The Gold of Colliding Stars
+@epigraph The gold on your finger was forged when two dead stars crashed together.
+@image v01_c10.webp
+The cloud before the Sun was not made only of hydrogen and helium. It was salted with heavier things.
+Carbon for your cells, oxygen for your breath, calcium for your bones, iron for your blood: all were forged inside earlier stars.
+> Science: Elements heavier than hydrogen and helium are made mainly by nuclear fusion in stars and by stellar explosions. This is why astronomers say we are made of star stuff.
+But gold and platinum needed something more violent still.
+On the seventeenth of August in the year 2017, instruments on Earth felt a ripple in space itself, a gravitational wave from 130 million light years away.
+Two neutron stars, the crushed hearts of dead stars, had spiralled together and collided.
+> Science: The event, called GW170817, was detected by the LIGO and Virgo observatories and then seen by telescopes across the world. Its afterglow showed signs of newly made heavy elements such as gold and platinum.
+So the gold in a wedding ring may have been born in such a collision, long before the Firstborn existed, and drifted into the cloud of our realm.
+> Wisdom: The most precious things are often forged in the most violent moments. Do not despise the collisions that shaped you.
+
 @chapter The Order of the Testimony
 @epigraph A map for the road ahead, so that no reader walks it blind.
 @image v01_c04.webp
@@ -262,6 +275,19 @@ They are disks of dust and gas, just like the one in which the Firstborn was bor
 Some are being torn away by the fierce light of nearby giant stars, a race against the wind more desperate than our own.
 So when you look at that faint smudge, you are looking at the story of this testimony being told again, far away.
 > Wisdom: Beginnings are happening all around you, every night, even when they look like faint smudges.
+
+@chapter The Woman Who Found the Hydrogen
+@epigraph A young woman discovered what the stars are made of, and was told she must be wrong.
+@image v02_c10.webp
+In the year 1925, a young astronomer named Cecilia Payne was studying the light of stars at Harvard.
+She found that the stars, and the Sun, were made almost entirely of hydrogen and helium.
+This was not what the great astronomers believed. They thought the Sun was made of much the same stuff as the Earth.
+> History: Cecilia Payne's doctoral thesis, completed in 1925, showed that hydrogen is by far the most abundant element in stars. It has been called one of the most important astronomy theses ever written.
+A senior astronomer, Henry Norris Russell, persuaded her to call her result "almost certainly not real".
+Four years later, he reached the same conclusion himself, and the truth could no longer be denied.
+Her discovery explains the very body of the Firstborn, who is made, like the stars, mostly of hydrogen and helium.
+> Science: Jupiter's composition is close to the Sun's: roughly 90 percent hydrogen and about 10 percent helium by number of molecules, with traces of other elements.
+> Wisdom: Being right early can feel exactly like being wrong. Keep your evidence, stay humble, and let time catch up.
 
 @chapter Wisdom of the Small Things
 @epigraph Every world was once dust. Remember that when your work feels small.
@@ -400,6 +426,19 @@ Before this, many believed light arrived instantly. The clock of the king's moon
 So the court of the Firstborn became a teacher to humanity, and its lesson reaches across all of physics.
 > Wisdom: A steady rhythm, carefully watched, can reveal a truth far larger than itself. Keep good records of the regular things.
 
+@chapter The Flattened King
+@epigraph He spins so fast that he is not round.
+@image v03_c10.webp
+Look at the Firstborn through a good telescope and you may notice that he is not a perfect circle.
+He is wider at his middle than from pole to pole, squeezed like a ball pressed under a hand.
+> Science: Jupiter's equatorial diameter is about 142,984 kilometres and its polar diameter about 133,708 kilometres, a difference of more than 9,000 kilometres.
+This is the mark of his swift turning, for a day upon him lasts less than ten hours, and his middle is flung outward by his speed.
+In the seventeenth century, the astronomer Giovanni Cassini noticed this flattening, and noticed too that the bands near his middle turned faster than those near his poles.
+> History: Cassini reported Jupiter's flattening and differential rotation in the late 1600s, evidence that the planet is not a solid body.
+A solid world cannot turn at different speeds in different places. Only a world of fluid can.
+So the shape of the king revealed his nature long before any messenger arrived: he is not a world of rock, but a sea of gas and liquid without a shore.
+> Wisdom: How you move reveals what you are made of. Watch how people act under speed and pressure, including yourself.
+
 @volume The Wall Between the Realms
 @subtitle The Great Dividing
 @summary By his growing alone, the Firstborn split the disk into two kingdoms with two different treasuries of matter. The stones of the sky still carry the mark of that wall.
@@ -512,6 +551,19 @@ They were made in other stars, and some of them were about seven billion years o
 > Science: A 2020 study found presolar silicon carbide grains in the Murchison meteorite, some estimated at about 7 billion years old, older than the Sun by more than two billion years.
 So the stone carried stardust from before the cloud, held safely within the treasury that the Firstborn guarded.
 > Wisdom: Some of what you carry is older than you are. Honour the inheritance you did not create.
+
+@chapter The Stone from Mars
+@epigraph A rock from Mars was found in the ice of Antarctica, and for a moment the world wondered if it held life.
+@image v04_c10.webp
+Not every stone that falls to Earth comes from the broken road between the worlds.
+Some are knocked off the Moon or Mars by great impacts and wander for millions of years before landing here.
+In December of the year 1984, a team searching the Allan Hills of Antarctica found a greenish stone the size of a potato.
+> History: The meteorite ALH84001 was found in the Allan Hills of Antarctica in 1984. It was later identified as coming from Mars.
+In the year 1996, scientists announced that it contained tiny structures and chemicals that might be traces of ancient Martian life.
+The President of the United States spoke about it, and the whole world held its breath.
+> Science: Most scientists now think the features in ALH84001 can be explained without life, but the debate helped launch a new era of Mars exploration.
+Whether or not it held life, the stone proved that worlds trade pieces with one another across the realm.
+> Wisdom: Extraordinary claims require extraordinary evidence. Be open to wonder, and also patient enough to test it.
 
 @chapter The Wisdom of Boundaries
 @epigraph A fence in the right place is a kindness.
@@ -646,6 +698,18 @@ There it was, within one degree of the prediction: a blue giant, later named Nep
 So a world was found with a pen before it was seen with an eye, and the outer giants of the great shuffle entered human knowledge.
 > Wisdom: When something pulls on your life and you cannot see it, reason carefully. Invisible causes leave visible traces.
 
+@chapter The Giant That May Be Hiding
+@epigraph Something unseen may be pulling on the far edge of the realm.
+@image v05_c10.webp
+Far beyond Neptune, a handful of small icy worlds travel on long, stretched paths that point in strangely similar directions.
+In the year 2016, two astronomers, Konstantin Batygin and Michael Brown, proposed a bold explanation.
+Perhaps a ninth planet, several times heavier than the Earth, is hidden in the far dark, herding these small worlds with its gravity.
+> Science: The "Planet Nine" hypothesis suggests a planet of roughly five to ten Earth masses on a distant orbit. It has not been observed, and some researchers argue the clustering may be a coincidence of how the objects were found.
+Michael Brown was the same astronomer whose discoveries led to Pluto being reclassified, and he became known as the man who killed Pluto.
+If Planet Nine exists, it may have been flung outward during the great shuffle of the giants.
+New telescopes, including the Vera Rubin Observatory, are now searching the sky.
+> Wisdom: The story of Neptune teaches patience: an invisible pull can point to a hidden truth. But keep your hypothesis honest until the evidence arrives.
+
 @volume The Forging of Gaia
 @subtitle Earth Within the Order of the Firstborn
 @summary Inside the boundary the Firstborn had kept, the rubble of the inner realm gathered into rocky worlds. Earth was struck, wounded, given a Moon, and given water.
@@ -767,6 +831,19 @@ Not long after the great thaw, life exploded into new and complex forms.
 > Science: The Cambrian explosion, beginning around 538 million years ago, saw the rapid appearance of most major animal groups.
 > Wisdom: Even the coldest season ends. What survives the freeze is often what blooms first when the thaw comes.
 
+@chapter The Cradle of Humankind
+@epigraph In the caves of South Africa lie some of the oldest witnesses of our own kind.
+@image v06_c10.webp
+North west of Johannesburg lies a land of limestone caves that holds one of the richest records of human ancestors on Earth.
+It is called the Cradle of Humankind.
+In the year 1947, at Sterkfontein, Robert Broom and John Robinson found a skull more than two million years old, later nicknamed Mrs Ples.
+> History: Mrs Ples is a skull of Australopithecus africanus, about 2.1 to 2.6 million years old. The Cradle of Humankind became a UNESCO World Heritage Site in 1999.
+In the same caves lies Little Foot, one of the most complete early skeletons ever found, painstakingly freed from the rock over twenty years.
+And in the year 2015, explorers who crawled through a passage barely wider than a hand span in the Rising Star cave found the bones of a new species, named Homo naledi.
+> History: Homo naledi was announced in 2015 by a team led by Lee Berger. Naledi means "star" in Sesotho.
+So the long story that began with the cloud and the Firstborn reaches, at last, the people who would look up and ask where they came from.
+> Wisdom: Know where you come from. The ground beneath your feet may hold the story of everyone who came before you.
+
 @volume The Aegis
 @subtitle The Shield of the Firstborn
 @summary The Aegis was the shield of Zeus. Here the testimony tells how Jupiter's gravity both guards and threatens the inner worlds, and of the day the shield was seen in action.
@@ -877,6 +954,19 @@ The comet passed closest to the Sun in March of the next year, within the window
 So the king's hand touched even the comets, and humanity learned that the heavens could be predicted.
 > Science: Halley's Comet last appeared in 1986 and will return in 2061.
 > Wisdom: Make your promises carefully and keep good records. Some of your work will be proven true long after you are gone.
+
+@chapter The Day Apophis Comes Close
+@epigraph On Friday the thirteenth of April 2029, a stone named after the serpent of chaos will pass closer than our satellites.
+@image v07_c10.webp
+In the year 2004, astronomers found an asteroid about 340 metres across and gave it a fearful name: Apophis, after the serpent of chaos in Egyptian myth.
+At first, their calculations showed a small chance that it might strike the Earth in 2029.
+> History: In December 2004, Apophis briefly reached level 4 on the Torino impact hazard scale, the highest rating any asteroid has received.
+The watchers kept watching, measured its path again and again, and the danger faded away.
+> Science: Further observations ruled out any impact in 2029, 2036 or 2068.
+But Apophis will still come astonishingly close: on the thirteenth of April 2029 it will pass about 32,000 kilometres above the Earth, closer than many satellites.
+For a few hours, people across Europe, Africa and parts of Asia will be able to see it with their own eyes as a moving point of light.
+> Science: NASA's OSIRIS-APEX spacecraft is being sent to study Apophis after its close approach.
+> Wisdom: Fear shrinks under careful measurement. Keep watching what frightens you, and you may find it is a wonder instead.
 
 @chapter The Wisdom of Protection
 @epigraph The best guardians are the ones nobody thanks.
@@ -1034,6 +1124,19 @@ And every six years, the Earth passes through the plane in which the moons trave
 Those who watch can see the court of the king perform its dance in front of him, shadow by shadow.
 > Wisdom: Even the smallest presence casts a shadow on something greater. Be mindful of the mark you leave on others.
 
+@chapter The Engineer Who Saw a Volcano
+@epigraph One night in 1979, a young engineer saw something no one had ever seen beyond the Earth.
+@image v08_c11.webp
+In March of the year 1979, Voyager 1 had just passed the Firstborn, and a navigation engineer named Linda Morabito was studying its images of Io.
+She was looking at stars behind the moon to fix the spacecraft's position.
+On the edge of Io she saw a strange, faint crescent rising high above its surface.
+It was a plume, hundreds of kilometres tall: the first active volcano ever discovered beyond the Earth.
+> History: Linda Morabito discovered Io's volcanic plume on 8 March 1979 while processing Voyager 1 navigation images.
+Just days before, three scientists, Stanton Peale, Patrick Cassen and Ray Reynolds, had published a prediction that tidal heating might make Io volcanic.
+> History: The paper by Peale, Cassen and Reynolds appeared in the journal Science on 2 March 1979, a week before the discovery.
+So a prediction and a discovery met in the same week, and the burning daughter revealed her fire to the world.
+> Wisdom: Pay attention to the edges of things. Discoveries often hide at the border of what you were actually looking for.
+
 @volume The Storms of the Thunderer
 @subtitle The Eye, the Lightning and the Crown
 @summary Zeus was the god of thunder, and his world is a world of storms. This volume tells of the Great Red Spot, of lightning in the deep, and of the vast invisible crown of the magnetosphere.
@@ -1156,6 +1259,18 @@ Years later, Juno measured the water near the king's equator from above, using m
 > Science: In 2020, Juno scientists reported that water makes up about 0.25 percent of the molecules in Jupiter's equatorial atmosphere, roughly three times the Sun's proportion of oxygen.
 So the deserts and the rains of the Firstborn were both revealed, and the lesson was learned.
 > Wisdom: Never judge an entire world, or an entire person, from a single sample. One place is not the whole.
+
+@chapter The Roots of the Winds
+@epigraph His bands are not painted on the surface. They reach thousands of kilometres down.
+@image v09_c10.webp
+For centuries, men could only see the top of the clouds of the Firstborn and wondered how deep his winds ran.
+Were the bands a thin skin, like the weather of the Earth, or did they reach down into the depths?
+Juno answered by measuring the tiny ripples in his gravity as it passed over him.
+> Science: In 2018, Juno scientists reported that Jupiter's jet streams extend about 3,000 kilometres below the cloud tops.
+Below that depth, the planet begins to turn as one solid body, held together by its powerful magnetic field.
+So the bands are not decoration; they are deep rivers of gas carrying about one percent of the whole mass of the king.
+> Science: The weather layer of Jupiter holds roughly one percent of the planet's mass, far more than Earth's entire atmosphere relative to its size.
+> Wisdom: What you see on the surface often has deep roots. Look for the depth beneath every visible pattern.
 
 @volume The Legacy Myths
 @subtitle What the Ancients Sang, and Why They Sang It Backwards
@@ -1281,6 +1396,19 @@ This testimony reads the story this way: fire is knowledge, and the king guarded
 Humanity received the fire anyway, and its duty is to prove that the gift was not a mistake.
 > Science: Prometheus is also the name of a small moon of Saturn that shapes the edge of Saturn's F ring.
 > Wisdom: Every gift of power carries a test. Knowledge is fire: it warms or it burns, depending on the hand that holds it.
+
+@chapter Io and the Hundred Eyes
+@epigraph A watchman with a hundred eyes never slept, until a song closed every one of them.
+@image v10_c10.webp
+In the old song, Zeus loved a priestess named Io, and to hide her from the jealous eyes of Hera, he changed her into a white heifer.
+Hera was not deceived. She asked for the heifer as a gift and set a guard upon her: Argus, the giant with a hundred eyes.
+> Myth: Argus Panoptes, "the all-seeing", was said to sleep with only some of his eyes closed at any time.
+Zeus sent Hermes to free her. Hermes played music and told long stories until, one by one, all hundred eyes closed in sleep.
+Then Io was free, and after long wandering across the lands and seas, she was restored to her own form.
+> Myth: The Ionian Sea and the Bosporus ("cow's crossing") were linked to Io's wanderings in ancient tradition.
+Hera set the hundred eyes of Argus in the tail of the peacock, where they shine still.
+And men gave the name Io to the burning daughter of the Firstborn, who also cannot rest.
+> Wisdom: Watchfulness without rest becomes a weakness. Even the hundred-eyed guard was undone by patience and a song.
 
 @volume The Watchers of the Sky
 @subtitle The Long Gaze of Humankind
@@ -1411,6 +1539,19 @@ From about six billion kilometres away, the Earth appeared as a single faint spe
 Sagan wrote that on that dot lived everyone you love, everyone you know, everyone you ever heard of.
 > Wisdom: Seen from far enough away, every quarrel is small and every kindness matters. Look at your life from a distance sometimes.
 
+@chapter The Man Who Rests on the Moon
+@epigraph He was never allowed to fly to the Moon, so the Moon came to him in the end.
+@image v11_c10.webp
+Eugene Shoemaker was a geologist who proved that craters on Earth were made by falling stones, not only by volcanoes.
+He trained the Apollo astronauts in the study of craters, and he dreamed of walking on the Moon himself.
+But a health condition kept him from ever becoming an astronaut.
+> History: Shoemaker was ruled out of astronaut selection because of Addison's disease. He helped found the field of planetary science and trained Apollo crews in geology.
+With his wife Carolyn and their colleague David Levy, he discovered the comet that struck the Firstborn in 1994, Shoemaker-Levy 9.
+In the year 1997 he died in a car accident while studying craters in Australia.
+His friends arranged for a small portion of his ashes to be carried to the Moon aboard the spacecraft Lunar Prospector.
+> History: On 31 July 1999, Lunar Prospector was deliberately crashed near the Moon's south pole, carrying some of Shoemaker's ashes. He was the first person whose remains were placed on the Moon.
+> Wisdom: When one door closes, your work can still carry you where you longed to go. Keep working toward the dream, even by another road.
+
 @volume The Book of Wisdom
 @subtitle Teachings of the Firstborn for the Life of Humankind
 @summary The story of the worlds is also a story of how to live. This final volume gathers the lessons of the Firstborn into teachings for anyone who wants to build, endure and lead.
@@ -1518,6 +1659,18 @@ There is a season of wandering, when you may drift toward the fire and must find
 There is a season of the shield, when you stand between others and harm.
 And there is a season of the steady light, when you have become a fixed point others can find in the dark.
 > Wisdom: You do not choose every season, but you choose how you live in each one. Know which season you are in.
+
+@chapter The Courage to Begin
+@epigraph Every world in this book started as a single grain of dust. So does every great work.
+@image v12_c10.webp
+You have read how the Firstborn began: not as a king, but as a seed beyond the frost.
+No one watching would have known that this one seed would become the first world.
+So it is with every beginning. It looks small, uncertain and easily swept away.
+Do not wait until you feel ready, for the seed did not wait; it began catching pebbles the moment it could.
+Do not wait for the perfect season, for the season of the disk was already closing.
+Do not wait for permission from those who cannot see what you see.
+Begin with what is in reach today, and gather a little more tomorrow.
+> Wisdom: The difference between a world and scattered dust is simply that one of them began to gather and did not stop.
 
 @chapter The Final Anchor
 @epigraph The testimony ends. The sky stays open.
