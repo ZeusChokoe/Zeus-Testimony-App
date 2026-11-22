@@ -3,12 +3,17 @@ package com.example.ui
 import com.github.takahirom.roborazzi.captureRoboImage
 import androidx.compose.ui.test.hasScrollAction
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.hasSetTextAction
+import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollToNode
+import androidx.compose.ui.test.performScrollToIndex
+import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.test.espresso.Espresso
 import androidx.compose.ui.test.onAllNodesWithText
 import com.example.ui.theme.AppTheme
 import org.junit.Rule
@@ -57,5 +62,39 @@ class ReaderFlowTest {
         waitForText("Vol. III · Ch. 3")
         rule.onNode(hasScrollAction()).performScrollToNode(hasText("SCIENCE"))
         shot("4_next_chapter_commentary")
+
+        // Bookmark and highlight verse 1, then find both in My Library.
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("When the core of the Firstborn", substring = true))
+        rule.onNodeWithContentDescription("Verse 1").performClick()
+        waitForText("Bookmark for later")
+        rule.onNodeWithText("Bookmark for later").performClick()
+        rule.onNodeWithContentDescription("Highlight Gold").performClick()
+        waitForText("Remove bookmark")
+        shot("5_verse_actions")
+        Espresso.pressBack()
+        rule.waitUntil(10_000) { rule.onAllNodesWithText("Remove bookmark").fetchSemanticsNodes().isEmpty() }
+        rule.waitForIdle()
+        rule.onNodeWithContentDescription("Back").performClick()
+        waitForText("VOLUME III")
+        rule.waitForIdle()
+        rule.onNodeWithContentDescription("Back").performClick()
+        rule.waitForIdle()
+        rule.onNode(hasScrollAction()).performScrollToIndex(0)
+        waitForText("THE ZEUS TESTIMONY")
+        rule.onNodeWithContentDescription("My Library").performClick()
+        waitForText("Bookmarks (1)")
+        rule.onNodeWithText("Ch. 3 · Verse 1", substring = true).assertExists()
+        rule.onNodeWithText("Highlights (1)").assertExists()
+        shot("6_library")
+
+        // Search finds the new Trojan chapter.
+        rule.waitForIdle()
+        rule.onNodeWithContentDescription("Back").performClick()
+        waitForText("THE ZEUS TESTIMONY")
+        rule.waitForIdle()
+        rule.onNodeWithContentDescription("Search").performClick()
+        rule.onNode(hasSetTextAction()).performTextInput("Achilles")
+        waitForText("The Camps of the Trojan War")
+        shot("7_search")
     }
 }

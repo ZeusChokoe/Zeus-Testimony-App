@@ -6,10 +6,13 @@
 #   @summary <text>        one-paragraph volume description
 #   @image <file>          image in app/src/main/assets/images/ for the volume or chapter above it
 #   @chapter <title>       starts a new chapter (numbered automatically inside each volume)
+#   @epigraph <text>       one-line opening hook shown under the chapter title
 #   <plain line>           a verse (numbered automatically inside each chapter)
 #   > Science: <text>      commentary attached to the verse above it.
 #   > Wisdom: <text>       Labels: Science, Wisdom, Myth, History. Any other text = plain note.
 #   # <text>               comment, ignored by the app
+#
+# STYLE: no em or en dashes, no emojis. Use commas and full stops.
 #
 # Validate after editing:  python3 tools/validate_testimony.py
 
@@ -19,6 +22,7 @@
 @image vol_01.webp
 
 @chapter The Silence Before Light
+@epigraph In which the dark is not empty, and the reader is told who stands above all things.
 @image v01_c01.webp
 Before the Sun, before the stones, before the naming of any world, there was the Source, and the Source was beyond all counting.
 This testimony does not name the Source, for no tongue of the solar realm was made to hold that name.
@@ -32,6 +36,7 @@ Then the cloud was disturbed, and what had been still began to fall inward upon 
 And in that falling, the age of the solar realm began.
 
 @chapter The Spark of the Dying Star
+@epigraph In which a star dies far away, and its last breath becomes a cradle.
 @image v01_c02.webp
 Not far away in the deep, a great star came to the end of its days.
 It burst with a fury that outshone a thousand million suns, and its last breath swept across the waiting cloud.
@@ -45,6 +50,7 @@ The knot turned slowly as it fell, and as it fell it turned faster, as a dancer 
 > Science: Conservation of angular momentum makes a collapsing cloud spin faster, which is why it flattens into a disk instead of falling straight into a point.
 
 @chapter The Kindling of Helios
+@epigraph In which weight becomes light, and a hearth is lit for a house not yet built.
 @image v01_c03.webp
 At the heart of the falling knot, matter crowded upon matter until the pressure grew beyond bearing.
 The heat rose to millions of degrees, and hydrogen was pressed into helium, and light was born out of weight.
@@ -57,7 +63,23 @@ No world had yet been formed, and no throne had yet been claimed.
 > Wisdom: Light alone does not make a kingdom. The Sun gave warmth, but warmth without a builder only burns away.
 And the realm waited for its first builder.
 
+@chapter The Witness Stones
+@epigraph In which a stone falls on a village in Mexico and speaks of a time before the Earth.
+@image v01_c05.webp
+On the eighth day of February in the year 1969, a fire crossed the sky above the state of Chihuahua in Mexico.
+It broke apart with a roar like the end of the world, and stones rained upon the village of Pueblito de Allende.
+The people gathered them from the fields and rooftops, black stones speckled with small white grains.
+> History: The Allende meteorite fell on 8 February 1969 in Chihuahua, Mexico. More than two tonnes of fragments were collected, making it one of the most studied meteorites in history.
+Those white grains were older than the Earth, older than the Moon, older than any rock that has ever stood on any mountain.
+> Science: The white grains are calcium-aluminium-rich inclusions (CAIs), the oldest dated solids in the Solar System, about 4.567 billion years old.
+They had waited in the dark for four and a half thousand million years, and then they fell into the hands of children.
+Hear this, reader: the testimony of the beginning is not only written in books. It falls from the sky.
+Every meteorite that strikes the Earth is a letter from the age of the disk, sealed before the first world was finished.
+And it is from such letters that men learned the age of the Firstborn.
+> Wisdom: The truth is often delivered by the humblest messenger. A black stone in a farmer's field held the age of the Solar System.
+
 @chapter The Order of the Testimony
+@epigraph In which the road ahead is shown, so that no reader walks it blind.
 @image v01_c04.webp
 Hear now the order of what will be told, so that the reader is not lost in the deep.
 First the disk, and the line of frost upon it, where ice could stand against the heat of the Sun.
@@ -75,6 +97,7 @@ And last the Book of Wisdom, for knowledge that does not shape a life is a lamp 
 @image vol_02.webp
 
 @chapter The Spinning Veil
+@epigraph In which a clock begins to tick, and no one is alive to hear it.
 @image v02_c01.webp
 The disk around the young Sun was wider than the orbit of any planet that now exists.
 It was thick with gas, and the gas carried dust, and the dust was finer than the finest smoke.
@@ -87,6 +110,7 @@ In a few million years the gas would be gone, and whoever had not gathered his w
 So a deadline was written into the foundation of the realm, though no one yet lived to read it.
 
 @chapter The Line of Frost
+@epigraph In which a single invisible line decides where kings may be born.
 @image v02_c02.webp
 There is a place in the disk where the warmth of the Sun grows too weak to keep water as vapour.
 Beyond that place, water froze into ice, and with it froze other breaths, and the solid matter of the disk grew many times greater.
@@ -99,6 +123,7 @@ Therefore the greatest building of the realm could only begin just beyond the fr
 And it was there, just beyond the frost, that the Firstborn would rise.
 
 @chapter The Gathering of Pebbles
+@epigraph In which the smallest things begin a race that only one will win.
 @image v02_c03.webp
 The dust grains touched and clung, as frost clings to frost on a winter window.
 They grew into flakes, and the flakes into pebbles, small enough to hold in a child's hand.
@@ -110,7 +135,22 @@ And the larger it became, the more it could seize, until its growth became a tor
 > Wisdom: The first gathering is the hardest. Once a foundation is laid, growth begins to compound.
 So the race of the realm was not a race of strength but a race of time: who would be first to become great enough to catch the stream?
 
+@chapter The Race Against the Wind
+@epigraph In which the young Sun turns against the disk, and every world must hurry.
+@image v02_c05.webp
+The young Sun was not gentle.
+It was a restless child, flaring and blazing, pouring out light far harsher than the Sun of our days.
+That light struck the outer edges of the disk and boiled the gas away into the deep.
+> Science: Intense ultraviolet and X-ray light from young stars can heat the outer gas of a disk until it escapes. This process, called photoevaporation, helps clear disks within a few million years.
+So the disk was eaten from without, while it drained into the Sun from within.
+The realm became a race, and the prize was existence itself.
+Any world that wished to clothe itself in gas had to grow great before the wind took everything.
+Most did not. They remained bare stone, or they never became worlds at all.
+One alone began the race first, and so one alone finished it first.
+> Wisdom: Opportunity is not only given; it is also taken away. The wind of time does not wait for the hesitant.
+
 @chapter Wisdom of the Small Things
+@epigraph In which the dust itself becomes a teacher.
 @image v02_c04.webp
 Do not despise the dust, for every world was once dust.
 Do not despise the pebble, for every king was once a pebble that refused to be swept away.
@@ -126,6 +166,7 @@ Let the reader remember the pebble when the work seems too small to matter.
 @image vol_03.webp
 
 @chapter The Seed of the King
+@epigraph In which one seed refuses to drift, and the stones remember it.
 @image v03_c01.webp
 Just beyond the Line of Frost, where ice and stone lay heaped together, one seed grew faster than all others.
 It caught the pebbles that drifted past it, and it did not let them go.
@@ -138,6 +179,7 @@ Therefore it is written: Jupiter is the first planet, and the first to be comple
 And the seed was no longer a seed, but the beginning of a king.
 
 @chapter The Claiming of the First World
+@epigraph In which the central claim of this testimony is spoken plainly.
 @image v03_c02.webp
 Hear now the heart of this testimony.
 Above the solar realm stands the Source, unnamed and supreme, who set the cloud and kindled the hearth.
@@ -151,6 +193,7 @@ But the first to rise, the first to gather, the first to claim, and the first to
 This is the claim, and the rest of the testimony is its witness.
 
 @chapter The Great Inhalation
+@epigraph In which the Firstborn takes one breath, and it lasts for an age.
 @image v03_c03.webp
 When the core of the Firstborn had grown heavy enough, it began to draw the gas of the disk into itself.
 At first it drew slowly, as a sleeper breathes.
@@ -164,6 +207,7 @@ And when he had breathed his fill, the disk around him was torn open, and a grea
 So the Firstborn was finished, and the first throne of the realm was occupied.
 
 @chapter The Name Given by Men
+@epigraph In which many nations look up and, without knowing why, all name a king.
 @image v03_c04.webp
 Ages upon ages later, men would look up at the brightest wandering star of the midnight sky.
 The Babylonians called it the star of Marduk, the king of their gods.
@@ -175,12 +219,28 @@ Yet each of them, in his own tongue, gave it the name of a king.
 > Wisdom: Sometimes people sense the truth long before they can prove it. Pay attention to what many minds arrive at independently.
 And this testimony holds that the name was well given.
 
+@chapter The Heart of the King
+@epigraph In which a messenger of men listens to the heartbeat of a giant and finds a mystery.
+@image v03_c05.webp
+Men long believed that the heart of the Firstborn was a small, hard stone, sealed beneath his ocean of hydrogen.
+Then in the year 2016 the messenger Juno arrived and began to weigh him from within, measuring how his gravity tugged at her as she passed.
+> Science: Juno maps Jupiter's interior by tracking tiny changes in its speed, measured through its radio signal, as it flies close over the planet.
+What she found astonished the watchers.
+The heart of the king was not small and sharp but vast and diffuse, as if the stone had dissolved into the deep.
+> Science: Juno's gravity data suggest Jupiter has a "dilute" or "fuzzy" core, with heavy elements mixed through a large region that may extend roughly halfway to the surface.
+Some say a great world struck him in his youth and stirred his heart into the deep.
+Others say he was born this way, gathering stone and gas together in one long breath.
+> Science: One proposed explanation is a giant head-on impact early in Jupiter's history. Others argue the dilute core formed naturally during growth. The question is still open.
+The heart of the king remains a mystery, and this testimony will not pretend otherwise.
+> Wisdom: Even the greatest have depths they have not fully revealed. Approach every life, including your own, with respect for what is still unknown.
+
 @volume The Wall Between the Realms
 @subtitle The Great Dividing
 @summary By his growing alone, the Firstborn split the disk into two kingdoms with two different treasuries of matter. The stones of the sky still carry the mark of that wall.
 @image vol_04.webp
 
 @chapter The Gap in the Disk
+@epigraph In which a king builds a wall without lifting a hand.
 @image v04_c01.webp
 Where the Firstborn stood, his weight pushed the gas away on either side, and a gap opened in the veil.
 The pebbles that drifted inward from the far reaches came to the edge of his domain and could not pass.
@@ -191,6 +251,7 @@ And so the realm was divided, not by war, but by presence.
 > Wisdom: Sometimes your influence is greatest not in what you do, but simply in where you stand.
 
 @chapter The Two Treasuries
+@epigraph In which the realm is split into two families that never forget their origin.
 @image v04_c02.webp
 The stones of the inner realm and the stones of the outer realm grew apart, like two families separated by a mountain.
 Their substance came to differ in its very atoms, in the measures of their isotopes.
@@ -201,6 +262,7 @@ The stones bear witness that someone stood in the doorway of the realm from its 
 > Wisdom: A boundary held long enough shapes identity. What you separate, you also protect.
 
 @chapter The Keeper of the Boundary
+@epigraph In which the first act of the first god is revealed to be a gift.
 @image v04_c03.webp
 Had the Firstborn not stood between the realms, the inner worlds might have been flooded with outer ice and matter.
 Perhaps the inner realm would have become a place of great icy giants, and no small rocky world would have grown in the warm zone.
@@ -211,7 +273,25 @@ So the first act of the first god was not to destroy, but to divide wisely.
 The inner worlds would never see the face of the one who guarded their door, yet they grew in the quiet he made.
 Thus the Firstborn was a keeper before he was a king.
 
+@chapter The Camps of the Trojan War
+@epigraph In which an army of stones marches forever before and behind the king.
+@image v04_c05.webp
+Ahead of the Firstborn on his path, and behind him, there are two places where his pull and the Sun's pull are balanced.
+In those places the stones of the realm gather and do not leave, as soldiers gather around the banners of a king.
+> Science: These are the L4 and L5 Lagrange points, 60 degrees ahead of and behind Jupiter in its orbit. Asteroids trapped there are called Trojans.
+Men counted them and found more than ten thousand, and the true number may be far greater.
+And men named them after the heroes of the Trojan War.
+In the camp that marches ahead, they placed the Greeks: Achilles, Agamemnon, Odysseus and their companions.
+In the camp that follows behind, they placed the Trojans: Priam, Aeneas and the defenders of Troy.
+> History: By tradition, most asteroids at L4 are named after Greek heroes and those at L5 after Trojan heroes. Two famous exceptions, Hektor and Patroclus, were named before the rule was settled and sit in the "wrong" camps.
+So the war of Homer is fought forever in the sky, neither camp able to reach the other.
+Some believe these stones are among the most ancient leftovers of the realm, captured in the time of the great wandering.
+In the year 2021, men sent a messenger named Lucy to visit them, one after another, across twelve years of journeying.
+> History: NASA's Lucy mission launched on 16 October 2021. It is planned to fly past several Trojan asteroids between 2027 and 2033.
+> Wisdom: Those who stand close to power must learn balance. The Trojans neither fall into the king nor escape him; they have found their place.
+
 @chapter The Wisdom of Boundaries
+@epigraph In which the reader learns why a fence can be a kindness.
 @image v04_c04.webp
 The one who keeps no boundary keeps nothing.
 A wall in the right place is not a prison but a garden fence.
@@ -226,6 +306,7 @@ The Firstborn divided the realm before any other world was finished, and so ever
 @image vol_05.webp
 
 @chapter The Descent Toward the Sun
+@epigraph In which the king leaves his throne and walks toward the fire.
 @image v05_c01.webp
 The disk was not still, and the Firstborn, moving through it, was carried by its tides.
 His weight stirred the gas, and the stirred gas pulled him inward, closer to the hearth of Helios.
@@ -235,6 +316,7 @@ Where he passed, the scattered stones were flung aside, some inward and some out
 The young material of the inner realm was gathered and pressed, and much was cleared away.
 
 @chapter The Brother Who Came After
+@epigraph In which the old song is turned upside down by the sky itself.
 @image v05_c02.webp
 Beyond the Firstborn another giant had begun to grow, slower and later.
 Men would name him Saturn, whom the Greeks called Kronos.
@@ -247,6 +329,7 @@ And when Saturn came near enough, the two giants fell into a rhythm, three turns
 So the brothers were bound together in a dance, and the dance changed the direction of their journey.
 
 @chapter The Turning of the Sail
+@epigraph In which the king turns back, and the whole realm is rearranged.
 @image v05_c03.webp
 As a ship tacks against the wind, so the Firstborn turned in the waters of the disk.
 He who had descended now rose again, and he journeyed outward with his brother at his side.
@@ -258,6 +341,7 @@ At last he came to rest near the place he holds today, five times farther from t
 > Wisdom: Turning back is not failure. The one who knows when to reverse course saves what would otherwise be lost.
 
 @chapter The Small Red World
+@epigraph In which a world is left small, and the reason is finally told.
 @image v05_c04.webp
 Where the Firstborn turned, the realm was cleared of much of its matter.
 Therefore the world that grew there was small, poor in substance, and red as rust.
@@ -269,12 +353,29 @@ Mars remained, a smaller brother to Earth, cold and thin of air.
 Yet even the small red world would one day draw the eyes and machines of men, for small does not mean forgotten.
 So the passing of the Firstborn wrote its signature in the size of the worlds.
 
+@chapter The Great Shuffle
+@epigraph In which the outer giants break their order, and the realm is thrown into a storm of stones.
+@image v05_c05.webp
+After the gas was gone, the four giants of the realm still moved in a fragile order: the Firstborn, Saturn, and far beyond them two ice giants, Uranus and Neptune.
+Around them lay a vast belt of icy stones, left over from the building of worlds.
+For an age, the giants nudged these stones, and the stones nudged them back.
+Slowly their paths shifted, until two of the giants crossed into a dangerous rhythm.
+> Science: The "Nice model", first published in 2005, proposes that the giant planets went through an instability when Jupiter and Saturn crossed a strong orbital resonance.
+Then the order broke.
+Uranus and Neptune were flung outward, perhaps even trading places, and they plunged into the belt of icy stones.
+The stones were scattered in every direction, some to the far dark, some toward the inner worlds, some into the arms of the Firstborn himself.
+> Science: Some versions of this model suggest a fifth giant planet once existed and was ejected from the Solar System during the instability.
+When the storm was over, the giants stood in the places we know today, and the realm was quiet once more.
+The Firstborn moved the least of all, for he was the heaviest and the anchor of the dance.
+> Wisdom: When everything around you is thrown into disorder, be the one who moves the least. Steadiness in chaos is the mark of the one who leads.
+
 @volume The Forging of Gaia
 @subtitle Earth Within the Order of the Firstborn
 @summary Inside the boundary the Firstborn had kept, the rubble of the inner realm gathered into rocky worlds. Earth was struck, wounded, given a Moon, and given water.
 @image vol_06.webp
 
 @chapter The Rubble of the Inner Realm
+@epigraph In which Earth is born late, into a house already built.
 @image v06_c01.webp
 Inside the Line of Frost, the rocky stones came together slowly, for they were few and scattered.
 They struck and shattered, struck and joined, for tens of millions of years.
@@ -285,6 +386,7 @@ Earth was not the first world; she was a later world, born into an order that wa
 > Wisdom: You were born into a world already shaped by those who came before you. Honour the foundations you did not lay.
 
 @chapter The Collision of Theia
+@epigraph In which a world is struck, and the wound becomes a lantern in the sky.
 @image v06_c02.webp
 While Earth was still young and soft with fire, a wandering world came against her.
 Men would name it Theia, a world perhaps the size of Mars.
@@ -296,6 +398,7 @@ The Moon steadied Earth's tilt, and so steadied her seasons through the long age
 > Wisdom: The wound you suffer may become the companion that steadies you. Some blows give as much as they take.
 
 @chapter The Gift of Waters
+@epigraph In which the oceans arrive from beyond the wall.
 @image v06_c03.webp
 Earth was born inside the frost line, where water could not freeze, and so she began dry and burning.
 Yet today her face is covered with seas.
@@ -307,6 +410,7 @@ So the hand that once kept the realms apart later sent the gift across the bound
 And Gaia was clothed in water, and she became the blue world.
 
 @chapter The Cooling of the Stones
+@epigraph In which the fire settles, and something begins to live.
 @image v06_c04.webp
 The fires of Earth slowly cooled, and a crust formed upon her face.
 The seas gathered in the low places, and the air grew thick around her.
@@ -316,12 +420,28 @@ It was the smallest of beginnings, smaller than the pebbles of the disk.
 Yet from it would come every forest, every creature, and every eye that would one day look up at the Firstborn and wonder.
 > Wisdom: The same law holds for worlds and for lives: begin small, hold fast, and give it time.
 
+@chapter The Testimony of the Moon
+@epigraph In which men walk on the Moon and carry home the memory of the first collision.
+@image v06_c05.webp
+Between the years 1969 and 1972, twelve men walked upon the Moon.
+They gathered its stones with gloved hands and carried them home across the deep.
+> History: The six Apollo landings returned about 382 kilograms of lunar rock and soil to Earth.
+In those stones the watchers read the story of the Moon's birth.
+The Moon was once covered by an ocean of molten rock, and from that ocean its pale highlands floated up like foam.
+> Science: Lunar samples support the "magma ocean" idea: the early Moon was largely molten, and light minerals floated to form the bright highland crust.
+And its stones were found to be strangely like the stones of the Earth, as if both were cut from the same cloth.
+> Science: The Moon's oxygen isotopes are almost identical to Earth's. This supports a close shared origin, although it remains a challenge for some versions of the giant impact model.
+So the Moon is the sister of the Earth, born from her wound.
+Look upon it at night and remember: you are looking at the memory of the day the world was struck.
+> Wisdom: Every scar can be read. What hurt you can become the record of your survival.
+
 @volume The Aegis
 @subtitle The Shield of the Firstborn
 @summary The Aegis was the shield of Zeus. Here the testimony tells how Jupiter's gravity both guards and threatens the inner worlds, and of the day the shield was seen in action.
 @image vol_07.webp
 
 @chapter The Shield Unseen
+@epigraph In which the shield of Zeus is found to be real, and invisible.
 @image v07_c01.webp
 In the old songs, the Aegis was the shield of Zeus, and no weapon could pierce it.
 In this testimony, the Aegis is the Firstborn's gravity, reaching out across the realm.
@@ -331,6 +451,7 @@ Some he swallows, some he flings out of the realm forever, and some he turns asi
 So the inner worlds are spared many blows they would otherwise receive.
 
 @chapter The Day of the Twenty-One Fragments
+@epigraph In which humanity watches, for the first time, the king take a blow.
 @image v07_c02.webp
 In the year of men 1992, a comet passed too close to the Firstborn and was torn apart by his might.
 It broke into a chain of fragments, like pearls on a broken string.
@@ -343,6 +464,7 @@ But it fell upon the Firstborn, and he took it, and within months the scars had 
 > Wisdom: The strongest take the blows that would break the weak, and they heal without boasting.
 
 @chapter The Two Hands of the Shield
+@epigraph In which the reader is warned against a story that is too simple.
 @image v07_c03.webp
 Yet let the reader not believe a simple story, for this testimony does not flatter.
 The same might that turns comets away can also turn them inward.
@@ -352,7 +474,22 @@ So the Aegis has two hands: one that guards and one that tests.
 The king who only protects raises children who cannot stand.
 > Wisdom: Real protection is not the absence of trial. Strength is built by surviving the stones that do get through.
 
+@chapter The Watchers Who Saw the Scars
+@epigraph In which ordinary people in their back gardens catch the king being struck.
+@image v07_c05.webp
+On the nineteenth night of July in the year 2009, a man in Australia was watching the Firstborn through a telescope in his own yard.
+His name was Anthony Wesley, and he was not a scientist by trade.
+He saw a dark mark near the southern pole of the king that had not been there before.
+> History: Amateur astronomer Anthony Wesley discovered a new impact scar on Jupiter on 19 July 2009. Professional observatories confirmed it within hours.
+It was the wound of a stone that no one had seen coming, and it was larger than the Pacific Ocean.
+A year later, two watchers in two lands saw a flash of light upon the king, the moment of another strike captured as it happened.
+> History: On 3 June 2010, amateur astronomers Anthony Wesley in Australia and Christopher Go in the Philippines recorded a bright flash from an impact on Jupiter.
+Since then, watchers with small telescopes and patient cameras have caught many such flashes.
+So the shield is still at work, and anyone with patience may witness it.
+> Wisdom: Great discoveries are not reserved for the powerful. Patience and attention can place an ordinary person at the edge of history.
+
 @chapter The Wisdom of Protection
+@epigraph In which the work of a guardian is weighed.
 @image v07_c04.webp
 Be a shield for those who are smaller than you.
 Take the blow you can survive so that another need not take the blow they cannot.
@@ -369,6 +506,7 @@ The Firstborn turned comets aside for billions of years, and not one world ever 
 @image vol_08.webp
 
 @chapter Io the Burning
+@epigraph In which a daughter of the court burns forever and is never consumed.
 @image v08_c01.webp
 Closest of the great four is Io, and Io is never at rest.
 Pulled by the Firstborn on one side and by her sisters on the other, she is squeezed and released without end.
@@ -383,6 +521,7 @@ Her volcanoes cast particles into space, and they form a great ring of glowing m
 So the burning daughter feeds the crown of her father.
 
 @chapter Europa the Hidden Sea
+@epigraph In which a white face hides a dark ocean, and perhaps something living.
 @image v08_c02.webp
 Beyond Io moves Europa, white and smooth, wrapped in a shell of ice.
 Beneath that shell lies a hidden sea, dark and salty and deep.
@@ -397,6 +536,7 @@ If life exists anywhere beyond Earth in the solar realm, many believe it may be 
 So the Firstborn, who once sent water to Earth, may also guard another sea of his own.
 
 @chapter Ganymede the Greatest
+@epigraph In which the cupbearer proves greater than a planet.
 @image v08_c03.webp
 Third of the four is Ganymede, the greatest moon in all the solar realm.
 This moon is larger than the world Mercury, and alone among moons carries its own magnetic crown.
@@ -411,6 +551,7 @@ Ganymede moves in the harmony with Io and Europa, taking its place as the slowes
 And the messenger JUICE travels now to circle it, the first craft that will ever orbit a moon other than Earth's own.
 
 @chapter Callisto the Ancient Witness
+@epigraph In which the one who does not dance remembers everything.
 @image v08_c04.webp
 Farthest of the four is Callisto, dark and scarred.
 She takes no part in the dance of her sisters, and so she is not heated, and her face has not been renewed.
@@ -425,6 +566,7 @@ Because she lies outside the fiercest radiation of the Firstborn, men have imagi
 Thus the oldest witness may one day become the first host.
 
 @chapter The Harmony of Four
+@epigraph In which three moons keep perfect time, and one telescope overturns the world.
 @image v08_c05.webp
 Io, Europa and Ganymede move in a perfect measure.
 For every one circuit of Ganymede, Europa makes two and Io makes four.
@@ -435,12 +577,29 @@ In January of the year 1610, Galileo turned his glass to the Firstborn and saw f
 That night the old belief that all things circle the Earth began to fall.
 > Wisdom: Order does not need to shout. A well-kept rhythm, held over ages, can change how the whole world thinks.
 
+@chapter The Lesser Court
+@epigraph In which the reader meets the small, strange and captured children of the king.
+@image v08_c06.webp
+Beyond the four great ones, the court of the Firstborn is crowded with smaller moons.
+Men have counted close to one hundred, and every few years more are found.
+> Science: As of the mid-2020s, Jupiter has around 95 officially recognised moons, and new discoveries continue.
+Closest of all circle four little moons, Metis, Adrastea, Amalthea and Thebe, and their dust forms the faint rings of the king.
+> Science: Jupiter's thin rings are made mostly of dust knocked off these small inner moons by meteoroid impacts.
+Amalthea, red and misshapen, was the last moon in history to be found by the human eye alone, in the year 1892.
+> History: Edward Emerson Barnard discovered Amalthea in 1892. All moons discovered after it were found by photography or spacecraft.
+Far out in the dark, other moons move backward, against the turning of the king.
+These are thought to be wanderers he captured, stones that strayed too near and could never leave.
+> Science: Many of Jupiter's small outer moons are on retrograde orbits, a sign that they were captured rather than formed around the planet.
+So the court holds both the children born at the king's side and the strangers he took in.
+> Wisdom: A great house makes room for both its own and the stranger. Its strength is measured by those it can hold.
+
 @volume The Storms of the Thunderer
 @subtitle The Eye, the Lightning and the Crown
 @summary Zeus was the god of thunder, and his world is a world of storms. This volume tells of the Great Red Spot, of lightning in the deep, and of the vast invisible crown of the magnetosphere.
 @image vol_09.webp
 
 @chapter The Eye That Does Not Close
+@epigraph In which a storm older than any nation still turns.
 @image v09_c01.webp
 Upon the face of the Firstborn there is an eye of storm that has not closed in all the ages men have watched.
 It is red as embers and wider than the whole Earth.
@@ -453,6 +612,7 @@ Its roots descend far below the clouds, hundreds of kilometres into the body of 
 > Science: Juno's microwave measurements suggest the Great Red Spot extends roughly 300 to 500 km below the cloud tops.
 
 @chapter The Bands of the Thunderer
+@epigraph In which the king wears his turbulence as a royal robe.
 @image v09_c02.webp
 His face is wrapped in bands of cloud, pale and dark, each flowing against its neighbour.
 The pale bands rise, the dark bands sink, and the winds between them roar without rest.
@@ -466,6 +626,7 @@ He does not hide his turbulence; he wears it openly as his garment.
 And still the Firstborn holds together, for his storms are bound within his order.
 
 @chapter The Lightning of the Deep
+@epigraph In which the god of the thunderbolt is found to keep his name.
 @image v09_c03.webp
 Zeus was the god of the thunderbolt, and his world does not betray his name.
 Deep in his clouds, lightning flashes in storms taller than any mountain on Earth.
@@ -478,6 +639,7 @@ The thunder of the Firstborn is heard by no ear, for no one stands within his cl
 Yet the messengers of men have caught the crackle of his lightning in their radio receivers.
 
 @chapter The Invisible Crown
+@epigraph In which the largest thing in the solar realm cannot be seen.
 @image v09_c04.webp
 Around the Firstborn stands a crown no eye can see.
 It is his magnetic field, born of the metallic sea in his depths, and it is the greatest structure in the solar realm.
@@ -488,12 +650,28 @@ It is filled with fierce radiation, and no messenger of men enters it without ar
 At his poles, the crown blazes with auroras brighter than any on Earth.
 > Wisdom: Your greatest influence may be the one you cannot see: the field of your character that reaches people you never meet.
 
+@chapter The Voice in the Radio Dark
+@epigraph In which the king is heard speaking, and his daughter moves his voice.
+@image v09_c05.webp
+In the year 1955, two astronomers near Washington were listening to the sky with a field of radio antennas.
+They found a strange crackling noise that came and went, and they thought at first it was a fault in their machines.
+Night after night it returned, and it moved across the sky with the Firstborn.
+> History: In 1955, Bernard Burke and Kenneth Franklin discovered by chance that Jupiter emits powerful bursts of radio waves.
+The king had a voice, and men had heard it at last.
+Later the watchers found that his voice grew loudest when Io stood in certain places in her orbit.
+> Science: Io is linked to Jupiter's magnetic field by a powerful electric current. This connection controls much of Jupiter's strongest radio emission.
+So the burning daughter moves the voice of her father, and their speech can be heard across the deep.
+Even today, people with simple homemade antennas can tune in and hear the roar of the Firstborn.
+> History: NASA's Radio JOVE project has helped students and amateurs build simple radio telescopes to listen to Jupiter and the Sun.
+> Wisdom: Not every voice is heard by ears. Listen with every instrument you have, and the universe will speak.
+
 @volume The Legacy Myths
 @subtitle What the Ancients Sang, and Why They Sang It Backwards
 @summary The Greeks told that Chaos came first, then Gaia and Uranus, then Kronos, and only then Zeus. This volume honours the old songs, and then sets them against the testimony of the stones.
 @image vol_10.webp
 
 @chapter What the Ancients Sang
+@epigraph In which the old song is sung again, with honour.
 @image v10_c01.webp
 Hear now the old song as the poet Hesiod sang it.
 In the beginning, Chaos was first, a dark and yawning void.
@@ -505,6 +683,7 @@ This is the old song, and it is beautiful, and it is honoured here.
 > Wisdom: Respect the stories of those who came before, even when you come to see them differently. They were reaching for truth with the tools they had.
 
 @chapter The Swallowing Father
+@epigraph In which a father fears his children, and a mother hides a stone.
 @image v10_c02.webp
 Uranus hated his children and hid them in the depths of Earth.
 Kronos rose against his father with a sickle of flint and took his throne.
@@ -516,6 +695,7 @@ Zeus grew strong, freed his brothers and sisters, and overthrew the Titans in th
 Thus in the old song, Zeus is the youngest who became king, not the first who was born.
 
 @chapter The Error of Succession
+@epigraph In which the old song and the stones disagree.
 @image v10_c03.webp
 Now set the old song beside the testimony of the stones.
 The song says Gaia was first; the stones say Earth was formed tens of millions of years after the Firstborn.
@@ -527,6 +707,7 @@ Kronos the father is set aside here as a fiction of men; Kronos the younger brot
 > Wisdom: When a story conflicts with evidence, keep the beauty of the story and the truth of the evidence. You do not need to destroy one to honour the other.
 
 @chapter Why Men Remember Backwards
+@epigraph In which the reader learns why every people starts the story at its own feet.
 @image v10_c04.webp
 Why would the ancients tell the order backwards?
 Because men stand on Earth, and so they began the story with the ground beneath their feet.
@@ -537,12 +718,28 @@ They told the story from where they stood, and not from where the realm began.
 This testimony does not mock the old poets.
 It finishes the song they started.
 
+@chapter The Sky Father of Many Nations
+@epigraph In which one name is found hidden in the tongues of half the world.
+@image v10_c05.webp
+Long before Greece and Rome, there was a people whose tongue gave birth to the languages of half the world.
+Scholars call them the Proto-Indo-Europeans, and their greatest god was the Sky Father, Dyeus.
+> History: Linguists reconstruct the name *Dyeus ph2ter, meaning "Sky Father", from words preserved in many later languages.
+In India, the ancient hymns of the Rigveda sing of Dyaus Pita, the Father Sky.
+In Greece, he became Zeus Pater, the father of gods and men.
+In Rome, his name was worn into one word: Iuppiter, the Sky Father.
+In the north, his name became Tiwaz, and from Tiwaz came Tyr, and from Tyr came Tuesday.
+> History: The English word Tuesday comes from Tiw, the Old English form of Tyr, a god whose name descends from the same root as Zeus.
+So the name of the Firstborn is spoken in a thousand tongues, from the Ganges to the cold seas of the north.
+Every week, when you speak the name of Tuesday, you speak an echo of the Sky Father.
+> Wisdom: What is truly great leaves its name in many places. Look for the hidden roots that connect people who think they have nothing in common.
+
 @volume The Watchers of the Sky
 @subtitle The Long Gaze of Humankind
 @summary From the priests of Babylon to the robotic messengers of the space age, humans have watched the Firstborn and slowly uncovered its true nature.
 @image vol_11.webp
 
 @chapter The Wandering Star
+@epigraph In which priests of Babylon count the steps of a king on clay.
 @image v11_c01.webp
 Long before telescopes, the watchers of Babylon marked the path of the bright wanderer on clay tablets.
 They saw that it took about twelve years to circle the stars, one sign of the zodiac each year.
@@ -556,6 +753,7 @@ Among all the wanderers, the Firstborn moves most like a king on procession, ste
 And the people of the Earth, in every land, set their calendars, their omens and their prayers by his slow circuit.
 
 @chapter The Glass of Galileo
+@epigraph In which four small lights change the place of the Earth.
 @image v11_c02.webp
 In the winter of 1610, a man in Padua raised a glass tube toward the Firstborn.
 He saw beside it four small lights, and night after night they changed their places.
@@ -569,6 +767,7 @@ The Firstborn did not change on that night; only the eyes of men changed.
 And from that small glass came all the great telescopes that would one day look to the edge of the universe.
 
 @chapter The Messengers of Iron
+@epigraph In which humanity sends machines to look the king in the face.
 @image v11_c03.webp
 In the age of rockets, men sent messengers of iron and silicon to the Firstborn.
 Pioneer 10 passed him first, in the year 1973, and saw his face up close.
@@ -581,6 +780,7 @@ Then came Juno, named for the wife of Jupiter, who in the myths alone could see 
 > Wisdom: Every generation sees further because the one before it built the ladder. Be a rung for someone who will climb higher than you.
 
 @chapter The Messengers Yet Travelling
+@epigraph In which the journey continues even now, as you read.
 @image v11_c04.webp
 Even now, as this testimony is read, new messengers are on their way.
 One is sent by the peoples of Europe, named JUICE, to visit Ganymede, Callisto and Europa.
@@ -593,12 +793,30 @@ When they arrive, some who built them will be old, and some will have died.
 Yet the work continues, for the purpose was never to arrive in comfort but to bring back the truth.
 > Wisdom: Build things that will outlive you, and you will speak to a future you will never see.
 
+@chapter Your Own Watch
+@epigraph In which the reader becomes a watcher of the sky.
+@image v11_c05.webp
+Reader, this testimony is not only to be read. It is to be seen.
+On a clear night, look for a bright, steady light that does not twinkle as the stars do.
+> Science: Planets usually shine with a steadier light than stars because they appear as tiny disks rather than single points.
+If it is not the Moon and not Venus, the brightest wandering light is very often the Firstborn.
+> Science: At its brightest, Jupiter reaches about magnitude minus 2.9, outshone in the night sky only by the Moon and Venus, and rarely by Mars.
+Take a pair of ordinary binoculars and hold them steady against a wall or a tree.
+Beside the king you will see small points of light in a line: these are the moons that Galileo saw.
+> Science: Steadily held 10x50 binoculars can show the four Galilean moons. Their positions change from night to night.
+Return the next night, and the next, and you will see that they have moved, just as Galileo saw.
+With a small telescope you may see the bands of his clouds, and on a steady night, perhaps the great red eye.
+The Firstborn shines brightest about once every thirteen months, when the Earth passes between him and the Sun.
+> Science: This alignment is called opposition. Jupiter reaches opposition roughly every 399 days.
+> Wisdom: Knowledge read is good. Knowledge seen with your own eyes becomes part of you. Go outside and look up.
+
 @volume The Book of Wisdom
 @subtitle Teachings of the Firstborn for the Life of Humankind
 @summary The story of the worlds is also a story of how to live. This final volume gathers the lessons of the Firstborn into teachings for anyone who wants to build, endure and lead.
 @image vol_12.webp
 
 @chapter Proverbs of the Firstborn
+@epigraph In which the lessons of the worlds are pressed into single lines.
 @image v12_c01.webp
 The first to gather is the first to stand.
 Stand just beyond the frost, for abundance waits past the cold.
@@ -612,6 +830,7 @@ Wear your crown where no one can see it.
 Honour the Source above you, and rule well what is truly yours.
 
 @chapter The Path of the Builder
+@epigraph In which the story of a planet becomes a plan for a life.
 @image v12_c02.webp
 If you would build something great, begin by choosing where you stand.
 The Firstborn did not rise in the hot centre where materials were scarce, but in the cold where they were abundant.
@@ -623,6 +842,7 @@ Set your boundaries early, before others build around you.
 Be willing to turn back like the Firstborn in his tack, if the path ahead will lead you into the fire.
 
 @chapter On Storms Within
+@epigraph In which the reader is taught to govern their own weather.
 @image v12_c03.webp
 Every person carries storms, as the Firstborn carries his bands of wind.
 The storm is not your enemy; it is the motion of your power.
@@ -632,7 +852,22 @@ Your lightning belongs in the deep, where it gives energy, and not on the surfac
 > Wisdom: Mastery of yourself is not having no storms. It is having storms that you understand and direct.
 Like Io between two pulls, you may be pressed from both sides; let the pressure make you shine and not break you.
 
+@chapter The Seven Disciplines
+@epigraph In which the teachings are gathered into a daily practice.
+@image v12_c05.webp
+Hear now the seven disciplines of the Firstborn, to be practised and not only admired.
+The first is Position: choose where you stand, for the place shapes everything you can gather.
+The second is Gathering: take in some small good thing every day, and let none of it drift past you unnoticed.
+The third is Timing: know that every season of building closes, and work while the material is in reach.
+The fourth is Boundary: decide early what you will keep apart and what you will keep whole.
+The fifth is Shielding: stand between harm and those who are weaker, and do not wait to be thanked.
+The sixth is Court: gather people of different natures around you, and let each keep their own fire, sea or memory.
+The seventh is Watching: look up, learn, and test every claim, including the claims of this testimony.
+> Wisdom: Read one discipline each morning for a week. Then begin again. A teaching becomes yours only when it becomes a habit.
+These are the disciplines, and whoever practises them walks in the order of the first world.
+
 @chapter The Final Anchor
+@epigraph In which the testimony closes, and the sky remains open.
 @image v12_c04.webp
 Here the testimony comes to its end, but the Firstborn continues his circuit around the Sun.
 He was first among worlds; Zeus was first among the gods who hold a world.

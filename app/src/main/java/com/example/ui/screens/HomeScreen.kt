@@ -10,6 +10,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.outlined.Info
+import androidx.compose.material.icons.outlined.Bookmarks
+import androidx.compose.material.icons.outlined.Search
+import androidx.compose.runtime.remember
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -23,7 +26,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.R
+import com.example.data.LibraryStore
+import com.example.data.NoteKind
 import com.example.data.Position
+import com.example.data.VerseRef
 import com.example.data.Testimony
 import com.example.data.Volume
 import com.example.ui.components.AssetImage
@@ -31,7 +37,11 @@ import com.example.ui.components.AssetImage
 @Composable
 fun HomeScreen(
     testimony: Testimony,
+    library: LibraryStore,
     lastRead: Position?,
+    onOpenVerse: (VerseRef) -> Unit,
+    onSearch: () -> Unit,
+    onLibrary: () -> Unit,
     onOpenVolume: (Int) -> Unit,
     onOpenChapter: (Position) -> Unit,
     onAbout: () -> Unit,
@@ -41,7 +51,7 @@ fun HomeScreen(
             modifier = Modifier.fillMaxSize(),
             contentPadding = PaddingValues(bottom = padding.calculateBottomPadding() + 32.dp),
         ) {
-            item { Hero(testimony, topInset = padding.calculateTopPadding(), onAbout = onAbout) }
+            item { Hero(testimony, topInset = padding.calculateTopPadding(), onSearch = onSearch, onLibrary = onLibrary, onAbout = onAbout) }
 
             val resume = lastRead?.let { p -> testimony.chapter(p)?.let { p to it } }
             item {
@@ -75,6 +85,8 @@ fun HomeScreen(
                 }
             }
 
+            item { VerseOfTheDay(testimony, onOpenVerse) }
+
             item {
                 Text(
                     "The Volumes",
@@ -84,7 +96,7 @@ fun HomeScreen(
                 )
             }
             items(testimony.volumes, key = { it.index }) { volume ->
-                VolumeCard(volume, onClick = { onOpenVolume(volume.index) })
+                VolumeCard(volume, read = library.readCount(volume), onClick = { onOpenVolume(volume.index) })
             }
             item {
                 Text(
@@ -101,7 +113,13 @@ fun HomeScreen(
 }
 
 @Composable
-private fun Hero(testimony: Testimony, topInset: androidx.compose.ui.unit.Dp, onAbout: () -> Unit) {
+private fun Hero(
+    testimony: Testimony,
+    topInset: androidx.compose.ui.unit.Dp,
+    onSearch: () -> Unit,
+    onLibrary: () -> Unit,
+    onAbout: () -> Unit,
+) {
     Box(Modifier.fillMaxWidth().height(320.dp + topInset)) {
         AssetImage(path = "hero.webp", contentDescription = null, modifier = Modifier.fillMaxSize())
         Box(
@@ -109,8 +127,10 @@ private fun Hero(testimony: Testimony, topInset: androidx.compose.ui.unit.Dp, on
                 Brush.verticalGradient(listOf(Color.Black.copy(alpha = 0.25f), Color.Black.copy(alpha = 0.55f), MaterialTheme.colorScheme.background)),
             ),
         )
-        IconButton(onClick = onAbout, modifier = Modifier.align(Alignment.TopEnd).padding(top = topInset, end = 8.dp)) {
-            Icon(Icons.Outlined.Info, contentDescription = "About this book", tint = Color.White)
+        Row(Modifier.align(Alignment.TopEnd).padding(top = topInset, end = 8.dp)) {
+            IconButton(onClick = onSearch) { Icon(Icons.Outlined.Search, contentDescription = "Search", tint = Color.White) }
+            IconButton(onClick = onLibrary) { Icon(Icons.Outlined.Bookmarks, contentDescription = "My Library", tint = Color.White) }
+            IconButton(onClick = onAbout) { Icon(Icons.Outlined.Info, contentDescription = "About this book", tint = Color.White) }
         }
         Column(
             Modifier.fillMaxSize().padding(top = topInset).padding(24.dp),
@@ -141,7 +161,7 @@ private fun Hero(testimony: Testimony, topInset: androidx.compose.ui.unit.Dp, on
 }
 
 @Composable
-private fun VolumeCard(volume: Volume, onClick: () -> Unit) {
+private fun VolumeCard(volume: Volume, read: Int, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -175,7 +195,53 @@ private fun VolumeCard(volume: Volume, onClick: () -> Unit) {
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                 )
+                if (read > 0) {
+                    Spacer(Modifier.height(10.dp))
+                    LinearProgressIndicator(
+                        progress = { read.toFloat() / volume.chapters.size },
+                        modifier = Modifier.fillMaxWidth().height(4.dp).clip(RoundedCornerShape(2.dp)),
+                        color = MaterialTheme.colorScheme.primary,
+                        trackColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.12f),
+                    )
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        if (read == volume.chapters.size) "Completed" else "$read of ${volume.chapters.size} chapters read",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
+                    )
+                }
             }
+        }
+    }
+}
+
+/** One verse that carries a Wisdom note, chosen by the date so it changes every day. */
+@Composable
+private fun VerseOfTheDay(testimony: Testimony, onOpenVerse: (VerseRef) -> Unit) {
+    val pick = remember(testimony) {
+        val pool = testimony.volumes.flatMap { v ->
+            v.chapters.flatMap { c ->
+                c.verses.filter { verse -> verse.notes.any { it.kind == NoteKind.WISDOM } }
+                    .map { Triple(VerseRef(v.index, c.index, it.number), it, "Volume ${v.numeral} · ${c.title}") }
+            }
+        }
+        if (pool.isEmpty()) null else pool[((System.currentTimeMillis() / 86_400_000L) % pool.size).toInt()]
+    } ?: return
+    val (ref, verse, where) = pick
+    val wisdom = verse.notes.first { it.kind == NoteKind.WISDOM }.text
+    Card(
+        onClick = { onOpenVerse(ref) },
+        modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 8.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+    ) {
+        Column(Modifier.padding(20.dp)) {
+            Text("VERSE OF THE DAY", style = MaterialTheme.typography.labelSmall, color = Color(0xFFC9A227))
+            Spacer(Modifier.height(10.dp))
+            Text("\u201C${verse.text}\u201D", style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurface)
+            Spacer(Modifier.height(10.dp))
+            Text(wisdom, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.75f))
+            Spacer(Modifier.height(10.dp))
+            Text(where, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
         }
     }
 }

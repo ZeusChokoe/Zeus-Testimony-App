@@ -13,7 +13,10 @@ object TestimonyParser {
     private val SAFE_IMAGE = Regex("^[A-Za-z0-9_\\-]+(/[A-Za-z0-9_\\-]+)*\\.(webp|png|jpg|jpeg)$")
 
     private class VerseB(val text: String) { val notes = mutableListOf<Note>() }
-    private class ChapterB(val title: String) { var image: String? = null; val verses = mutableListOf<VerseB>() }
+    private class ChapterB(val title: String) {
+        var image: String? = null; var epigraph: String? = null
+        val verses = mutableListOf<VerseB>()
+    }
     private class VolumeB(val title: String) {
         var subtitle = ""; var summary = ""; var image: String? = null
         val chapters = mutableListOf<ChapterB>()
@@ -40,6 +43,7 @@ object TestimonyParser {
                         "subtitle" -> (volume ?: fail(lineNo, "@subtitle before any @volume")).subtitle = value
                         "summary" -> (volume ?: fail(lineNo, "@summary before any @volume")).summary = value
                         "chapter" -> (volume ?: fail(lineNo, "@chapter before any @volume")).chapters += ChapterB(value)
+                        "epigraph" -> (chapter ?: fail(lineNo, "@epigraph must follow a @chapter")).epigraph = value
                         "image" -> {
                             if (!SAFE_IMAGE.matches(value)) fail(lineNo, "unsafe or unsupported image name '$value'")
                             when {
@@ -76,6 +80,7 @@ object TestimonyParser {
                             index = ci,
                             title = c.title,
                             image = c.image,
+                            epigraph = c.epigraph,
                             verses = c.verses.mapIndexed { n, verse -> Verse(n + 1, verse.text, verse.notes.toList()) },
                         )
                     },

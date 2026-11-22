@@ -23,6 +23,7 @@ data class Chapter(
     val title: String,
     val image: String?,
     val verses: List<Verse>,
+    val epigraph: String? = null,
 ) {
     val number: Int get() = index + 1
 }

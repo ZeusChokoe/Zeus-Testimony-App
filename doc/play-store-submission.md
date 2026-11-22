@@ -10,12 +10,11 @@ Status legend: [x] done in code, [ ] you must do it in Play Console / outside th
 - [x] Predictive back enabled; edge-to-edge (mandatory look on Android 15+).
 - [x] Backup limited to the reading-position file.
 - [x] App never crashes on missing images or bad navigation indexes.
-- [ ] **Decide the applicationId before the first upload.** Current: `com.aistudio.zeustestimony.qwerty`.
-      It is permanent once published. Change it in `app/build.gradle.kts` now if you want a clean ID
-      (for example `com.zeustestimony.app`).
+- [x] applicationId set to `com.zeusfactor.zeustestimony` (publisher: Zeus Factor). Permanent once published.
+- [ ] Use **Zeus Factor** as the developer name in Play Console so the listing matches the ID.
 - [ ] Build an Android App Bundle (AAB), not an APK:
       `./gradlew bundleRelease` -> `app/build/outputs/bundle/release/app-release.aab`
-      (the repo has no `gradlew` script yet; open it in Android Studio once, or run `gradle wrapper`).
+
 
 ## 2. Signing (Play App Signing)
 - [ ] Create an upload key once and back it up offline. Losing it means a key-reset request to Google.
@@ -59,8 +58,8 @@ Google rejects listings that present unproven claims as fact. The app itself is 
 - [ ] Full description (max 4000): see the draft below.
 - [ ] App icon: 512 x 512 PNG, 32-bit, max 1 MB.
 - [ ] Feature graphic: 1024 x 500 JPG/PNG.
-- [ ] Phone screenshots: 2-8, 1080 x 1920 recommended. Capture Home, a Volume, a Chapter with
-      commentary, and About.
+- [ ] Phone screenshots: 2-8, 1080 x 1920 recommended. Capture Home, a Chapter with
+      commentary, the verse actions sheet, and My Library.
 - [ ] Category: **Books & Reference**. Contact email required (shown publicly).
 
 ### Full description draft
@@ -70,10 +69,11 @@ as scripture-style verses, from the cold cloud before the Sun to the storms and 
 Its central idea: Jupiter was the first planet to form, so Zeus, the god whose name it carries, is
 the first god of the solar realm to hold a world.
 
-- 12 volumes, 49 chapters, 300+ verses
+- 12 volumes, 61 chapters, 400+ verses
 - Science notes summarising real research, labelled when an idea is still a hypothesis
 - Myth and History notes on Hesiod, Galileo, Voyager, Juno and Europa Clipper
 - Wisdom notes on building, patience, boundaries and endurance
+- Bookmarks, colour highlights, search and a verse of the day
 - Works fully offline. No ads, no accounts, no data collected.
 
 The Zeus Testimony is a work of speculative mythology inspired by planetary science. It is not a

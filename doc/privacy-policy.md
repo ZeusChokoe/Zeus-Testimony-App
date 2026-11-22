@@ -7,7 +7,7 @@ The Zeus Testimony ("the app") is an offline reading app.
 **Data we collect:** none. The app has no user accounts, no advertising, no analytics, no crash
 reporting service and no internet permission. It cannot send any information off your device.
 
-**Data stored on your device:** the chapter you last opened and your preferred text size. This is
+**Data stored on your device:** the chapter you last opened, your preferred text size, the chapters you have opened, and your bookmarks and highlights. This is
 kept in the app's private storage, is never transmitted by the app, and may be included in your own
 Android device backup if you have backup enabled. Uninstalling the app or clearing its storage deletes it.
 

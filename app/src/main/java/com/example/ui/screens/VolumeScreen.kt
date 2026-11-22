@@ -13,13 +13,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.data.LibraryStore
 import com.example.data.Position
 import com.example.data.Volume
 import com.example.ui.components.AssetImage
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun VolumeScreen(volume: Volume?, onOpenChapter: (Position) -> Unit, onBack: () -> Unit) {
+fun VolumeScreen(volume: Volume?, library: LibraryStore, onOpenChapter: (Position) -> Unit, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -65,7 +66,14 @@ fun VolumeScreen(volume: Volume?, onOpenChapter: (Position) -> Unit, onBack: () 
                         .padding(horizontal = 8.dp),
                     overlineContent = { Text("CHAPTER ${chapter.number}", color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.labelSmall) },
                     headlineContent = { Text(chapter.title, style = MaterialTheme.typography.titleSmall) },
-                    supportingContent = { Text("${chapter.verses.size} verses", style = MaterialTheme.typography.bodySmall) },
+                    supportingContent = {
+                        val read = "${volume.index}.${chapter.index}" in library.readChapters
+                        Text(
+                            (chapter.epigraph ?: "${chapter.verses.size} verses") + if (read) "  ·  Read" else "",
+                            style = MaterialTheme.typography.bodySmall,
+                            maxLines = 2,
+                        )
+                    },
                     colors = ListItemDefaults.colors(containerColor = MaterialTheme.colorScheme.background),
                     trailingContent = {
                         TextButton(onClick = { onOpenChapter(Position(volume.index, chapter.index)) }) { Text("Read") }

@@ -53,7 +53,7 @@ fun AboutScreen(testimony: Testimony, onBack: () -> Unit) {
             Section(
                 "Privacy",
                 "This app collects no personal data. It has no accounts, no advertising, no analytics and no internet " +
-                    "access. Your reading position and text size are stored only on this device.",
+                    "access. Your reading position, text size, bookmarks and highlights are stored only on this device.",
             )
             Text(
                 "Version ${BuildConfig.VERSION_NAME} · ${testimony.volumes.size} volumes · ${testimony.chapterCount} chapters · ${testimony.verseCount} verses",

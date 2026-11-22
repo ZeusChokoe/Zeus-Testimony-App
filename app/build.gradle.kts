@@ -13,11 +13,11 @@ android {
 
   defaultConfig {
     // WARNING: the applicationId is permanent once published on Google Play.
-    applicationId = "com.aistudio.zeustestimony.qwerty"
+    applicationId = "com.zeusfactor.zeustestimony"
     minSdk = 24
     targetSdk = 36
-    versionCode = 2
-    versionName = "2.0.0"
+    versionCode = 3
+    versionName = "2.1.0"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
@@ -83,6 +83,7 @@ dependencies {
   testImplementation(libs.androidx.compose.ui.test.junit4)
   testImplementation(libs.androidx.core)
   testImplementation(libs.robolectric)
+  testImplementation(libs.androidx.espresso.core)
   testImplementation(libs.roborazzi)
   testImplementation(libs.roborazzi.compose)
   androidTestImplementation(platform(libs.androidx.compose.bom))

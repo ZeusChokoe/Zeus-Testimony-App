@@ -2,4 +2,5 @@
 <!-- Android 11 and lower. Only the local reading position/text size is backed up. -->
 <full-backup-content>
     <include domain="sharedpref" path="reading.xml" />
+    <include domain="sharedpref" path="library.xml" />
 </full-backup-content>

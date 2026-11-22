@@ -1,5 +1,10 @@
 # Changes
 
+## 2.1.0
+- applicationId is now `com.zeusfactor.zeustestimony`.
+- 12 new chapters (61 total) and an opening epigraph for every chapter.
+- Bookmarks, highlights, My Library, search, verse of the day, reading progress, copy and share.
+
 ## 2.0.0
 - Replaced hard-coded `VerseRepository` (7 volumes, every chapter titled "Chapter 1", broken
   cross-reference IDs) with a parsed `testimony.txt`: 12 volumes, 49 auto-numbered chapters.

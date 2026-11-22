@@ -35,7 +35,12 @@ def main() -> int:
             elif key in ("subtitle", "summary"):
                 vol[key] = value
             elif key == "chapter":
-                vol["chapters"].append({"title": value, "image": None, "verses": 0})
+                vol["chapters"].append({"title": value, "image": None, "epigraph": None, "verses": 0})
+            elif key == "epigraph":
+                if ch is None:
+                    errors.append(f"line {n}: @epigraph must follow a @chapter")
+                else:
+                    ch["epigraph"] = value
             elif key == "image":
                 if not SAFE_IMAGE.match(value):
                     errors.append(f"line {n}: unsafe image name {value!r}")
@@ -58,6 +63,8 @@ def main() -> int:
             errors.append(f"volume {v['title']!r}: fewer than 4 chapters")
         wanted += [v["image"]] + [c["image"] for c in v["chapters"]]
         for c in v["chapters"]:
+            if not c["epigraph"]:
+                errors.append(f"chapter {c['title']!r}: missing @epigraph")
             if c["verses"] < 5:
                 errors.append(f"chapter {c['title']!r}: fewer than 5 verses")
 
@@ -71,6 +78,10 @@ def main() -> int:
     for name in oversized:
         print(f"  warning: {name} is over {MAX_IMAGE_BYTES // 1024} KB; compress it to WebP")
 
+    text = TEXT.read_text(encoding="utf-8")
+    for bad, name in (("\u2014", "em dash"), ("\u2013", "en dash")):
+        if bad in text:
+            errors.append(f"{name} found; use commas or full stops instead")
     for e in errors:
         print("ERROR", e)
     return 1 if errors else 0
