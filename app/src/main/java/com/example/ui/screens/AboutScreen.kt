@@ -51,6 +51,11 @@ fun AboutScreen(testimony: Testimony, onBack: () -> Unit) {
                     "https://science.nasa.gov/jupiter/",
             )
             Section(
+                "Credits",
+                "Illustrations are used with the permission of their artists.\n" +
+                    "Typefaces: Cinzel by Natanael Gama and Lora by Cyreal, both under the SIL Open Font License 1.1.",
+            )
+            Section(
                 "Privacy",
                 "This app collects no personal data. It has no accounts, no advertising, no analytics and no internet " +
                     "access. Your reading position, text size, bookmarks and highlights are stored only on this device.",

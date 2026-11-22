@@ -4,28 +4,24 @@ import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.googlefonts.Font
-import androidx.compose.ui.text.googlefonts.GoogleFont
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.sp
 import com.example.R
 
-val provider = GoogleFont.Provider(
-    providerAuthority = "com.google.android.gms.fonts",
-    providerPackage = "com.google.android.gms",
-    certificates = R.array.com_google_android_gms_fonts_certs
-)
-
-val CinzelFont = GoogleFont("Cinzel")
+// Fonts are bundled (SIL Open Font License, see /licenses) so the reader looks identical
+// on every device, offline, and without Google Play services.
 val CinzelFontFamily = FontFamily(
-    Font(googleFont = CinzelFont, fontProvider = provider, weight = FontWeight.Normal),
-    Font(googleFont = CinzelFont, fontProvider = provider, weight = FontWeight.Bold)
+    Font(R.font.cinzel_regular, FontWeight.Normal),
+    Font(R.font.cinzel_regular, FontWeight.Medium),
+    Font(R.font.cinzel_bold, FontWeight.Bold),
 )
 
-val LoraFont = GoogleFont("Lora")
 val LoraFontFamily = FontFamily(
-    Font(googleFont = LoraFont, fontProvider = provider, weight = FontWeight.Normal),
-    Font(googleFont = LoraFont, fontProvider = provider, weight = FontWeight.Medium),
-    Font(googleFont = LoraFont, fontProvider = provider, weight = FontWeight.Bold)
+    Font(R.font.lora_regular, FontWeight.Normal),
+    Font(R.font.lora_medium, FontWeight.Medium),
+    Font(R.font.lora_bold, FontWeight.Bold),
+    Font(R.font.lora_italic, FontWeight.Normal, FontStyle.Italic),
 )
 
 val Typography =

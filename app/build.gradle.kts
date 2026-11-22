@@ -16,8 +16,8 @@ android {
     applicationId = "com.zeusfactor.zeustestimony"
     minSdk = 24
     targetSdk = 36
-    versionCode = 4
-    versionName = "2.2.0"
+    versionCode = 5
+    versionName = "2.3.0"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
@@ -68,7 +68,6 @@ dependencies {
   implementation(libs.androidx.activity.compose)
   implementation(libs.androidx.compose.material.icons.core)
   implementation(libs.androidx.compose.material.icons.extended)
-  implementation("androidx.compose.ui:ui-text-google-fonts")
   implementation(libs.androidx.compose.material3)
   implementation(libs.androidx.compose.ui)
   implementation(libs.androidx.compose.ui.graphics)
