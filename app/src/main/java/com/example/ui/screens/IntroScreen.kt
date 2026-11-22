@@ -32,16 +32,16 @@ private val pages = listOf(
     IntroPage(
         "v03_c02.webp",
         "THE TESTIMONY",
-        "The first god to hold a world.",
-        "Jupiter carries the name of Zeus, the Sky Father. If Jupiter was the first world, then Zeus is the first god " +
-            "of the solar realm to hold one. Above him stands the Source, unnamed. This is his story.",
+        "You are part of this story.",
+        "Every atom in your body was forged in stars and gathered in the same cloud that made the Sun and Jupiter, " +
+            "the undying king that bears the name of Zeus. This is the history of how everything became, and of what you are made.",
     ),
     IntroPage(
         "v09_c01.webp",
-        "SCIENCE, MYTH AND WISDOM",
+        "SCIENCE, HISTORY AND WISDOM",
         "Read with open eyes.",
-        "The verses are an epic. Beneath them, notes marked Science, History and Myth tell you what is proven, " +
-            "what is still debated, and what the ancients sang. Wisdom notes are for your own life.",
+        "The verses are an epic. Beneath them, Science and History notes tell you what is proven and what is still " +
+            "debated, so the story always rests on real knowledge. Wisdom notes are for your own life.",
     ),
     IntroPage(
         "v12_c08.webp",

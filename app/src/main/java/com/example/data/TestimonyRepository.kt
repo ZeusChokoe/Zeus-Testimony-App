@@ -34,6 +34,11 @@ class ReadingPrefs(context: Context) {
             }.apply()
         }
 
+    /** Verse (1-based) at the top of the screen when the reader last left [lastRead]. */
+    var lastVerse: Int
+        get() = prefs.getInt(KEY_VERSE, 1).coerceAtLeast(1)
+        set(value) = prefs.edit().putInt(KEY_VERSE, value.coerceAtLeast(1)).apply()
+
     var introSeen: Boolean
         get() = prefs.getBoolean(KEY_INTRO, false)
         set(value) = prefs.edit().putBoolean(KEY_INTRO, value).apply()
@@ -49,5 +54,6 @@ class ReadingPrefs(context: Context) {
         private const val KEY_CHAPTER = "chapter"
         private const val KEY_SCALE = "text_scale"
         private const val KEY_INTRO = "intro_seen"
+        private const val KEY_VERSE = "verse"
     }
 }

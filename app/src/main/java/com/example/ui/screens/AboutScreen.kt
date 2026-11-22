@@ -14,7 +14,7 @@ import com.example.data.Testimony
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onBack: () -> Unit) {
+fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onLegal: () -> Unit, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -32,23 +32,23 @@ fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onBack: () -> Uni
         ) {
             Section(
                 "What this is",
-                "The Zeus Testimony is a work of speculative mythology and philosophy. It retells the formation of " +
-                    "the Solar System as an epic, built around one idea: Jupiter formed first among the planets, so " +
-                    "Zeus, whose name Jupiter carries, is presented as the first god of the solar realm to hold a world.",
+                "The Zeus Testimony is an epic history of how everything around you became: the first light, the cloud " +
+                    "before the Sun, Jupiter the first and undying world, the forging of the Earth, the rise of life, and " +
+                    "finally you, made of the same star-forged elements. It is written in the voice of a testimony, to " +
+                    "inspire as well as to teach.",
             )
             Section(
-                "Science, myth and wisdom",
-                "The verses are creative writing. Commentary notes are labelled: SCIENCE notes summarise published " +
-                    "research and say when an idea is a hypothesis; MYTH notes describe ancient stories; HISTORY notes " +
-                    "describe real events; WISDOM notes are reflections for the reader. The book does not ask anyone " +
-                    "to adopt a religion and does not claim that its narrative is scientifically proven.",
+                "Science, history and wisdom",
+                "The verses are creative writing. Beneath them, SCIENCE notes summarise published research and say when an " +
+                    "idea is still debated; HISTORY notes describe real people and events; WISDOM notes are reflections for " +
+                    "your own life. Statements about the spirit are the author's beliefs, offered for reflection.",
             )
             Section(
                 "Key sources",
                 "Kruijer et al., \"Age of Jupiter inferred from the distinct genetics and formation times of meteorites\", " +
                     "PNAS 114 (2017).\nWalsh et al., \"A low mass for Mars from Jupiter's early gas-driven migration\", " +
-                    "Nature 475 (2011).\nHesiod, Theogony (c. 700 BCE).\nNASA Solar System Exploration: " +
-                    "https://science.nasa.gov/jupiter/",
+                    "Nature 475 (2011).\nLaskar and Gastineau, \"Existence of collisional trajectories of Mercury, Mars and " +
+                    "Venus with the Earth\", Nature 459 (2009).\nNASA Solar System Exploration: https://science.nasa.gov/jupiter/",
             )
             Section(
                 "Credits",
@@ -58,8 +58,11 @@ fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onBack: () -> Uni
             Section(
                 "Privacy",
                 "This app collects no personal data. It has no accounts, no advertising, no analytics and no internet " +
-                    "access. Your reading position, text size, bookmarks and highlights are stored only on this device.",
+                    "access. Your reading position, text size, bookmarks, highlights and reading history are stored only " +
+                    "on this device, and are deleted when you uninstall the app.",
             )
+            OutlinedButton(onClick = onLegal) { Text("Privacy Policy and Terms of Use") }
+            Spacer(Modifier.height(8.dp))
             OutlinedButton(onClick = onShowIntro) { Text("Show the introduction again") }
             Spacer(Modifier.height(24.dp))
             Text(

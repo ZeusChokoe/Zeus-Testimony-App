@@ -1,5 +1,11 @@
 # Changes
 
+## 2.8.0
+- Volume X rewritten as "The Image of the Stars: What You Are Made Of" (10 chapters on the star-forged elements of the human body, pressure and strength, Jupiter's restrained power, the unbroken line of life, conservation of matter, and the undying king and mortal reader). Greek myths of Zeus's family removed throughout.
+- Privacy Policy and Terms of Use screen (About and home footer).
+- Resume prompt on launch: "Pick up where you paused" with the exact verse, shown for 5 seconds.
+- My Library gains a History tab.
+
 ## 2.7.0
 - Deepened the remaining 34 six-verse chapters; every chapter now has at least 7 verses (990 verses total).
 

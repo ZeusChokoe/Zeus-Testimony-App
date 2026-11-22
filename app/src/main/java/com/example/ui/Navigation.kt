@@ -13,6 +13,7 @@ import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -34,6 +35,7 @@ import com.example.ui.screens.AboutScreen
 import com.example.ui.screens.ChapterScreen
 import com.example.ui.screens.HomeScreen
 import com.example.ui.screens.IntroScreen
+import com.example.ui.screens.LegalScreen
 import com.example.ui.screens.LibraryScreen
 import com.example.ui.screens.SearchScreen
 import com.example.ui.screens.VolumeScreen
@@ -73,6 +75,7 @@ private fun TestimonyNavHost(testimony: Testimony) {
     val library = remember(testimony) { LibraryStore(context, testimony) }
     var lastRead by remember { mutableStateOf(prefs.lastRead?.takeIf { testimony.chapter(it) != null }) }
     var textScale by remember { mutableFloatStateOf(prefs.textScale) }
+    var resumePromptChecked by rememberSaveable { mutableStateOf(false) }
     val nav = rememberNavController()
 
     fun openChapter(p: Position, replaceCurrent: Boolean = false, verse: Int = -1) {
@@ -96,7 +99,11 @@ private fun TestimonyNavHost(testimony: Testimony) {
                 testimony = testimony,
                 library = library,
                 lastRead = lastRead,
+                lastVerse = prefs.lastVerse,
+                resumePromptChecked = resumePromptChecked,
+                onResumePromptChecked = { resumePromptChecked = true },
                 onOpenVerse = { openChapter(it.position, verse = it.verse) },
+                onLegal = { nav.navigate("legal") },
                 onSearch = { nav.navigate("search") },
                 onLibrary = { nav.navigate("library") },
                 onOpenVolume = { nav.navigate("volume/$it") },
@@ -134,7 +141,11 @@ private fun TestimonyNavHost(testimony: Testimony) {
                 focusVerse = entry.arguments?.getInt("verse") ?: -1,
                 textScale = textScale,
                 onTextScaleChange = { textScale = it; prefs.textScale = it },
-                onRead = { lastRead = it; prefs.lastRead = it; library.markRead(it) },
+                onRead = {
+                    if (prefs.lastRead != it) prefs.lastVerse = 1
+                    lastRead = it; prefs.lastRead = it; library.markRead(it)
+                },
+                onProgress = { p, verse -> if (p == prefs.lastRead) prefs.lastVerse = verse },
                 onNavigate = { openChapter(it, replaceCurrent = true) },
                 onBack = { nav.popBackStack() },
             )
@@ -144,9 +155,11 @@ private fun TestimonyNavHost(testimony: Testimony) {
                 testimony = testimony,
                 library = library,
                 onOpenVerse = { ref: VerseRef -> openChapter(ref.position, verse = ref.verse) },
+                onOpenChapter = { openChapter(it) },
                 onBack = { nav.popBackStack() },
             )
         }
+        composable("legal") { LegalScreen(onBack = { nav.popBackStack() }) }
         composable("search") {
             SearchScreen(
                 testimony = testimony,
@@ -155,7 +168,12 @@ private fun TestimonyNavHost(testimony: Testimony) {
             )
         }
         composable("about") {
-            AboutScreen(testimony = testimony, onShowIntro = { nav.navigate("intro") }, onBack = { nav.popBackStack() })
+            AboutScreen(
+                testimony = testimony,
+                onShowIntro = { nav.navigate("intro") },
+                onLegal = { nav.navigate("legal") },
+                onBack = { nav.popBackStack() },
+            )
         }
     }
 }
