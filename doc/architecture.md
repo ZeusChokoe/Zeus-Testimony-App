@@ -1,14 +1,32 @@
-# System Architecture
+# Architecture
 
-## Overview
-The application is built entirely on the Android platform using Kotlin and Jetpack Compose. 
+Offline, single-activity Jetpack Compose reader. No network, accounts, analytics, ads or database.
 
-## 1. Data Layer
-- `VerseRepository.kt`: In-memory data store containing all 7 Volumes, Books, Chapters, and Verses. Modeled statically to ensure zero latency during reads.
+## Content (`app/src/main/assets/testimony.txt`)
+The entire book is one plain-text file. Format is documented at the top of the file.
+Volumes, chapters and verses are numbered **by position**, never by hand. This is what fixed the
+old bug where every volume showed only "Chapter 1": numbering can no longer drift from content.
 
-## 2. UI Layer
-- `HomeScreen.kt`: The entry point. A scrollable list of `VolumeCard`s presenting the 7 volumes.
-- `ReaderScreen.kt`: The primary reading interface. Renders `Book`, `Chapter`, and `Verse` hierarchies. Includes a bottom-sheet interaction for scientific cross-referencing.
+Edit the text, then run `python3 tools/validate_testimony.py` before building.
 
-## 3. Navigation
-- Uses `androidx.navigation.compose`. Routes defined in `Navigation.kt`.
+## Data layer (`com.example.data`)
+- `Testimony.kt` - immutable model: `Volume -> Chapter -> Verse -> Note`, plus `next/previous`
+  navigation that crosses volume boundaries.
+- `TestimonyParser.kt` - strict parser; errors report the line number. Image names are whitelisted
+  (`[A-Za-z0-9_-]` + `.webp/.png/.jpg`), blocking asset path traversal.
+- `TestimonyRepository.kt` - loads and caches the file once, off the main thread.
+  `ReadingPrefs` stores last-read chapter and text size in app-private SharedPreferences.
+
+## UI layer (`com.example.ui`)
+- `Navigation.kt` - routes: `home`, `volume/{volume}`, `chapter/{volume}/{chapter}`, `about`.
+  Indexes are typed Int args and bounds-checked; invalid ones show "not found" instead of crashing.
+- `HomeScreen` - hero, continue-reading card, volume list.
+- `VolumeScreen` - volume illustration, summary, chapter list.
+- `ChapterScreen` - chapter illustration, numbered verses, colour-coded commentary, text-size control,
+  previous/next chapter.
+- `AboutScreen` - fiction/science disclaimer, sources, privacy statement.
+- `components/AssetImage.kt` - downsampling (max 1080 px wide), LRU-cached asset image loader.
+  Missing images render a themed gradient placeholder, so the app ships safely before art exists.
+
+## Images
+See `doc/images.md`.

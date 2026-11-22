@@ -1,0 +1,80 @@
+# Google Play submission checklist
+
+Status legend: [x] done in code, [ ] you must do it in Play Console / outside the repo.
+
+## 1. Technical requirements
+- [x] Target API 36 (Play requires API 35+ for new apps and updates since 31 Aug 2025).
+- [x] No dangerous or sensitive permissions. No INTERNET permission. Cleartext traffic disabled.
+- [x] No third-party SDKs that collect data (Firebase, App Check, OkHttp, Retrofit removed).
+- [x] Release build minified + resource-shrunk (R8).
+- [x] Predictive back enabled; edge-to-edge (mandatory look on Android 15+).
+- [x] Backup limited to the reading-position file.
+- [x] App never crashes on missing images or bad navigation indexes.
+- [x] applicationId set to `com.zeusfactor.zeustestimony` (publisher: Zeus Factor). Permanent once published.
+- [ ] Use **Zeus Factor** as the developer name in Play Console so the listing matches the ID.
+- [ ] Build an Android App Bundle (AAB), not an APK:
+      `./gradlew bundleRelease` -> `app/build/outputs/bundle/release/app-release.aab`
+
+
+## 2. Signing (Play App Signing)
+- [ ] Create an upload key once and back it up offline. Losing it means a key-reset request to Google.
+      `keytool -genkeypair -v -keystore upload.jks -alias upload -keyalg RSA -keysize 4096 -validity 10000`
+- [ ] Export `KEYSTORE_PATH`, `STORE_PASSWORD`, `KEY_PASSWORD` (and optionally `KEY_ALIAS`) before
+      `bundleRelease`. Never commit the `.jks` file (it is outside the repo by design).
+- [ ] Enrol in Play App Signing when creating the app (default).
+
+## 3. Play Console account (South Africa)
+- [ ] Register at https://play.google.com/console/signup. One-time USD 25 fee, paid by card;
+      South African cards work. Identity verification is required.
+- [ ] Personal accounts created after 13 Nov 2023 must run a **closed test with at least 12 testers
+      opted in for 14 consecutive days** before applying for production access. Plan for this.
+- [ ] Free app: no merchant account needed. (If you later sell, Google Payments supports SA payouts.
+      Stripe is not required.)
+
+## 4. Policy declarations (App content page)
+- [ ] **Privacy policy URL** (required for every app). Publish `doc/privacy-policy.md` at a public URL.
+      Free options: Google Sites https://sites.google.com/new or GitHub Pages (needs a public repo).
+      Fill in the contact email first.
+- [ ] **Data safety**: answer "No" to collecting and sharing data. That answer is accurate for this build.
+- [ ] **Ads**: "No, my app does not contain ads."
+- [ ] **App access**: "All functionality is available without special access."
+- [ ] **Target audience**: select **13-15, 16-17, 18+**. Do NOT select under-13 ranges; that pulls the
+      app into the Families policy for no benefit.
+- [ ] **Content rating (IARC)**: category "Reference, News, or Educational". Answer No to violence,
+      sex, gambling, etc. Mythology references are fine. Expect "Everyone"/PEGI 3 or similar.
+- [ ] **Government / financial / health apps**: No to all.
+
+## 5. Misleading-claims and religious-content risk
+Google rejects listings that present unproven claims as fact. The app itself is labelled correctly
+(About screen + home footer). Keep the store listing consistent:
+- Call it "speculative mythology", "an epic", or "a testimony", not "scientific proof".
+- Do not claim Zeus is real, or that the app proves anything. "Jupiter is the oldest planet" is fine;
+  it is a published scientific finding (Kruijer et al., PNAS 2017).
+- No attacks on other religions. The text honours the Greek myths while retelling them.
+
+## 6. Store listing assets
+- [ ] App name (max 30 chars): `The Zeus Testimony`
+- [ ] Short description (max 80): `An epic of the first planet: Jupiter, Zeus and the birth of the Solar System.`
+- [ ] Full description (max 4000): see the draft below.
+- [ ] App icon: 512 x 512 PNG, 32-bit, max 1 MB.
+- [ ] Feature graphic: 1024 x 500 JPG/PNG.
+- [ ] Phone screenshots: 2-8, 1080 x 1920 recommended. Capture Home, a Chapter with
+      commentary, the verse actions sheet, and My Library.
+- [ ] Category: **Books & Reference**. Contact email required (shown publicly).
+
+### Full description draft
+The Zeus Testimony is a 12-volume epic for curious readers. It retells the birth of the Solar System
+as scripture-style verses, from the cold cloud before the Sun to the storms and moons of Jupiter.
+
+Its central idea: Jupiter was the first planet to form, so Zeus, the god whose name it carries, is
+the first god of the solar realm to hold a world.
+
+- 12 volumes, 61 chapters, 400+ verses
+- Science notes summarising real research, labelled when an idea is still a hypothesis
+- Myth and History notes on Hesiod, Galileo, Voyager, Juno and Europa Clipper
+- Wisdom notes on building, patience, boundaries and endurance
+- Bookmarks, colour highlights, search and a verse of the day
+- Works fully offline. No ads, no accounts, no data collected.
+
+The Zeus Testimony is a work of speculative mythology inspired by planetary science. It is not a
+religious text and does not claim its narrative is scientifically proven.
