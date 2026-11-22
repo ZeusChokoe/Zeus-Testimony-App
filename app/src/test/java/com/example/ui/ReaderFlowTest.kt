@@ -43,6 +43,12 @@ class ReaderFlowTest {
     fun readThroughAVolume() {
         rule.setContent { AppTheme(darkTheme = true) { AppNavigation() } }
 
+        // First launch shows the introduction.
+        waitForText("There was a king.")
+        shot("0_intro")
+        rule.onNodeWithText("Next").performClick()
+        waitForText("The first god to hold a world.")
+        rule.onNodeWithText("Skip").performClick()
         waitForText("THE ZEUS TESTIMONY")
         rule.onNodeWithText("12 volumes", substring = true).assertExists()
         shot("1_home")

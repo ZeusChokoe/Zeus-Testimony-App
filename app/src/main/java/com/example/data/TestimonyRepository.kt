@@ -34,6 +34,10 @@ class ReadingPrefs(context: Context) {
             }.apply()
         }
 
+    var introSeen: Boolean
+        get() = prefs.getBoolean(KEY_INTRO, false)
+        set(value) = prefs.edit().putBoolean(KEY_INTRO, value).apply()
+
     var textScale: Float
         get() = prefs.getFloat(KEY_SCALE, 1f).coerceIn(MIN_SCALE, MAX_SCALE)
         set(value) = prefs.edit().putFloat(KEY_SCALE, value.coerceIn(MIN_SCALE, MAX_SCALE)).apply()
@@ -44,5 +48,6 @@ class ReadingPrefs(context: Context) {
         private const val KEY_VOLUME = "volume"
         private const val KEY_CHAPTER = "chapter"
         private const val KEY_SCALE = "text_scale"
+        private const val KEY_INTRO = "intro_seen"
     }
 }
