@@ -170,11 +170,13 @@ private fun VolumeCard(volume: Volume, read: Int, onClick: () -> Unit) {
             .clickable(onClick = onClick),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
     ) {
-        Row(Modifier.height(IntrinsicSize.Min)) {
+        // Fixed card height: an intrinsic-height row would let a portrait thumbnail
+        // stretch the card to the image's full natural height.
+        Row(Modifier.height(if (read > 0) 176.dp else 148.dp)) {
             AssetImage(
                 path = volume.image,
                 contentDescription = null,
-                modifier = Modifier.width(104.dp).fillMaxHeight().defaultMinSize(minHeight = 124.dp),
+                modifier = Modifier.width(104.dp).fillMaxHeight(),
                 cropAlignment = Alignment.TopCenter,
             ) {
                 Text(volume.numeral, style = MaterialTheme.typography.titleLarge, color = Color.White)
@@ -187,7 +189,13 @@ private fun VolumeCard(volume: Volume, read: Int, onClick: () -> Unit) {
                     fontWeight = FontWeight.Bold,
                 )
                 Spacer(Modifier.height(4.dp))
-                Text(volume.title, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.onSurface)
+                Text(
+                    volume.title,
+                    style = MaterialTheme.typography.titleSmall,
+                    color = MaterialTheme.colorScheme.onSurface,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                )
                 Spacer(Modifier.height(4.dp))
                 Text(
                     volume.subtitle,

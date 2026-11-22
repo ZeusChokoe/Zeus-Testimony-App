@@ -1,5 +1,10 @@
 # Changes
 
+## 2.5.0
+- Fix: home screen volume cards stretched to the full height of portrait thumbnails; cards now have a fixed height.
+- New LightModeTest renders the light theme.
+- 12 new chapters (121 total, 792 verses): gold from neutron star collisions, Cecilia Payne, Jupiter's flattening, the Martian meteorite ALH84001, Planet Nine, the Cradle of Humankind, Apophis in 2029, Linda Morabito and Io's volcanoes, the depth of Jupiter's winds, Io and Argus, Eugene Shoemaker, and the Courage to Begin.
+
 ## 2.4.0
 - 12 new story chapters (109 total, 720+ verses): the cosmic microwave background, the Orion Nebula, Romer and the speed of light, the Murchison meteorite, the discovery of Neptune, Snowball Earth, Halley's Comet, shadow transits, the Galileo probe's desert, Prometheus, the Golden Record and Pale Blue Dot, and the Seasons of a Life.
 
