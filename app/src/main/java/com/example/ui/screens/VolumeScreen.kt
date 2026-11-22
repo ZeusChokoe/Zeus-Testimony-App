@@ -42,7 +42,8 @@ fun VolumeScreen(volume: Volume?, library: LibraryStore, onOpenChapter: (Positio
                 AssetImage(
                     path = volume.image,
                     contentDescription = "Illustration for ${volume.title}",
-                    modifier = Modifier.fillMaxWidth().height(220.dp),
+                    modifier = Modifier.fillMaxWidth().height(420.dp),
+                    framed = true,
                 ) {
                     Text(volume.numeral, style = MaterialTheme.typography.displaySmall, color = Color.White)
                 }

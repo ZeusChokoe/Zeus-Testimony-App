@@ -8,7 +8,18 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.blur
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -71,6 +82,8 @@ fun AssetImage(
     path: String?,
     contentDescription: String?,
     modifier: Modifier = Modifier,
+    framed: Boolean = false,
+    cropAlignment: Alignment = Alignment.Center,
     fallback: @Composable BoxScope.() -> Unit = {},
 ) {
     val context = LocalContext.current
@@ -81,11 +94,14 @@ fun AssetImage(
     }
     Box(modifier) {
         val image = bitmap
-        if (image != null) {
+        if (image != null && framed) {
+            FramedArtwork(image, contentDescription)
+        } else if (image != null) {
             Image(
                 bitmap = image,
                 contentDescription = contentDescription,
                 contentScale = ContentScale.Crop,
+                alignment = cropAlignment,
                 modifier = Modifier.fillMaxSize(),
             )
         } else {
@@ -106,4 +122,40 @@ fun AssetImage(
             )
         }
     }
+}
+
+/**
+ * Shows the whole artwork in its own shape (portrait, square or landscape), never cropped,
+ * over a darkened and blurred copy of itself, with a thin gold frame.
+ * Blur needs Android 12+; older devices get the darkened backdrop without blur.
+ */
+@Composable
+private fun BoxScope.FramedArtwork(image: ImageBitmap, contentDescription: String?) {
+    val ratio = image.width.toFloat() / image.height.coerceAtLeast(1)
+    Image(
+        bitmap = image,
+        contentDescription = null,
+        contentScale = ContentScale.Crop,
+        modifier = Modifier.fillMaxSize().blur(28.dp),
+    )
+    Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.55f)))
+    Image(
+        bitmap = image,
+        contentDescription = contentDescription,
+        contentScale = ContentScale.Fit,
+        modifier = Modifier
+            .align(Alignment.Center)
+            .padding(horizontal = 20.dp, vertical = 18.dp)
+            .aspectRatio(ratio, matchHeightConstraintsFirst = true)
+            .shadow(16.dp, RoundedCornerShape(4.dp))
+            .clip(RoundedCornerShape(4.dp))
+            .border(1.dp, Color(0xFFC9A227).copy(alpha = 0.7f), RoundedCornerShape(4.dp)),
+    )
+    Box(
+        Modifier
+            .align(Alignment.BottomCenter)
+            .fillMaxWidth()
+            .height(28.dp)
+            .background(Brush.verticalGradient(listOf(Color.Transparent, MaterialTheme.colorScheme.background))),
+    )
 }

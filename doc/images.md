@@ -6,8 +6,8 @@ supplied shows a styled placeholder, so you can add them gradually. Run
 
 ## Specification
 - Format: **WebP** (Android Studio: right-click image > Convert to WebP, quality 80).
-- Size: 1600 x 900 px (16:9) for volumes, chapters and the hero. Images are center-cropped.
-- Weight: keep each under ~250 KB. 74 images x 250 KB = ~18 MB, well under Play's 200 MB AAB limit.
+- Size: any orientation. Images are stored at most 900 px wide and 1500 px tall. Chapter and volume headers show the WHOLE image framed over a blurred copy of itself, so portrait, square and landscape art all display uncropped. Volume list thumbnails crop toward the top.
+- Weight: keep each under ~300 KB (the validator warns above 360 KB). The current 74 images total about 15 MB, well under Play's 200 MB AAB limit.
 - Keep important subject matter in the centre; the volume list crops thumbnails to a tall strip.
 
 ## Rights (Play policy: Intellectual Property)
@@ -94,3 +94,9 @@ film/game franchise.
 | `v12_c03.webp` | Vol 12 Ch 3: On Storms Within |
 | `v12_c05.webp` | Vol 12 Ch 4: The Seven Disciplines |
 | `v12_c04.webp` | Vol 12 Ch 5: The Final Anchor |
+
+## Source of the current images
+The 74 images were selected by the owner from their own supplied collection (November 2026) and
+matched to each chapter's subject. Excluded from that collection: recognisable film franchise
+characters, nudity, religious symbols, and off-theme modern scenes. Small signatures on four images
+were cropped. The owner is responsible for holding the rights to publish every image on Google Play.
