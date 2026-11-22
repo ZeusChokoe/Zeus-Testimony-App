@@ -1,5 +1,9 @@
 # Changes
 
+## 2.2.0
+- 24 new chapters (85 total, 559 verses): Patterson and the age of the Earth, organic molecules in space, HL Tauri, hot Jupiters, the Sun-Jupiter barycentre, why Jupiter is not a star, the asteroid belt, Ceres, the Kuiper Belt and Pluto, interstellar visitors, the Great Oxidation, Chicxulub, DART, Tunguska and Chelyabinsk, Europa's plumes, Loki Patera, the Great Blue Spot, helium rain, the signs of Zeus, the Statue at Olympia, the 2020 Great Conjunction, Galileo's final plunge, the Book of Questions, and a letter to the reader.
+- Illustrations for every volume and chapter (98), framed by orientation.
+
 ## 2.1.0
 - applicationId is now `com.zeusfactor.zeustestimony`.
 - 12 new chapters (61 total) and an opening epigraph for every chapter.
