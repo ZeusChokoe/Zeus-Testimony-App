@@ -1,5 +1,8 @@
 # Changes
 
+## 2.10.0
+- Volume XII recast from life advice into proverb, psalm and testimony: The Song of the Builder, The Psalm of the Storm, The Seven Witnesses, The Testimony Speaks, The Night Watch, The Ages of the Realm, and The First Gathering.
+
 ## 2.9.0
 - New volume, "The Acts of the Sky Father" (11 chapters): Zeus's house and lineage told with honour, the freeing of the Cyclopes, the Titanomachy, the casting of lots, the law of the stranger (Baucis and Philemon), Zeus Horkios and the Zanes, the Muses, the eagle, oak and thunderbolt, the Statue at Olympia, Marduk and the Enuma Elish, and the thunder gods of many peoples (Thor, Perun, Indra, Shango).
 - Seals: each volume carries a hidden verse revealed only when all its chapters have been read.

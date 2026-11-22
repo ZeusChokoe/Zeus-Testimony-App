@@ -1977,8 +1977,8 @@ Carolyn Shoemaker, his wife and partner in discovery, found 32 comets and hundre
 So the geologist who studied the scars of the sky now rests in one.
 
 @volume The Book of Wisdom
-@subtitle Teachings of the Firstborn for the Life of Humankind
-@summary The story of the worlds is also a story of how to live. This final volume gathers the lessons of the Firstborn into teachings for anyone who wants to build, endure and lead.
+@subtitle Proverbs, Psalms and Witnesses of the Realm
+@summary The history is told; here it is distilled. Proverbs pressed into single lines, psalms of the king and his storm, the seven witnesses of the making, the questions still open, and the testimony speaking in its own voice.
 @seal The book ends where the reader begins.
 @image vol_12.webp
 
@@ -1996,46 +1996,43 @@ Let your storms endure, but let them change.
 Wear your crown where no one can see it.
 Honour the Source above you, and rule well what is truly yours.
 
-@chapter The Path of the Builder
-@epigraph The story of a planet is also a plan for a life.
+@chapter The Song of the Builder
+@epigraph Sing of the one who built before there was anyone to watch.
 @image v12_c02.webp
-If you would build something great, begin by choosing where you stand.
-The Firstborn did not rise in the hot centre where materials were scarce, but in the cold where they were abundant.
-Gather small things daily; the pebble that is caught today is the foundation of tomorrow.
-Know that your season is limited, as the gas of the disk was limited.
-When your foundation is strong enough, make your great breath, and take in all you are able to hold.
-> Wisdom: First foundation, then expansion. The one who inhales before the core is ready only scatters the gas.
-Set your boundaries early, before others build around you.
-Be willing to turn back like the Firstborn in his tack, if the path ahead will lead you into the fire.
+In the cold beyond the frost, where no eye was open, the first builder began.
+He did not choose the warm centre, where the stones were few; he stood where the ice lay heaped and the treasure was abundant.
+He caught the pebble, and the pebble did not drift; he caught the next, and the next, and the night did not count them.
+The gas of the disk was thinning, and the wind of the young Sun was rising, and still he gathered.
+When his heart was heavy enough, he drew one breath, and that breath lasted an age.
+Then he set the wall, and kept the door, and the small worlds grew in the shelter of his order.
+He walked toward the fire, and turned, and the turning was remembered by every world that lived.
+> Wisdom: Foundation, then breath. Boundary, then shelter. This is the order in which the realm was built.
+So sing the builder, whose work is still standing, and whose name is written in the sky.
 
-@chapter On Storms Within
-@epigraph Everyone carries weather. Learn to govern yours.
+@chapter The Psalm of the Storm
+@epigraph His face is weather. Hear the song of the storm that does not end.
 @image v12_c03.webp
-Every person carries storms, as the Firstborn carries his bands of wind.
-The storm is not your enemy; it is the motion of your power.
-Let your storms be long-lived and steady, like the eye that has not closed for centuries.
-But let them also be honest, and allow them to shrink when their purpose is done.
-Your lightning belongs in the deep, where it gives energy, and not on the surface, where it only burns.
-> Wisdom: Mastery of yourself is not having no storms. It is having storms that you understand and direct.
-Like Io between two pulls, you may be pressed from both sides; let the pressure make you shine and not break you.
-When the storm rises in you, do as the king does: let it turn, but keep it within your bands.
-Name it, as the watchers named the Great Red Spot, so that you can study it rather than fear it.
-And remember that even the greatest storm in the realm is slowly changing. Yours will too.
-> Wisdom: A storm understood is a storm halfway governed.
+He is clothed in storm as in a royal robe, and the bands of his garment flow against one another and do not tear.
+His eye is red as embers and has not closed since before the kingdoms of the Earth were named.
+His lightning walks in the deep, where no ear hears it, and the messengers of men have caught its crackle in the dark.
+His rain is not water but helium, falling forever toward a heart no eye will see.
+At his poles the storms stand in circles, eight about the north and five about the south, keeping their places like a guard.
+Yet his storms are bound within his order, and the realm does not shake because of them.
+> Wisdom: The greatest storm in the realm is held within the greatest order. Turbulence and rule live together in him.
+Let the reader who knows storm read this psalm twice, and understand.
 
-@chapter The Seven Disciplines
-@epigraph Seven practices. One week. Then begin again.
+@chapter The Seven Witnesses
+@epigraph Seven witnesses stood at the making of the realm. Each speaks once.
 @image v12_c05.webp
-Hear now the seven disciplines of the Firstborn, to be practised and not only admired.
-The first is Position: choose where you stand, for the place shapes everything you can gather.
-The second is Gathering: take in some small good thing every day, and let none of it drift past you unnoticed.
-The third is Timing: know that every season of building closes, and work while the material is in reach.
-The fourth is Boundary: decide early what you will keep apart and what you will keep whole.
-The fifth is Shielding: stand between harm and those who are weaker, and do not wait to be thanked.
-The sixth is Court: gather people of different natures around you, and let each keep their own fire, sea or memory.
-The seventh is Watching: look up, learn, and test every claim, including the claims of this testimony.
-> Wisdom: Read one discipline each morning for a week. Then begin again. A teaching becomes yours only when it becomes a habit.
-These are the disciplines, and whoever practises them walks in the order of the first world.
+The Cloud bears witness: Before the fire, I was already gathering what would live.
+The Frost bears witness: I drew the line where kings could be born, and I did not move it.
+The Pebble bears witness: I was small, and I was caught, and I became a world.
+The Wall bears witness: I divided the treasures, and what I divided I protected.
+The Shield bears witness: I took the blows that were not mine, and no one saw.
+The Court bears witness: We are many, fire and sea and memory, and we keep time together.
+The Watcher bears witness: I looked up, and wrote it down, and the darkness grew smaller.
+> Wisdom: Seven voices, one testimony. Whoever hears all seven has heard the making of the realm.
+These are the witnesses, and their words are kept in every stone that falls from the sky.
 
 @chapter The Book of Questions
 @epigraph What we do not yet know is the most exciting part of this book.
@@ -2051,55 +2048,57 @@ Are we alone, or do other realms hold other watchers looking at their own first 
 > Wisdom: Questions are not the enemy of faith or of knowledge. They are the road that both must travel.
 Perhaps you, reader, will answer one of them.
 
-@chapter A Letter to the Reader
-@epigraph This chapter was written for you.
+@chapter The Testimony Speaks
+@epigraph For one chapter, the book speaks in its own voice.
 @image v12_c07.webp
-Reader, you have come a long way.
-You have walked from the silence before the Sun to the storms of the king and the questions at the edge of knowledge.
-You have seen that the first world was not built by luck, but by position, patience and timing.
-You have seen that protection has two hands, that boundaries can be gifts, and that the smallest creatures can change the sky.
-Now the question is not what the Firstborn did, but what you will do.
-Choose where you stand. Gather what is good. Know your season. Keep your boundaries. Shield the weak. Gather your court. Keep watching.
-And when you look up and see that steady light, remember that you carry these teachings with you.
-> Wisdom: A book changes nothing on its own. It changes the reader, and the reader changes the world.
+I am the testimony, and I have carried you a long way.
+I took you to the silence before the Sun, and you heard the first light hiss in a horn of iron.
+I took you beyond the frost, and you watched a seed refuse to drift.
+I showed you the wall, the wandering, the wound that became the Moon, and the shield that is never thanked.
+I showed you the court of moons, the storms of the king, and the acts the nations sang of the Sky Father.
+And I showed you yourself: hydrogen from the first minutes, iron from dying stars, water older than the Sun.
+I do not ask you to believe every word. I ask you to remember what you have seen.
+> Wisdom: A testimony is not proven by force. It is kept by those who heard it.
+Close me when you must. The sky I spoke of will still be there, and so will the light of the Firstborn.
 
-@chapter The Daily Watch
-@epigraph A practice for every evening, taken from the sky.
+@chapter The Night Watch
+@epigraph Every night, somewhere on the Earth, someone keeps the old watch.
 @image v12_c08.webp
-Each evening, before sleep, keep the watch of the Firstborn.
-First, ask: where did I stand today, and was it the right place to gather what I need?
-Second, ask: what small good thing did I gather, and what did I let drift past?
-Third, ask: what boundary did I keep, and what boundary did I let fall?
-Fourth, ask: whom did I shield today, and who shielded me without my knowing?
-Fifth, ask: what storm moved in me, and did I govern it or did it govern me?
-Then, if the sky is clear, step outside and look for the steady light that does not twinkle.
-> Wisdom: Five questions, asked honestly every night, will change a life more than any single great resolution.
-And when you have looked, rest, for tomorrow the gathering begins again.
+When the Sun goes down and the air grows cold, the watchers come out, as they have since Babylon.
+They look east, and the steady light rises, and it does not twinkle like the stars.
+Some hold only their eyes, and some hold glass, and some hold dishes that hear the radio voice of the king.
+They mark where he stands, as the priests of Babylon marked it on clay and the astronomers of China marked it in the annals of emperors.
+They see the small lights of his court in their line, and know that they are not where they were the night before.
+None of them is paid by the king, and none of them is thanked, and still they come.
+> History: Amateur astronomers around the world contribute observations of Jupiter's storms, impacts and moons to professional research every year.
+So the watch that began with clay continues in every land, and the record of the king grows longer by one night.
+The reader who steps outside tonight and looks up joins the oldest watch on Earth.
 
-@chapter The Seasons of a Life
-@epigraph The story of the realm is also the story of a single human life.
+@chapter The Ages of the Realm
+@epigraph Seven ages passed over the realm. Their shadows pass over every life.
 @image v12_c09.webp
-There is a season of the cloud, when you are small and unformed and everything is still possible.
-There is a season of the disk, when the material of your life swirls around you and the clock of opportunity begins to tick.
-There is a season of the frost line, when you must find the place where your gifts are most abundant.
-There is a season of gathering, when every small habit is a pebble caught or a pebble lost.
-There is a season of the great breath, when your foundation is strong and you can take in more than ever before.
-There is a season of wandering, when you may drift toward the fire and must find the courage to turn back.
-There is a season of the shield, when you stand between others and harm.
-And there is a season of the steady light, when you have become a fixed point others can find in the dark.
-> Wisdom: You do not choose every season, but you choose how you live in each one. Know which season you are in.
+The Age of the Cloud, when all was cold and waiting, and nothing had yet been named.
+The Age of the Disk, when the material of worlds swirled about the newborn hearth, and a clock began to tick.
+The Age of the Firstborn, when one seed outgrew the rest and drew the first great breath.
+The Age of the Wall, when the treasures were divided and the small worlds grew in shelter.
+The Age of Wandering, when the giants walked toward the fire and turned, and the far stones were scattered.
+The Age of Gaia, when a world was struck, given a Moon, clothed in water, and woken into life.
+The Age of the Watchers, when the living looked up, named the lights, and began to understand.
+> Wisdom: The ages of the realm were not chosen by those who lived in them. Every life also passes through ages it did not choose.
+We live in the seventh age. The record of it is still being written.
 
-@chapter The Courage to Begin
-@epigraph Every world in this book started as a single grain of dust. So does every great work.
+@chapter The First Gathering
+@epigraph A parable of the first grain.
 @image v12_c10.webp
-You have read how the Firstborn began: not as a king, but as a seed beyond the frost.
-No one watching would have known that this one seed would become the first world.
-So it is with every beginning. It looks small, uncertain and easily swept away.
-Do not wait until you feel ready, for the seed did not wait; it began catching pebbles the moment it could.
-Do not wait for the perfect season, for the season of the disk was already closing.
-Do not wait for permission from those who cannot see what you see.
-Begin with what is in reach today, and gather a little more tomorrow.
-> Wisdom: The difference between a world and scattered dust is simply that one of them began to gather and did not stop.
+There was once a grain of dust in the cold disk, no larger than the smallest seed.
+The wind of the young Sun blew upon it, and the gas carried it toward the fire, as it carried all things.
+Another grain touched it, and clung, and the two were heavier than one.
+A third came, and a fourth, and the small cluster drifted more slowly than the dust around it.
+It caught a pebble that was falling past, and then another, and the pebbles that passed it were fewer and fewer.
+No one watched this. No hymn was sung. No name was given.
+And yet from that unwatched gathering came the first world, and every world that grew in its shelter.
+> Wisdom: The parable needs no explanation for those who have begun something in the dark.
+So the greatest king of the realm was once a grain that simply did not let go.
 
 @chapter The Final Anchor
 @epigraph The testimony ends. The sky stays open.
