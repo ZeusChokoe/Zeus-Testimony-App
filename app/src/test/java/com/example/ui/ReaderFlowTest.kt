@@ -50,8 +50,9 @@ class ReaderFlowTest {
         rule.onNode(hasScrollAction()).performScrollToNode(hasText("The Firstborn"))
         rule.onAllNodesWithText("The Firstborn").onFirst().performClick()
         waitForText("VOLUME III")
-        rule.onNodeWithText("CHAPTER 4").assertExists()
         shot("2_volume")
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("CHAPTER 4"))
+        rule.onNodeWithText("CHAPTER 4").assertExists()
 
         rule.onNodeWithText("The Claiming of the First World").performClick()
         waitForText("Vol. III · Ch. 2")

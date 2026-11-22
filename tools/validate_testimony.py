@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TEXT = ROOT / "app/src/main/assets/testimony.txt"
 IMAGES = ROOT / "app/src/main/assets/images"
 SAFE_IMAGE = re.compile(r"^[A-Za-z0-9_\-]+(/[A-Za-z0-9_\-]+)*\.(webp|png|jpg|jpeg)$")
-MAX_IMAGE_BYTES = 400 * 1024
+MAX_IMAGE_BYTES = 360 * 1024
 
 
 def main() -> int:

@@ -122,7 +122,8 @@ fun ChapterScreen(
                 AssetImage(
                     path = chapter.image ?: volume.image,
                     contentDescription = "Illustration for ${chapter.title}",
-                    modifier = Modifier.fillMaxWidth().height(200.dp),
+                    modifier = Modifier.fillMaxWidth().height(400.dp),
+                    framed = true,
                 ) {
                     Text("${volume.numeral} · ${chapter.number}", style = MaterialTheme.typography.titleLarge, color = Color.White)
                 }

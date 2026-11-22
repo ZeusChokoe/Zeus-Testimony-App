@@ -175,6 +175,7 @@ private fun VolumeCard(volume: Volume, read: Int, onClick: () -> Unit) {
                 path = volume.image,
                 contentDescription = null,
                 modifier = Modifier.width(104.dp).fillMaxHeight().defaultMinSize(minHeight = 124.dp),
+                cropAlignment = Alignment.TopCenter,
             ) {
                 Text(volume.numeral, style = MaterialTheme.typography.titleLarge, color = Color.White)
             }

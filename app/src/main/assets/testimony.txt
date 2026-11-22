@@ -78,6 +78,36 @@ Every meteorite that strikes the Earth is a letter from the age of the disk, sea
 And it is from such letters that men learned the age of the Firstborn.
 > Wisdom: The truth is often delivered by the humblest messenger. A black stone in a farmer's field held the age of the Solar System.
 
+@chapter The Age Written in Lead
+@epigraph In which a quiet chemist weighs the Earth's age and then saves the air you breathe.
+@image v01_c06.webp
+In the year 1953, a young chemist named Clair Patterson sat in a laboratory in California, trying to count atoms of lead.
+He had been given a simple task: find the age of the Earth.
+But the Earth's own rocks had been melted and remade too many times to remember their birth.
+So he turned to the stones that fell from the sky, and to one meteorite above all, from Canyon Diablo in Arizona.
+> History: Patterson measured lead isotopes in the Canyon Diablo meteorite and published an age for the Earth of about 4.55 billion years in 1956. That value still stands today.
+When his answer came, he drove through the night to his mother's house in Iowa, so overwhelmed that he feared he was having a heart attack.
+Yet his work was not finished, for he had found lead everywhere, in his air, in his water, in the dust of his own laboratory.
+It poured from the engines of the world, burned in petrol and breathed by every child.
+> History: Patterson spent decades campaigning against leaded petrol. It was phased out in the United States from the 1970s and banned worldwide for cars by 2021.
+He was mocked and opposed, and he did not stop.
+> Wisdom: The same honest measurement that reveals the age of the world can reveal a poison in it. Follow the truth even when it leads somewhere inconvenient.
+So the man who first read the true age of the Earth also helped to protect the people living on it.
+
+@chapter The Seeds in the Cold
+@epigraph In which the cloud before the Sun is found to be full of the ingredients of life.
+@image v01_c07.webp
+Long before there was a world to live upon, the ingredients of life were already drifting in the dark.
+In the cold clouds between the stars, atoms met upon the faces of frozen dust and joined into molecules.
+Water, ammonia, methanol, and stranger things were formed there, in a cold that no living thing could bear.
+> Science: Astronomers have detected more than two hundred different molecules in space, including glycolaldehyde, a simple sugar found in a gas cloud near the centre of our galaxy in 2000.
+In the year 2014, a messenger named Rosetta arrived at a comet and tasted the dust that streamed from it.
+It found glycine, one of the building blocks of the proteins in your own body.
+> Science: The European Space Agency's Rosetta mission detected the amino acid glycine and phosphorus in the coma of comet 67P/Churyumov-Gerasimenko, reported in 2016.
+So the seeds of living things were older than the Earth that would one day hold them.
+The Source did not wait for a world to be finished before preparing what would live upon it.
+> Wisdom: Preparation often begins long before the purpose is visible. What you are gathering now may matter in a world you cannot yet see.
+
 @chapter The Order of the Testimony
 @epigraph In which the road ahead is shown, so that no reader walks it blind.
 @image v01_c04.webp
@@ -148,6 +178,31 @@ Any world that wished to clothe itself in gas had to grow great before the wind 
 Most did not. They remained bare stone, or they never became worlds at all.
 One alone began the race first, and so one alone finished it first.
 > Wisdom: Opportunity is not only given; it is also taken away. The wind of time does not wait for the hesitant.
+
+@chapter The Children of Other Stars
+@epigraph In which humanity looks at another star and sees the disk of our own beginning.
+@image v02_c06.webp
+For ages men could only imagine how the disk of the realm had looked.
+Then, in the year 2014, a great array of radio dishes in the high desert of Chile turned toward a young star called HL Tauri.
+> Science: The Atacama Large Millimeter/submillimeter Array (ALMA) produced its famous image of HL Tauri's disk in 2014. The star is less than a million years old and lies about 450 light years away.
+What it saw made the watchers gasp: a glowing disk, carved with dark rings and bright bands, like the grooves of a record.
+In those dark rings, many believe, young worlds are already sweeping the dust from their paths.
+It was as if the past of our own realm had been projected onto a distant sky.
+Since then, the watchers have photographed many such disks, each one a nursery of worlds.
+> Wisdom: When you cannot see your own beginning, look at others who are beginning now. Their struggles may show you your own story.
+
+@chapter The Giants Who Fell into the Fire
+@epigraph In which the reader learns of kings in other realms who wandered too close and burned.
+@image v02_c07.webp
+In the year 1995, two astronomers in Switzerland, Michel Mayor and Didier Queloz, found a world circling another Sun-like star.
+It was a giant like the Firstborn, yet it circled its star in just over four days, closer than Mercury is to our Sun.
+> Science: 51 Pegasi b was the first planet found orbiting a Sun-like star. Mayor and Queloz shared the 2019 Nobel Prize in Physics for the discovery.
+Its face burns at more than a thousand degrees.
+Men named such worlds hot Jupiters, giants that did not stay where they were born.
+> Science: Most astronomers think hot Jupiters formed farther out and migrated inward through their disks, or were thrown inward later by gravitational encounters.
+In other realms, the king walked toward the fire and did not turn back.
+In our realm, the Firstborn turned, and so the inner worlds were spared.
+> Wisdom: Every journey toward the fire needs a moment of turning. The difference between a king and a ruin is often the decision to go back.
 
 @chapter Wisdom of the Small Things
 @epigraph In which the dust itself becomes a teacher.
@@ -234,6 +289,32 @@ Others say he was born this way, gathering stone and gas together in one long br
 The heart of the king remains a mystery, and this testimony will not pretend otherwise.
 > Wisdom: Even the greatest have depths they have not fully revealed. Approach every life, including your own, with respect for what is still unknown.
 
+@chapter The Weight of the King
+@epigraph In which the Sun itself is found to bow toward the Firstborn.
+@image v03_c06.webp
+It is said that the planets circle the Sun, and this is nearly true.
+But in truth, the Sun and the Firstborn circle each other, turning around a shared point of balance.
+For every other world, that point lies deep inside the Sun.
+For the Firstborn alone, the point lies outside the Sun's own surface.
+> Science: The centre of mass of the Sun and Jupiter lies about 1.07 solar radii from the Sun's centre, just above its visible surface.
+So the great hearth of the realm sways each year to the pull of its first world, tracing a slow circle in the sky.
+Watchers in other realms, if any exist, might detect our Sun's wobble and know that a giant walks beside it.
+> Science: Measuring a star's wobble, called the radial velocity method, is exactly how 51 Pegasi b and hundreds of other planets were found.
+> Wisdom: True weight is measured by how much you move the things around you, not by how loudly you speak.
+
+@chapter The Star That Was Not Lit
+@epigraph In which the reader asks whether the Firstborn was meant to be a second Sun.
+@image v03_c07.webp
+Some have called the Firstborn a failed star, and this testimony will answer them.
+To light the fire of a true star, a world would need about eighty times the weight of the Firstborn.
+> Science: Objects need roughly 75 to 80 times Jupiter's mass to sustain hydrogen fusion. Between about 13 and 80 Jupiter masses lie brown dwarfs, which glow faintly for a time.
+The Firstborn never came close to that measure, and he was never meant to.
+Yet he is not cold, for he gives off more heat than he receives from the Sun.
+> Science: Jupiter radiates about 1.6 to 1.7 times as much energy as it absorbs from sunlight. Much of this comes from slow contraction, estimated at about two centimetres per year.
+He is still slowly settling inward, still releasing the warmth of his own birth, after four and a half thousand million years.
+He did not fail to be a star; he succeeded at being a king.
+> Wisdom: Do not measure yourself by what you were never meant to become. Be complete in what you are.
+
 @volume The Wall Between the Realms
 @subtitle The Great Dividing
 @summary By his growing alone, the Firstborn split the disk into two kingdoms with two different treasuries of matter. The stones of the sky still carry the mark of that wall.
@@ -289,6 +370,35 @@ Some believe these stones are among the most ancient leftovers of the realm, cap
 In the year 2021, men sent a messenger named Lucy to visit them, one after another, across twelve years of journeying.
 > History: NASA's Lucy mission launched on 16 October 2021. It is planned to fly past several Trojan asteroids between 2027 and 2033.
 > Wisdom: Those who stand close to power must learn balance. The Trojans neither fall into the king nor escape him; they have found their place.
+
+@chapter The Unfinished World
+@epigraph In which the reader walks through the ruins of a world that was never allowed to be built.
+@image v04_c06.webp
+Between the red world and the Firstborn lies a wide road of broken stones.
+Men call it the asteroid belt, and once they believed it was the ruin of a shattered planet.
+The truth is stranger: it is a world that was never allowed to be born.
+The pull of the Firstborn stirred those stones so fiercely that they struck one another too hard to join.
+> Science: The total mass of the asteroid belt is only about three percent of the Moon's mass. Jupiter's gravity kept its material from assembling into a planet.
+Even now, the belt bears his fingerprints.
+At certain distances, where a stone would circle the Sun three times for each one of his circuits, the belt is nearly empty.
+> History: In 1866 the American astronomer Daniel Kirkwood noticed these gaps and linked them to orbital resonances with Jupiter. They are called the Kirkwood gaps.
+Stones that stray into those lanes are pushed out, and some of them eventually fall to Earth as meteorites.
+> Wisdom: Some things are not destroyed; they are simply never permitted to begin. Not every unfinished work is a failure. Some are a sacrifice made for a larger order.
+
+@chapter Ceres, the Dwarf at the Door
+@epigraph In which the largest stone of the broken road is found to hold salt and perhaps water.
+@image v04_c07.webp
+On the first night of the year 1801, a priest and astronomer named Giuseppe Piazzi was watching the sky from Palermo in Sicily.
+He saw a faint star that moved, and he followed it night after night.
+He named it Ceres, after the Roman goddess of the harvest, the sister of Jupiter himself.
+> Myth: Ceres is the Roman name of Demeter, goddess of grain and harvest. In Greek myth she is a sister of Zeus.
+For a time Ceres was called a planet, then an asteroid, and at last a dwarf planet.
+> History: In 2006 the International Astronomical Union classed Ceres as a dwarf planet, alongside Pluto.
+In the year 2015, a messenger named Dawn arrived and circled her.
+In a crater named Occator, it found shining white spots, brighter than anything around them.
+> Science: Dawn found that the bright spots in Occator crater are mostly sodium carbonate, salts left behind when briny water rose from below and evaporated.
+So the greatest stone of the unfinished world still holds the memory of water in its heart.
+> Wisdom: Even what never became a world can hold something precious. Look closely at what others overlook.
 
 @chapter The Wisdom of Boundaries
 @epigraph In which the reader learns why a fence can be a kindness.
@@ -369,6 +479,33 @@ When the storm was over, the giants stood in the places we know today, and the r
 The Firstborn moved the least of all, for he was the heaviest and the anchor of the dance.
 > Wisdom: When everything around you is thrown into disorder, be the one who moves the least. Steadiness in chaos is the mark of the one who leads.
 
+@chapter The Far Dark
+@epigraph In which the reader journeys past the last giant to the frozen edge of the realm.
+@image v05_c06.webp
+When the giants rearranged the realm, many icy stones were flung into the far dark beyond Neptune.
+There they remain, a vast belt of frozen worlds, cold and slow and silent.
+> Science: The Kuiper Belt lies beyond Neptune, roughly 30 to 50 times Earth's distance from the Sun. The first Kuiper Belt object after Pluto was found in 1992.
+In the year 1930, a young farm boy from Kansas named Clyde Tombaugh found the brightest of these, and it was named Pluto.
+For seventy six years it was called a planet, until the watchers understood it was one among many.
+In the year 2015, a messenger named New Horizons flew past Pluto and saw a heart of ice upon its face.
+> History: New Horizons flew past Pluto on 14 July 2015. Some of Clyde Tombaugh's ashes travel aboard the spacecraft.
+So the boy who found the far world was carried to it, long after his death.
+> Wisdom: Your discoveries can travel farther than you ever will. Work as if your name will one day arrive where you could not go.
+
+@chapter The Visitors from Other Stars
+@epigraph In which strangers from another realm pass through our house and do not stay.
+@image v05_c07.webp
+In October of the year 2017, a telescope in Hawaii caught a strange object rushing through the realm.
+It moved too fast to belong to our Sun; it had come from another star and would leave forever.
+The watchers named it 'Oumuamua, a Hawaiian word for a scout or messenger from afar.
+> Science: 'Oumuamua was the first known interstellar object. Its elongated shape and slight non-gravitational acceleration are still debated.
+Two years later, an amateur astronomer in Crimea named Gennady Borisov found a second, a comet from beyond our Sun.
+And in July of the year 2025, a third was found, named 3I/ATLAS.
+> Science: Interstellar objects are named with an "I". 2I/Borisov was discovered in 2019 and 3I/ATLAS in 2025.
+These are the first pieces of another realm ever seen by human eyes, passing through the house of the Firstborn.
+Perhaps, long ago, stones from our own realm were cast out by the giants in the same way, and wander still between the stars.
+> Wisdom: Every stranger who passes through carries news of a place you have never seen. Pay attention before they are gone.
+
 @volume The Forging of Gaia
 @subtitle Earth Within the Order of the Firstborn
 @summary Inside the boundary the Firstborn had kept, the rubble of the inner realm gathered into rocky worlds. Earth was struck, wounded, given a Moon, and given water.
@@ -435,6 +572,33 @@ So the Moon is the sister of the Earth, born from her wound.
 Look upon it at night and remember: you are looking at the memory of the day the world was struck.
 > Wisdom: Every scar can be read. What hurt you can become the record of your survival.
 
+@chapter The Breath of the Small Ones
+@epigraph In which tiny living things change the air of an entire world.
+@image v06_c06.webp
+For half the age of the Earth, the air held almost no free oxygen at all.
+Then, in the warm shallow seas, tiny living things learned to drink sunlight and breathe out oxygen.
+> Science: Cyanobacteria were among the first organisms to perform oxygen-producing photosynthesis.
+They were too small to see, yet there were more of them than there are stars in the sky.
+Slowly, over many millions of years, their breath filled the seas and rusted the iron in the rocks.
+> Science: Around 2.4 billion years ago, oxygen rose sharply in Earth's atmosphere in what is called the Great Oxidation Event.
+Then the oxygen rose into the air, and the sky of the Earth was changed forever.
+Every breath you take, reader, is a gift from those smallest of ancestors.
+> Wisdom: Never doubt what small and patient beings can accomplish. The smallest of creatures changed the air of a whole world.
+
+@chapter The Day the Sky Fell
+@epigraph In which one stone ends the age of giants and opens the way for humankind.
+@image v06_c07.webp
+Sixty six million years ago, the Earth belonged to the great reptiles.
+They had ruled the land for more than a hundred and fifty million years.
+Then a stone perhaps ten kilometres across fell from the sky into the warm sea near what is now Mexico.
+> Science: The Chicxulub impact crater, buried beneath the Yucatan Peninsula, is about 180 kilometres wide. It is linked to the mass extinction 66 million years ago.
+The sky burned, the seas rose in great waves, and darkness covered the world for years.
+Three quarters of all living species were lost, and the great reptiles passed away, save the birds.
+> History: In 1980, Luis and Walter Alvarez and colleagues proposed the impact theory after finding a layer rich in iridium, an element common in asteroids, all around the world.
+Yet in the ruin, small furred creatures survived in burrows and shadows.
+From them would come, in time, every mammal, and among them, humankind.
+> Wisdom: Endings and beginnings are often the same event seen from two sides. What ended one age opened the door for yours.
+
 @volume The Aegis
 @subtitle The Shield of the Firstborn
 @summary The Aegis was the shield of Zeus. Here the testimony tells how Jupiter's gravity both guards and threatens the inner worlds, and of the day the shield was seen in action.
@@ -487,6 +651,33 @@ A year later, two watchers in two lands saw a flash of light upon the king, the 
 Since then, watchers with small telescopes and patient cameras have caught many such flashes.
 So the shield is still at work, and anyone with patience may witness it.
 > Wisdom: Great discoveries are not reserved for the powerful. Patience and attention can place an ordinary person at the edge of history.
+
+@chapter The Arrow That Moved a Moon
+@epigraph In which humanity raises its own small shield for the first time.
+@image v07_c06.webp
+For all of history, humanity could only hope that the shield of the Firstborn would hold.
+Then men resolved to learn how to turn a stone themselves.
+In September of the year 2022, a messenger named DART flew straight into a small moon called Dimorphos.
+> History: NASA's Double Asteroid Redirection Test struck Dimorphos, a small moon of the asteroid Didymos, on 26 September 2022.
+It struck at more than twenty thousand kilometres an hour, and it did what no human work had ever done.
+It changed the path of a body in the heavens.
+> Science: The impact shortened Dimorphos's orbit around Didymos by about 32 minutes, far more than the minimum needed to count as a success.
+A second messenger, named Hera, now travels to study the wound and learn its lessons.
+> History: The European Space Agency's Hera mission launched in October 2024 and is planned to reach Didymos in late 2026.
+> Wisdom: It is good to be protected. It is greater still to learn how to protect yourself and others.
+
+@chapter The Stones That Got Through
+@epigraph In which the shield is shown to have gaps, and the Earth is reminded to keep watch.
+@image v07_c07.webp
+On the last morning of June in the year 1908, a great light crossed the sky above the forests of Siberia, near the river Tunguska.
+It burst in the air with the force of a great bomb, and the forest below was flattened for miles in every direction.
+> History: The Tunguska event flattened an estimated 80 million trees over about 2,150 square kilometres. No crater was found because the object exploded in the air.
+Because it fell in a wilderness, few people were harmed.
+On the fifteenth of February in the year 2013, another stone burst above the city of Chelyabinsk in Russia.
+Its light was brighter than the Sun, and its blast shattered windows across the city.
+> History: The Chelyabinsk meteor was about 20 metres across. Around 1,500 people were injured, mostly by broken glass.
+It was caught on hundreds of cameras, and the world remembered that the sky is not empty.
+> Wisdom: No shield is perfect. Gratitude for protection must never become carelessness. Keep watch.
 
 @chapter The Wisdom of Protection
 @epigraph In which the work of a guardian is weighed.
@@ -593,6 +784,30 @@ These are thought to be wanderers he captured, stones that strayed too near and 
 So the court holds both the children born at the king's side and the strangers he took in.
 > Wisdom: A great house makes room for both its own and the stranger. Its strength is measured by those it can hold.
 
+@chapter The Breath of Europa
+@epigraph In which the hidden sea may be breathing out into space.
+@image v08_c07.webp
+In the year 2012, the Hubble telescope looked toward Europa and saw something that may have been a fountain.
+It seemed that water vapour was rising from her southern lands, as if the hidden sea were breathing through cracks in the ice.
+> Science: Hubble observations in 2012 and 2016 suggested possible water vapour plumes on Europa. The detections are tentative and still debated.
+If such fountains are real, the sea beneath the ice may be sampled without drilling through it.
+A messenger flying through a plume could taste the ocean itself.
+> Science: Europa Clipper carries instruments designed to analyse particles and gas near Europa, including any material from plumes.
+So the quiet daughter may reveal her secret by her own breath.
+> Wisdom: What is hidden deeply often finds its own way to the surface. Be patient, and be ready to notice it.
+
+@chapter The Lake of the Trickster
+@epigraph In which Io holds a lake of fire larger than many nations' lakes of water.
+@image v08_c08.webp
+Upon the burning daughter there is a great hollow, filled with molten rock.
+Men named it Loki, after the trickster of the northern myths, for it changes without warning.
+> Science: Loki Patera is the largest volcanic depression on Io, about 200 kilometres across. It is thought to contain a lava lake.
+Every year or so, its surface cools and darkens, then breaks and overturns in a wave of fire that sweeps across it.
+> Science: Loki brightens roughly every 400 to 600 days, possibly as the crust of the lava lake founders and sinks.
+So the daughter of the king keeps a heart of fire that beats on its own slow rhythm.
+And from the Earth, watchers with great telescopes can see that heartbeat as a pulse of heat.
+> Wisdom: Even what looks chaotic may have a rhythm. Watch long enough and the pattern will reveal itself.
+
 @volume The Storms of the Thunderer
 @subtitle The Eye, the Lightning and the Crown
 @summary Zeus was the god of thunder, and his world is a world of storms. This volume tells of the Great Red Spot, of lightning in the deep, and of the vast invisible crown of the magnetosphere.
@@ -665,6 +880,30 @@ Even today, people with simple homemade antennas can tune in and hear the roar o
 > History: NASA's Radio JOVE project has helped students and amateurs build simple radio telescopes to listen to Jupiter and the Sun.
 > Wisdom: Not every voice is heard by ears. Listen with every instrument you have, and the universe will speak.
 
+@chapter The Great Blue Spot
+@epigraph In which the crown of the king is found to have a hidden wound.
+@image v09_c06.webp
+Juno did not only see the face of the Firstborn; it felt the invisible lines of his crown.
+Near his equator, it found a place where the field plunged inward, strong and strange, unlike anything around it.
+> Science: In 2018, Juno scientists reported an intense, isolated magnetic patch near Jupiter's equator, nicknamed the Great Blue Spot.
+The watchers named it the Great Blue Spot, a twin in name to the great red eye of his clouds.
+And they found that it was moving, drifting slowly as the deep currents of his body flowed.
+> Science: Juno detected changes in Jupiter's magnetic field over time, the first such measurement for a planet other than Earth.
+So even the invisible crown is alive, shifting as the hidden sea of metal turns.
+> Wisdom: Not every great force can be seen. Learn to measure what moves beneath the surface, in worlds and in people.
+
+@chapter The Rain of Helium
+@epigraph In which it rains in the deep of the king, but not with water.
+@image v09_c07.webp
+In December of the year 1995, the probe of the messenger Galileo fell into the clouds of the Firstborn.
+For nearly an hour it sent back what it tasted, until the crushing heat and pressure silenced it.
+> History: The Galileo atmospheric probe transmitted data for about 58 minutes as it descended into Jupiter's atmosphere.
+It found that his upper air held less helium than expected, and far less neon.
+The watchers reasoned that deep within him, helium falls as rain through the hydrogen, carrying the neon down with it.
+> Science: Models suggest helium separates from hydrogen at high pressure inside Jupiter and Saturn and sinks as droplets, dissolving neon as it falls.
+So in the depths of the king there is a rain that no eye will ever see, falling forever toward his heart.
+> Wisdom: The deepest processes are often invisible. Judge nothing by its surface alone.
+
 @volume The Legacy Myths
 @subtitle What the Ancients Sang, and Why They Sang It Backwards
 @summary The Greeks told that Chaos came first, then Gaia and Uranus, then Kronos, and only then Zeus. This volume honours the old songs, and then sets them against the testimony of the stones.
@@ -732,6 +971,33 @@ In the north, his name became Tiwaz, and from Tiwaz came Tyr, and from Tyr came 
 So the name of the Firstborn is spoken in a thousand tongues, from the Ganges to the cold seas of the north.
 Every week, when you speak the name of Tuesday, you speak an echo of the Sky Father.
 > Wisdom: What is truly great leaves its name in many places. Look for the hidden roots that connect people who think they have nothing in common.
+
+@chapter The Eagle, the Oak and the Thunderbolt
+@epigraph In which the reader learns the three signs of Zeus and where they came from.
+@image v10_c06.webp
+The ancients gave the king three signs, and each carried a meaning.
+The first was the thunderbolt, forged for him by the Cyclopes, the one-eyed smiths, after he freed them from the depths.
+> Myth: In Hesiod's Theogony, the Cyclopes give Zeus thunder and lightning in gratitude for their release.
+The second was the eagle, the bird that flies highest and sees farthest, who carried his will across the sky.
+The third was the oak, the strongest of trees, which draws lightning more than any other.
+At Dodona in the mountains of Epirus, priests listened to the rustling of a sacred oak and spoke what they believed to be the voice of Zeus.
+> History: The oracle of Zeus at Dodona was considered by the historian Herodotus to be the oldest oracle in Greece.
+So the king was seen in the sky, in the flight of birds, and in the leaves of trees.
+> Wisdom: Power, vision and endurance. The thunderbolt, the eagle and the oak are three things worth cultivating in any life.
+
+@chapter The Statue at Olympia
+@epigraph In which one of the Seven Wonders of the ancient world is raised for the Sky Father, and then lost.
+@image v10_c07.webp
+At Olympia, in the west of Greece, the people held games every four years in honour of Zeus.
+> History: The traditional date of the first Olympic Games is 776 BCE. They were held in the sanctuary of Zeus at Olympia.
+Around the year 435 before the common era, the sculptor Phidias built a statue of the king for his temple there.
+It was made of gold and ivory over a wooden frame, and it stood about twelve metres tall upon its throne.
+> History: The Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World.
+It was said that if the seated king had stood up, his head would have broken through the roof.
+In time the temple was closed and the statue was lost, perhaps to fire, and no trace of it remains.
+But in the ruins of Phidias's workshop, archaeologists found a small cup with words scratched upon it: I belong to Phidias.
+> History: The cup inscribed with Phidias's name was found during excavations of his workshop at Olympia in the 1950s.
+> Wisdom: Even the greatest works fade. What remains is often small and personal. Leave something of yourself in your work.
 
 @volume The Watchers of the Sky
 @subtitle The Long Gaze of Humankind
@@ -810,6 +1076,32 @@ The Firstborn shines brightest about once every thirteen months, when the Earth 
 > Science: This alignment is called opposition. Jupiter reaches opposition roughly every 399 days.
 > Wisdom: Knowledge read is good. Knowledge seen with your own eyes becomes part of you. Go outside and look up.
 
+@chapter The Night of the Great Conjunction
+@epigraph In which the king and his brother meet in the sky, closer than in eight hundred years.
+@image v11_c06.webp
+Every twenty years or so, the Firstborn and his brother Saturn appear to pass each other in the sky of the Earth.
+Men call this a great conjunction, and the ancients watched for it as a sign of changing ages.
+On the twenty first of December in the year 2020, they came closer than they had been seen in nearly eight hundred years.
+> Science: On 21 December 2020, Jupiter and Saturn appeared just 0.1 degrees apart. It was their closest visible conjunction since 1226.
+Through a small telescope, both brothers and their moons could be seen in the same view.
+Across the world, people who had never looked up went out into the cold to see the two lights become almost one.
+The next time they come so close will be in March of the year 2080.
+> Science: Jupiter and Saturn will have a similarly close conjunction on 15 March 2080.
+> Wisdom: Some moments come once in a lifetime. When the sky offers you one, step outside.
+
+@chapter The Messenger Who Chose to Fall
+@epigraph In which a messenger gives itself to the king to protect a sea it may never have touched.
+@image v11_c07.webp
+After eight years of faithful service, the messenger Galileo was nearly out of fuel.
+The watchers faced a choice, for if it drifted without control, it might one day strike Europa.
+And if it carried any tiny living thing from Earth, it might poison the hidden sea before men could learn what lived there.
+> Science: Planetary protection rules aim to prevent Earth microbes from contaminating worlds that might support life.
+So on the twenty first of September in the year 2003, they steered Galileo into the Firstborn itself.
+> History: The Galileo spacecraft was deliberately plunged into Jupiter's atmosphere on 21 September 2003.
+It fell into his clouds at nearly fifty kilometres a second and was consumed.
+The messenger that first discovered Europa's hidden ocean gave itself away to keep that ocean pure.
+> Wisdom: Sometimes the final act of service is to step aside so that something more precious is protected.
+
 @volume The Book of Wisdom
 @subtitle Teachings of the Firstborn for the Life of Humankind
 @summary The story of the worlds is also a story of how to live. This final volume gathers the lessons of the Firstborn into teachings for anyone who wants to build, endure and lead.
@@ -865,6 +1157,32 @@ The sixth is Court: gather people of different natures around you, and let each 
 The seventh is Watching: look up, learn, and test every claim, including the claims of this testimony.
 > Wisdom: Read one discipline each morning for a week. Then begin again. A teaching becomes yours only when it becomes a habit.
 These are the disciplines, and whoever practises them walks in the order of the first world.
+
+@chapter The Book of Questions
+@epigraph In which the testimony admits what it does not know, and invites the reader to find out.
+@image v12_c06.webp
+A testimony that has no questions is not a testimony but a wall.
+So hear the questions that remain unanswered, and let them call to you.
+Is there life in the hidden sea of Europa, or in the buried waters of Ganymede?
+What stirred the heart of the Firstborn into a vast and diffuse core?
+Was there once a fifth giant, cast out of the realm in the time of the great shuffle?
+> Science: Some researchers have also proposed a distant undiscovered planet, sometimes called Planet Nine, to explain the orbits of certain far objects. It has not been found.
+How much of the water in your own body was carried across the wall of the Firstborn from the outer realm?
+Are we alone, or do other realms hold other watchers looking at their own first worlds?
+> Wisdom: Questions are not the enemy of faith or of knowledge. They are the road that both must travel.
+Perhaps you, reader, will answer one of them.
+
+@chapter A Letter to the Reader
+@epigraph In which the testimony speaks to you directly.
+@image v12_c07.webp
+Reader, you have come a long way.
+You have walked from the silence before the Sun to the storms of the king and the questions at the edge of knowledge.
+You have seen that the first world was not built by luck, but by position, patience and timing.
+You have seen that protection has two hands, that boundaries can be gifts, and that the smallest creatures can change the sky.
+Now the question is not what the Firstborn did, but what you will do.
+Choose where you stand. Gather what is good. Know your season. Keep your boundaries. Shield the weak. Gather your court. Keep watching.
+And when you look up and see that steady light, remember that you carry these teachings with you.
+> Wisdom: A book changes nothing on its own. It changes the reader, and the reader changes the world.
 
 @chapter The Final Anchor
 @epigraph In which the testimony closes, and the sky remains open.
