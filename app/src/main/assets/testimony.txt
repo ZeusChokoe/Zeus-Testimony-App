@@ -124,6 +124,21 @@ In the year 2014, they proposed one candidate: a star called HD 162826, about a 
 Perhaps around one of them, another first world circles, and another king was born beyond the frost.
 > Wisdom: You came from somewhere, and from someone. Even when your family is scattered, the same light is written in all of you.
 
+@chapter The Whisper of the First Light
+@epigraph Two men tried to clean pigeon droppings off an antenna and heard the birth of the universe instead.
+@image v01_c09.webp
+In the year 1964, two radio astronomers named Arno Penzias and Robert Wilson were working with a great horn antenna in New Jersey.
+Wherever they pointed it, day or night, they heard a faint and stubborn hiss.
+They suspected their machine, and they even climbed inside the horn to scrub away the droppings of pigeons nesting there.
+The hiss remained.
+At last they learned that the hiss came from everywhere in the sky, because it was the oldest light in the universe.
+> Science: The cosmic microwave background is light released about 380,000 years after the Big Bang, when the universe first became transparent. It has been travelling for about 13.8 billion years.
+> History: Penzias and Wilson shared the 1978 Nobel Prize in Physics for this discovery.
+Long before the cloud of our realm, before the dying star, before Helios, there was this first light.
+This testimony does not claim to know the hand behind it; it names that hand only as the Source.
+But reader, know this: a faint part of the static on an old untuned television set is that same ancient light.
+> Wisdom: The greatest discoveries often arrive disguised as annoyances. Do not scrub away a mystery before you have listened to it.
+
 @chapter The Order of the Testimony
 @epigraph A map for the road ahead, so that no reader walks it blind.
 @image v01_c04.webp
@@ -233,6 +248,20 @@ It was shaped like two pebbles pressed together, a snowman of ice, untouched for
 It was the most distant world ever visited, and it carried the memory of the gentle gathering.
 So even in the age of fire and collision, some things came together softly, and endured.
 > Wisdom: Not all strength is born from struggle. Some of the most lasting things come together quietly and hold fast.
+
+@chapter The Nursery in Orion
+@epigraph Look below the three bright stars of Orion's belt, and you can see worlds being born.
+@image v02_c09.webp
+On a clear summer night in the southern sky, find the three bright stars in a row that many call Orion's belt.
+Near them hangs a small, faint smudge of light, the sword of the hunter.
+That smudge is not a star but a great cloud, where thousands of new suns are being born.
+> Science: The Orion Nebula lies about 1,350 light years away and is the nearest large star-forming region to Earth. It is visible to the naked eye from dark sites.
+In the year 1993, the Hubble telescope looked closely into the cloud and found small dark shapes around many young stars.
+> Science: Astronomer C. Robert O'Dell named these "proplyds", short for protoplanetary disks. They were among the first direct images of planet-forming disks.
+They are disks of dust and gas, just like the one in which the Firstborn was born.
+Some are being torn away by the fierce light of nearby giant stars, a race against the wind more desperate than our own.
+So when you look at that faint smudge, you are looking at the story of this testimony being told again, far away.
+> Wisdom: Beginnings are happening all around you, every night, even when they look like faint smudges.
 
 @chapter Wisdom of the Small Things
 @epigraph Every world was once dust. Remember that when your work feels small.
@@ -357,6 +386,20 @@ So the turning of the Firstborn was counted in palaces and fields, and the years
 The Babylonians, the Greeks and the Chinese did not speak to one another, yet each of them watched the same king keep the same slow time.
 > Wisdom: Steadiness earns trust. The one whose rhythm never fails becomes the clock others live by.
 
+@chapter The King Who Measured Light
+@epigraph The moons of the Firstborn revealed one of the deepest secrets of the universe.
+@image v03_c09.webp
+In the year 1676, a Danish astronomer named Ole Romer was working at the Paris Observatory, timing the moon Io.
+Every time Io passed into the shadow of the Firstborn, it vanished, and the moment could be predicted like the ticking of a clock.
+But Romer noticed something strange.
+When the Earth was moving away from the Firstborn, the eclipses came late; when the Earth approached, they came early.
+He understood why: light itself takes time to cross the realm.
+> History: Romer's work in 1676 gave the first evidence that light travels at a finite speed. Using his timings, Christiaan Huygens estimated a speed of about 220,000 kilometres per second.
+Before this, many believed light arrived instantly. The clock of the king's moons proved otherwise.
+> Science: The modern value of the speed of light is 299,792 kilometres per second. Light takes about 35 to 52 minutes to travel from Jupiter to Earth, depending on where both planets are.
+So the court of the Firstborn became a teacher to humanity, and its lesson reaches across all of physics.
+> Wisdom: A steady rhythm, carefully watched, can reveal a truth far larger than itself. Keep good records of the regular things.
+
 @volume The Wall Between the Realms
 @subtitle The Great Dividing
 @summary By his growing alone, the Firstborn split the disk into two kingdoms with two different treasuries of matter. The stones of the sky still carry the mark of that wall.
@@ -456,6 +499,19 @@ It still lies where it fell, and anyone may stand beside the heart of a lost wor
 In the year 2023, men sent a messenger named Psyche to visit an entire asteroid that may be such an iron heart, bared to space.
 > History: NASA's Psyche spacecraft launched in October 2023 and is planned to reach the metal-rich asteroid 16 Psyche in 2029.
 > Wisdom: When the outer layers of a life are stripped away, what remains is the heart. Make sure it is made of something that endures.
+
+@chapter The Stone Older Than the Sun
+@epigraph A meteorite fell in Australia carrying dust that was already ancient when our Sun was born.
+@image v04_c09.webp
+On the morning of the twenty eighth of September in the year 1969, a fireball broke over the town of Murchison in Australia.
+It burst into fragments, and the townspeople gathered more than a hundred kilograms of dark, crumbly stone that smelled of methylated spirits.
+It came from the outer treasury, the realm beyond the wall of the Firstborn, rich in water and carbon.
+> Science: The Murchison meteorite is a carbonaceous chondrite. Scientists have found dozens of amino acids inside it, many of them not used by life on Earth.
+Decades later, the watchers crushed some of its grains and found tiny specks of dust that did not belong to our Sun at all.
+They were made in other stars, and some of them were about seven billion years old.
+> Science: A 2020 study found presolar silicon carbide grains in the Murchison meteorite, some estimated at about 7 billion years old, older than the Sun by more than two billion years.
+So the stone carried stardust from before the cloud, held safely within the treasury that the Firstborn guarded.
+> Wisdom: Some of what you carry is older than you are. Honour the inheritance you did not create.
 
 @chapter The Wisdom of Boundaries
 @epigraph A fence in the right place is a kindness.
@@ -576,6 +632,20 @@ After thousands or millions of years, it arrives as a great comet, with a tail s
 Even Voyager 1, the swiftest of the messengers, will need about three hundred years to reach its inner edge, and perhaps thirty thousand years to pass through it.
 > Wisdom: Some guardians stand so far away that you never see them. You know them only by what they send you.
 
+@chapter The World Found with a Pen
+@epigraph A planet was discovered not by looking, but by mathematics.
+@image v05_c09.webp
+In the year 1781, William Herschel found a new world in his garden telescope in England, the first planet discovered in recorded history.
+It was named Uranus, and it was strange, for it lies on its side, rolling around the Sun like a ball.
+> Science: Uranus is tilted by about 98 degrees, possibly because of a giant collision long ago.
+But Uranus would not keep to its predicted path. Something unseen was pulling on it.
+A French mathematician named Urbain Le Verrier sat at his desk and calculated where an unknown world must be to explain the pull.
+He sent his prediction to the observatory in Berlin, and on the night of the twenty third of September in the year 1846, Johann Galle turned the telescope to that spot.
+There it was, within one degree of the prediction: a blue giant, later named Neptune.
+> History: John Couch Adams in England made similar calculations at around the same time. Galileo had actually seen Neptune in 1612 and 1613, but recorded it as a star.
+So a world was found with a pen before it was seen with an eye, and the outer giants of the great shuffle entered human knowledge.
+> Wisdom: When something pulls on your life and you cannot see it, reason carefully. Invisible causes leave visible traces.
+
 @volume The Forging of Gaia
 @subtitle Earth Within the Order of the Firstborn
 @summary Inside the boundary the Firstborn had kept, the rubble of the inner realm gathered into rocky worlds. Earth was struck, wounded, given a Moon, and given water.
@@ -683,6 +753,20 @@ Over the ages, the crater itself was worn away, and only its deep roots remain, 
 So the oldest and largest witness to the stones that fall from heaven lies in the soil of Africa.
 > Wisdom: Great wounds can become landmarks. What once devastated a land may one day be visited as a wonder.
 
+@chapter The Snowball Earth
+@epigraph The whole world froze, from the poles to the equator, and life held on.
+@image v06_c09.webp
+About seven hundred million years ago, the ice began to spread.
+It crept from the poles toward the warm middle of the world, and the whiter the Earth became, the more sunlight it reflected and the colder it grew.
+At last, many scientists believe, ice covered nearly the whole planet, even the seas at the equator.
+> Science: The "Snowball Earth" hypothesis proposes global or near-global glaciations between roughly 720 and 635 million years ago.
+Life, still small and simple, hid where it could: near volcanic vents, under thin ice, in pockets of open water.
+Then the volcanoes, which never stopped breathing, filled the air with carbon dioxide until the ice began to melt.
+> Science: Volcanic carbon dioxide, building up over millions of years with little rain to wash it out, is thought to have ended the snowball episodes.
+Not long after the great thaw, life exploded into new and complex forms.
+> Science: The Cambrian explosion, beginning around 538 million years ago, saw the rapid appearance of most major animal groups.
+> Wisdom: Even the coldest season ends. What survives the freeze is often what blooms first when the thaw comes.
+
 @volume The Aegis
 @subtitle The Shield of the Firstborn
 @summary The Aegis was the shield of Zeus. Here the testimony tells how Jupiter's gravity both guards and threatens the inner worlds, and of the day the shield was seen in action.
@@ -776,6 +860,23 @@ In Chile, a great new observatory named for Vera Rubin has also opened its eye, 
 > History: The Vera C. Rubin Observatory released its first images in 2025 and is carrying out a ten-year survey of the southern sky.
 So the shield of the Firstborn is joined, at last, by the watchfulness of his distant readers.
 > Wisdom: Do not wait to be struck before you start paying attention. Watchfulness is the first form of protection.
+
+@chapter The Comet Who Kept Its Promise
+@epigraph A man predicted a comet's return, died before it came, and the Firstborn made it late.
+@image v07_c09.webp
+In the year 1705, the English astronomer Edmond Halley studied the records of bright comets and noticed a pattern.
+Comets seen in 1531, 1607 and 1682 followed almost the same path. He declared them one comet, returning about every seventy six years.
+Long before Halley, the same comet had terrified kings. Old chroniclers often wrote of comets as fiery dragons, and when this one blazed over England in 1066, people took it as an omen of war.
+> History: The 1066 appearance of Halley's Comet is stitched into the Bayeux Tapestry, which shows people pointing at it in fear before the Battle of Hastings.
+He predicted it would come back in the year 1758. He died in 1742 and never saw whether he was right.
+As the year approached, mathematicians led by Alexis Clairaut realised that the Firstborn would delay the comet's return.
+> History: Clairaut and his colleagues calculated that Jupiter would delay the comet by about 518 days and Saturn by about 100 days.
+On Christmas night of the year 1758, a farmer and amateur astronomer in Germany named Johann Palitzsch saw it return.
+The comet passed closest to the Sun in March of the next year, within the window the mathematicians had predicted.
+> History: The return of Halley's Comet was the first proof that comets orbit the Sun and obey the same laws as the planets.
+So the king's hand touched even the comets, and humanity learned that the heavens could be predicted.
+> Science: Halley's Comet last appeared in 1986 and will return in 2061.
+> Wisdom: Make your promises carefully and keep good records. Some of your work will be proven true long after you are gone.
 
 @chapter The Wisdom of Protection
 @epigraph The best guardians are the ones nobody thanks.
@@ -920,6 +1021,19 @@ And as the tides tug, the Moon slowly drifts away from us.
 > Science: Laser beams fired at reflectors left by Apollo astronauts show that the Moon is moving away from Earth by about 3.8 centimetres each year.
 > Wisdom: Pressure is not always the enemy. The right tension, held in the right rhythm, keeps a heart warm.
 
+@chapter The Shadows on the King
+@epigraph With a small telescope, you can watch a moon's shadow cross the face of a giant.
+@image v08_c10.webp
+The daughters of the Firstborn do not only circle him; sometimes they pass between him and the Sun.
+When they do, they cast their shadows upon his clouds, small and perfectly black, like ink dropped on a painted face.
+> Science: Shadow transits of the Galilean moons are visible as small black dots on Jupiter's disk through a modest telescope.
+Slowly the shadow glides across the bands, and the moon itself may be seen nearby, a tiny bright bead against the clouds.
+On rare nights, two or even three shadows fall upon him at once.
+And every six years, the Earth passes through the plane in which the moons travel, and they begin to eclipse and hide one another.
+> Science: These "mutual events" happen about every six years, when Earth crosses the orbital plane of the Galilean moons.
+Those who watch can see the court of the king perform its dance in front of him, shadow by shadow.
+> Wisdom: Even the smallest presence casts a shadow on something greater. Be mindful of the mark you leave on others.
+
 @volume The Storms of the Thunderer
 @subtitle The Eye, the Lightning and the Crown
 @summary Zeus was the god of thunder, and his world is a world of storms. This volume tells of the Great Red Spot, of lightning in the deep, and of the vast invisible crown of the magnetosphere.
@@ -1030,6 +1144,19 @@ The watchers found that his X-ray lights pulse every few minutes, like a beating
 So the burning daughter lights the crown of her father, and the crown answers with a rhythm of its own.
 > Wisdom: The greatest light often comes from what we give away. Io's loss becomes the king's glory.
 
+@chapter The Desert in the Clouds
+@epigraph The first probe to enter the king fell, by chance, into one of his rare deserts.
+@image v09_c09.webp
+When the probe of Galileo fell into the Firstborn in the year 1995, the watchers expected it to find thick clouds of water.
+Instead it found the air surprisingly dry.
+For a time they were puzzled, until they understood that the probe had fallen into a rare clear opening in his clouds.
+> Science: The Galileo probe entered a "5-micron hot spot", a region of sinking dry air with few clouds, so its water measurements were lower than for Jupiter as a whole.
+It was as if a visitor from another world had landed in the middle of the Sahara and concluded that the Earth had no water.
+Years later, Juno measured the water near the king's equator from above, using microwaves that pierce the clouds.
+> Science: In 2020, Juno scientists reported that water makes up about 0.25 percent of the molecules in Jupiter's equatorial atmosphere, roughly three times the Sun's proportion of oxygen.
+So the deserts and the rains of the Firstborn were both revealed, and the lesson was learned.
+> Wisdom: Never judge an entire world, or an entire person, from a single sample. One place is not the whole.
+
 @volume The Legacy Myths
 @subtitle What the Ancients Sang, and Why They Sang It Backwards
 @summary The Greeks told that Chaos came first, then Gaia and Uranus, then Kronos, and only then Zeus. This volume honours the old songs, and then sets them against the testimony of the stones.
@@ -1139,6 +1266,21 @@ Out sprang Athena, fully grown and fully armed, goddess of wisdom and of war.
 > Science: Metis is also the name of Jupiter's innermost known moon, which circles so close that it lies inside the planet's main ring.
 This testimony reads the old song this way: the first king did not destroy wisdom, he made it part of himself, and it was reborn as strength.
 > Wisdom: Do not merely admire wisdom from a distance. Take it in until it becomes part of who you are, and it will come out as courage.
+
+@chapter Prometheus and the Stolen Fire
+@epigraph One Titan defied the king to give humanity fire.
+@image v10_c09.webp
+In the old song, after the war against the Titans, humanity lived in cold and darkness.
+The Titan Prometheus, whose name means forethought, pitied them.
+He stole fire from the gods, hid it inside a hollow stalk of fennel, and carried it down to the earth.
+> Myth: In Hesiod's Theogony and Works and Days, Prometheus steals fire for humanity and is punished by Zeus.
+The king was furious. He chained Prometheus to a rock in the mountains, and every day an eagle came to eat his liver, which grew back every night.
+Generations later, the hero Heracles shot the eagle and set Prometheus free.
+> Myth: Many later writers made Prometheus the creator of humanity as well as its champion.
+This testimony reads the story this way: fire is knowledge, and the king guarded it because power without wisdom destroys.
+Humanity received the fire anyway, and its duty is to prove that the gift was not a mistake.
+> Science: Prometheus is also the name of a small moon of Saturn that shapes the edge of Saturn's F ring.
+> Wisdom: Every gift of power carries a test. Knowledge is fire: it warms or it burns, depending on the hand that holds it.
 
 @volume The Watchers of the Sky
 @subtitle The Long Gaze of Humankind
@@ -1256,6 +1398,19 @@ In the years ahead, thousands more dishes will join them, and together they will
 So the long gaze of humankind, which began on the clay of Babylon, now looks out from the soil of Africa.
 > Wisdom: Great discoveries need quiet places. Find the dark, still places in your own life, and you will see further.
 
+@chapter The Golden Record and the Pale Blue Dot
+@epigraph Humanity sent a letter to the stars, then turned around and took a picture of home.
+@image v11_c09.webp
+In the year 1977, two messengers named Voyager left the Earth and passed the Firstborn on their way out of the realm.
+Each carried a record made of gold-plated copper, a message in a bottle for anyone who might one day find it.
+> History: The Voyager Golden Records, prepared by a committee led by Carl Sagan, carry 115 images, greetings in 55 languages, and music from many cultures.
+On them are the sounds of rain, of a mother's kiss, of a heartbeat, and of music from many lands.
+In the year 1990, as Voyager 1 was leaving, Carl Sagan asked that it turn its camera back toward home.
+From about six billion kilometres away, the Earth appeared as a single faint speck in a beam of scattered sunlight.
+> History: The "Pale Blue Dot" image was taken on 14 February 1990. In August 2012, Voyager 1 became the first human-made object to reach interstellar space.
+Sagan wrote that on that dot lived everyone you love, everyone you know, everyone you ever heard of.
+> Wisdom: Seen from far enough away, every quarrel is small and every kindness matters. Look at your life from a distance sometimes.
+
 @volume The Book of Wisdom
 @subtitle Teachings of the Firstborn for the Life of Humankind
 @summary The story of the worlds is also a story of how to live. This final volume gathers the lessons of the Firstborn into teachings for anyone who wants to build, endure and lead.
@@ -1350,6 +1505,19 @@ Fifth, ask: what storm moved in me, and did I govern it or did it govern me?
 Then, if the sky is clear, step outside and look for the steady light that does not twinkle.
 > Wisdom: Five questions, asked honestly every night, will change a life more than any single great resolution.
 And when you have looked, rest, for tomorrow the gathering begins again.
+
+@chapter The Seasons of a Life
+@epigraph The story of the realm is also the story of a single human life.
+@image v12_c09.webp
+There is a season of the cloud, when you are small and unformed and everything is still possible.
+There is a season of the disk, when the material of your life swirls around you and the clock of opportunity begins to tick.
+There is a season of the frost line, when you must find the place where your gifts are most abundant.
+There is a season of gathering, when every small habit is a pebble caught or a pebble lost.
+There is a season of the great breath, when your foundation is strong and you can take in more than ever before.
+There is a season of wandering, when you may drift toward the fire and must find the courage to turn back.
+There is a season of the shield, when you stand between others and harm.
+And there is a season of the steady light, when you have become a fixed point others can find in the dark.
+> Wisdom: You do not choose every season, but you choose how you live in each one. Know which season you are in.
 
 @chapter The Final Anchor
 @epigraph The testimony ends. The sky stays open.
