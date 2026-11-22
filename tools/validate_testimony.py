@@ -65,8 +65,8 @@ def main() -> int:
         for c in v["chapters"]:
             if not c["epigraph"]:
                 errors.append(f"chapter {c['title']!r}: missing @epigraph")
-            if c["verses"] < 5:
-                errors.append(f"chapter {c['title']!r}: fewer than 5 verses")
+            if c["verses"] < 7:
+                errors.append(f"chapter {c['title']!r}: fewer than 7 verses")
 
     chapters = sum(len(v["chapters"]) for v in volumes)
     verses = sum(c["verses"] for v in volumes for c in v["chapters"])
