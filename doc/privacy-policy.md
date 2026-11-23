@@ -16,3 +16,7 @@ Android device backup if you have backup enabled. Uninstalling the app or cleari
 **Changes:** any change to this policy will be published at this same address with a new effective date.
 
 **Contact:** thezeustower@gmail.com
+
+## Listen mode and shared images
+
+Listen mode reads a chapter aloud with the text-to-speech voice already installed on your phone. The text goes only to that voice on your device; nothing is recorded. When you share a verse as an image, the image is made on your phone, kept in the app's private cache, and sent only to the app you choose in Android's share window.

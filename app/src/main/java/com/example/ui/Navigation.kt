@@ -38,6 +38,8 @@ import com.example.ui.screens.IntroScreen
 import com.example.ui.screens.LegalScreen
 import com.example.ui.screens.LibraryScreen
 import com.example.ui.screens.SearchScreen
+import com.example.ui.screens.TimelineScreen
+import com.example.ui.screens.GlossaryScreen
 import com.example.ui.screens.VolumeScreen
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -109,8 +111,13 @@ private fun TestimonyNavHost(testimony: Testimony) {
                 onOpenVolume = { nav.navigate("volume/$it") },
                 onOpenChapter = { openChapter(it) },
                 onAbout = { nav.navigate("about") },
+                onTimeline = { nav.navigate("timeline") },
             )
         }
+        composable("timeline") {
+            TimelineScreen(testimony = testimony, onOpenChapter = { openChapter(it) }, onBack = { nav.popBackStack() })
+        }
+        composable("glossary") { GlossaryScreen(onBack = { nav.popBackStack() }) }
         composable(
             "volume/{volume}",
             arguments = listOf(navArgument("volume") { type = NavType.IntType }),
@@ -172,6 +179,7 @@ private fun TestimonyNavHost(testimony: Testimony) {
                 testimony = testimony,
                 onShowIntro = { nav.navigate("intro") },
                 onLegal = { nav.navigate("legal") },
+                onGlossary = { nav.navigate("glossary") },
                 onBack = { nav.popBackStack() },
             )
         }

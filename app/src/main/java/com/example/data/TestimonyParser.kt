@@ -15,6 +15,7 @@ object TestimonyParser {
     private class VerseB(val text: String) { val notes = mutableListOf<Note>() }
     private class ChapterB(val title: String) {
         var image: String? = null; var epigraph: String? = null
+        var whenYears: Double? = null; var whenLabel: String? = null
         val verses = mutableListOf<VerseB>()
     }
     private class VolumeB(val title: String) {
@@ -45,6 +46,14 @@ object TestimonyParser {
                         "seal" -> (volume ?: fail(lineNo, "@seal before any @volume")).seal = value
                         "chapter" -> (volume ?: fail(lineNo, "@chapter before any @volume")).chapters += ChapterB(value)
                         "epigraph" -> (chapter ?: fail(lineNo, "@epigraph must follow a @chapter")).epigraph = value
+                        "when" -> {
+                            val c = chapter ?: fail(lineNo, "@when must follow a @chapter")
+                            val years = value.substringBefore('|').trim().toDoubleOrNull()
+                            val label = value.substringAfter('|', "").trim()
+                            if (years == null || label.isEmpty()) fail(lineNo, "@when must look like '<years> | <label>'")
+                            c.whenYears = years
+                            c.whenLabel = label
+                        }
                         "image" -> {
                             if (!SAFE_IMAGE.matches(value)) fail(lineNo, "unsafe or unsupported image name '$value'")
                             when {
@@ -83,6 +92,8 @@ object TestimonyParser {
                             title = c.title,
                             image = c.image,
                             epigraph = c.epigraph,
+                            whenYears = c.whenYears,
+                            whenLabel = c.whenLabel,
                             verses = c.verses.mapIndexed { n, verse -> Verse(n + 1, verse.text, verse.notes.toList()) },
                         )
                     },

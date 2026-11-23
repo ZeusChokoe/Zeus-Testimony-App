@@ -20,6 +20,9 @@ import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.BookmarkBorder
 import androidx.compose.material.icons.filled.ContentCopy
 import androidx.compose.material.icons.filled.FormatColorReset
+import androidx.compose.material.icons.filled.Image
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
+import androidx.compose.material.icons.filled.StopCircle
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.TextDecrease
 import androidx.compose.material.icons.filled.TextIncrease
@@ -50,6 +53,11 @@ import com.example.data.Verse
 import com.example.data.VerseRef
 import com.example.data.Volume
 import com.example.ui.components.AssetImage
+import com.example.ui.components.VerseCard
+import com.example.ui.components.rememberNarrator
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filter
 
@@ -74,6 +82,9 @@ fun ChapterScreen(
     val chapter = testimony.chapter(position)
     val listState = rememberLazyListState()
     var selected by remember { mutableStateOf<Verse?>(null) }
+    val narrator = rememberNarrator()
+    val context = LocalContext.current
+    LaunchedEffect(position) { narrator.stop() }
 
     if (chapter != null) {
         LaunchedEffect(position) { onRead(position) }
@@ -101,6 +112,18 @@ fun ChapterScreen(
                     IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
                 },
                 actions = {
+                    if (chapter != null) {
+                        IconButton(onClick = {
+                            when {
+                                narrator.speaking -> narrator.stop()
+                                !narrator.available -> Toast.makeText(context, "No text-to-speech voice is installed on this phone", Toast.LENGTH_LONG).show()
+                                else -> narrator.speak(listOfNotNull(chapter.title, chapter.epigraph) + chapter.verses.map { it.text })
+                            }
+                        }) {
+                            if (narrator.speaking) Icon(Icons.Filled.StopCircle, contentDescription = "Stop listening")
+                            else Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Listen to this chapter")
+                        }
+                    }
                     IconButton(
                         onClick = { onTextScaleChange(textScale - 0.1f) },
                         enabled = textScale > ReadingPrefs.MIN_SCALE + 0.01f,
@@ -165,6 +188,7 @@ fun ChapterScreen(
                 ref = VerseRef(position.volume, position.chapter, verse.number),
                 verse = verse,
                 reference = "${volume.title}, Chapter ${chapter.number}, Verse ${verse.number}",
+                image = chapter.image ?: volume.image,
                 library = library,
                 onDismiss = { selected = null },
             )
@@ -183,6 +207,15 @@ private fun ChapterTitle(volume: Volume, chapter: Chapter) {
         )
         Spacer(Modifier.height(8.dp))
         Text(chapter.title, style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onBackground, textAlign = TextAlign.Center)
+        chapter.whenLabel?.let {
+            Spacer(Modifier.height(6.dp))
+            Text(
+                "WHEN: ${it.uppercase()}",
+                style = MaterialTheme.typography.labelSmall,
+                color = Color(0xFFC9A227),
+                textAlign = TextAlign.Center,
+            )
+        }
         chapter.epigraph?.let {
             Spacer(Modifier.height(12.dp))
             Text(
@@ -274,10 +307,12 @@ private fun VerseActionsSheet(
     ref: VerseRef,
     verse: Verse,
     reference: String,
+    image: String?,
     library: LibraryStore,
     onDismiss: () -> Unit,
 ) {
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
     val shareText = "\"${verse.text}\"\n$reference\nThe Zeus Testimony"
     ModalBottomSheet(onDismissRequest = onDismiss, containerColor = MaterialTheme.colorScheme.surface) {
         Column(Modifier.fillMaxWidth().padding(horizontal = 24.dp).padding(bottom = 32.dp)) {
@@ -328,6 +363,24 @@ private fun VerseActionsSheet(
                     Spacer(Modifier.width(8.dp))
                     Text("Share")
                 }
+            }
+            Spacer(Modifier.height(12.dp))
+            OutlinedButton(
+                onClick = {
+                    val app = context.applicationContext
+                    scope.launch {
+                        runCatching {
+                            val card = withContext(Dispatchers.Default) { VerseCard.render(app, image, verse.text, reference) }
+                            VerseCard.share(app, card, shareText)
+                        }.onFailure { Toast.makeText(app, "Could not create the image", Toast.LENGTH_SHORT).show() }
+                        onDismiss()
+                    }
+                },
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Icon(Icons.Filled.Image, contentDescription = null, modifier = Modifier.size(18.dp))
+                Spacer(Modifier.width(8.dp))
+                Text("Share as image")
             }
         }
     }
