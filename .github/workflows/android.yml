@@ -29,6 +29,32 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v5
 
+      # Robolectric downloads its ~200 MB Android runtime at test time in a single
+      # attempt, so one network blip fails every UI test. Cache it, and fetch it up
+      # front with retries. Update ROBOLECTRIC_ANDROID when Robolectric or the test
+      # SDK version changes (the name is in ~/.m2/repository/org/robolectric).
+      - name: Cache Robolectric Android runtime
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2/repository/org/robolectric
+          key: robolectric-android-all-15-robolectric-13954326-i7
+
+      - name: Pre-fetch Robolectric Android runtime
+        env:
+          ROBOLECTRIC_ANDROID: 15-robolectric-13954326-i7
+        run: |
+          set -euo pipefail
+          V="$ROBOLECTRIC_ANDROID"
+          D="$HOME/.m2/repository/org/robolectric/android-all-instrumented/$V"
+          B="https://repo1.maven.org/maven2/org/robolectric/android-all-instrumented/$V"
+          mkdir -p "$D"
+          for f in "android-all-instrumented-$V.pom" "android-all-instrumented-$V.jar"; do
+            for g in "$f" "$f.sha512"; do
+              [ -s "$D/$g" ] || curl -fsSL --retry 5 --retry-delay 10 --retry-all-errors -o "$D/$g" "$B/$g"
+            done
+          done
+          (cd "$D" && echo "$(cat android-all-instrumented-$V.jar.sha512)  android-all-instrumented-$V.jar" | sha512sum -c -)
+
       # ubuntu-latest ships the Android SDK (ANDROID_HOME); AGP fetches any missing platform.
       - name: Unit tests, lint and debug build
         run: ./gradlew --no-configuration-cache testDebugUnitTest lintDebug assembleDebug
