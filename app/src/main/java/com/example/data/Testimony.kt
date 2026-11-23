@@ -24,6 +24,10 @@ data class Chapter(
     val image: String?,
     val verses: List<Verse>,
     val epigraph: String? = null,
+    /** Years from now when the chapter happens (negative = past), used to order the timeline. */
+    val whenYears: Double? = null,
+    /** Human-readable time, for example "4.568 billion years ago" or "1979". */
+    val whenLabel: String? = null,
 ) {
     val number: Int get() = index + 1
 }

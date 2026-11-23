@@ -30,7 +30,10 @@ private val privacy = listOf(
     "Deleting your information" to "Uninstalling the app, or clearing its storage in your phone's settings, deletes " +
         "everything listed above. Removing a bookmark or highlight in My Library deletes it immediately.",
     "Permissions" to "The app requests no special permissions: no camera, microphone, location, contacts or files. " +
-        "Sharing a verse uses Android's standard share window, and you choose where it goes.",
+        "Sharing a verse, as text or as an image, uses Android's standard share window, and you choose where it goes. " +
+        "A shared image is made on your phone and kept only in the app's private cache.",
+    "Listen mode" to "Reading aloud uses the text-to-speech voice already installed on your phone. The app sends the " +
+        "chapter text to that voice on your device and records nothing.",
     "Third parties" to "The app contains no third-party advertising, analytics or tracking code. Google Play, which " +
         "delivers the app, has its own privacy policy.",
     "Children" to "The app is not directed at children under 13, and it collects no data from anyone.",

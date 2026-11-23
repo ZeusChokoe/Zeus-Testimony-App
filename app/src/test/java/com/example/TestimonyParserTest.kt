@@ -86,6 +86,7 @@ class TestimonyParserTest {
             v.chapters.forEach {
                 assertTrue("${it.title} has too few verses", it.verses.size >= 7)
                 assertTrue("${it.title} lacks an epigraph", !it.epigraph.isNullOrBlank())
+                assertTrue("${it.title} lacks @when", it.whenYears != null && !it.whenLabel.isNullOrBlank())
             }
         }
     }

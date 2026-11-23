@@ -1,5 +1,15 @@
 # Changes
 
+## 2.14.0
+- Plain narration: chapter bodies now tell the story in plain words (Jupiter, the Sun, the solar system, astronomers, spacecraft). Poetic language stays in epigraphs, closing verses and the volume seals.
+- Wisdom notes cut from about 140 to 48, so each one carries weight.
+- Every chapter carries a "When" date, shown under its title.
+- Timeline: all 146 chapters in the order they happen, grouped into eras from before the Sun to the far future.
+- Glossary: the book's own names (the Firstborn, the hearth, the court, the watchers, the messengers) explained plainly.
+- Listen: reads a chapter aloud with the phone's own offline text-to-speech voice.
+- Share as image: turns a verse into a 1080 x 1350 card on its chapter's artwork.
+- 5 new tests (16 in total); the content validator now requires a valid @when on every chapter.
+
 ## 2.13.0
 - Repetition removed: 12 near-duplicate sentence pairs rewritten, the Galileo probe and Europa Clipper stories each told once with cross-references, "So the..." conclusions cut from 102 to 14, "In the year" openings varied.
 - Volume XII recap chapters (which retold earlier volumes) replaced by "The Book of What Is to Come": the brightening Sun, Halley's return in 2061, the Milky Way and Andromeda, the red giant, the white ember, what will outlast us, and the last light.

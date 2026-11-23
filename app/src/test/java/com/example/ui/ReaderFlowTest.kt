@@ -71,7 +71,7 @@ class ReaderFlowTest {
         shot("4_next_chapter_commentary")
 
         // Bookmark and highlight verse 1, then find both in My Library.
-        rule.onNode(hasScrollAction()).performScrollToNode(hasText("When the core of the Firstborn", substring = true))
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("When the core of Jupiter", substring = true))
         rule.onNodeWithContentDescription("Verse 1").performClick()
         waitForText("Bookmark for later")
         rule.onNodeWithText("Bookmark for later").performClick()

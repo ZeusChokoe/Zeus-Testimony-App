@@ -12,6 +12,7 @@ import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material.icons.outlined.Bookmarks
 import androidx.compose.material.icons.outlined.Search
+import androidx.compose.material.icons.outlined.Timeline
 import androidx.compose.runtime.remember
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -51,6 +52,7 @@ fun HomeScreen(
     onOpenVolume: (Int) -> Unit,
     onOpenChapter: (Position) -> Unit,
     onAbout: () -> Unit,
+    onTimeline: () -> Unit = {},
 ) {
     val snackbar = remember { SnackbarHostState() }
     // Once per app launch: offer to jump back to the exact verse the reader stopped at.
@@ -77,7 +79,7 @@ fun HomeScreen(
             modifier = Modifier.fillMaxSize(),
             contentPadding = PaddingValues(bottom = padding.calculateBottomPadding() + 32.dp),
         ) {
-            item { Hero(testimony, topInset = padding.calculateTopPadding(), onSearch = onSearch, onLibrary = onLibrary, onAbout = onAbout) }
+            item { Hero(testimony, topInset = padding.calculateTopPadding(), onSearch = onSearch, onLibrary = onLibrary, onAbout = onAbout, onTimeline = onTimeline) }
 
             val resume = lastRead?.let { p -> testimony.chapter(p)?.let { p to it } }
             item {
@@ -147,6 +149,7 @@ private fun Hero(
     onSearch: () -> Unit,
     onLibrary: () -> Unit,
     onAbout: () -> Unit,
+    onTimeline: () -> Unit,
 ) {
     Box(Modifier.fillMaxWidth().height(320.dp + topInset)) {
         AssetImage(path = "hero.webp", contentDescription = null, modifier = Modifier.fillMaxSize())
@@ -156,6 +159,7 @@ private fun Hero(
             ),
         )
         Row(Modifier.align(Alignment.TopEnd).padding(top = topInset, end = 8.dp)) {
+            IconButton(onClick = onTimeline) { Icon(Icons.Outlined.Timeline, contentDescription = "Timeline", tint = Color.White) }
             IconButton(onClick = onSearch) { Icon(Icons.Outlined.Search, contentDescription = "Search", tint = Color.White) }
             IconButton(onClick = onLibrary) { Icon(Icons.Outlined.Bookmarks, contentDescription = "My Library", tint = Color.White) }
             IconButton(onClick = onAbout) { Icon(Icons.Outlined.Info, contentDescription = "About this book", tint = Color.White) }

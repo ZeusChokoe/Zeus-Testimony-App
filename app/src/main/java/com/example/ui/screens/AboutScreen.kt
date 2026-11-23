@@ -14,7 +14,7 @@ import com.example.data.Testimony
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onLegal: () -> Unit, onBack: () -> Unit) {
+fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onLegal: () -> Unit, onGlossary: () -> Unit = {}, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -62,6 +62,8 @@ fun AboutScreen(testimony: Testimony, onShowIntro: () -> Unit, onLegal: () -> Un
                     "access. Your reading position, text size, bookmarks, highlights and reading history are stored only " +
                     "on this device, and are deleted when you uninstall the app.",
             )
+            OutlinedButton(onClick = onGlossary) { Text("Glossary of names") }
+            Spacer(Modifier.height(8.dp))
             OutlinedButton(onClick = onLegal) { Text("Privacy Policy and Terms of Use") }
             Spacer(Modifier.height(8.dp))
             OutlinedButton(onClick = onShowIntro) { Text("Show the introduction again") }

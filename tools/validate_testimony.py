@@ -59,6 +59,13 @@ def main() -> int:
                 vol[key] = value
             elif key == "chapter":
                 vol["chapters"].append({"title": value, "image": None, "epigraph": None, "verses": 0})
+            elif key == "when":
+                if ch is None:
+                    errors.append(f"line {n}: @when must follow a @chapter")
+                elif not re.match(r"^-?[0-9.e+]+ \| .+$", value):
+                    errors.append(f"line {n}: @when must look like '<years> | <label>'")
+                else:
+                    ch["when"] = value
             elif key == "epigraph":
                 if ch is None:
                     errors.append(f"line {n}: @epigraph must follow a @chapter")
@@ -88,6 +95,8 @@ def main() -> int:
             errors.append(f"volume {v['title']!r}: fewer than 4 chapters")
         wanted += [v["image"]] + [c["image"] for c in v["chapters"]]
         for c in v["chapters"]:
+            if not c.get("when"):
+                errors.append(f"chapter {c['title']!r}: missing @when")
             if not c["epigraph"]:
                 errors.append(f"chapter {c['title']!r}: missing @epigraph")
             if c["verses"] < 7:

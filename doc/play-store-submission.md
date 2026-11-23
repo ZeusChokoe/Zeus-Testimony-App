@@ -76,6 +76,8 @@ hydrogen from the first moments of the universe, iron from dying stars and water
 - Science and History notes explain what is proven and what is still debated
 - Wisdom notes on strength, patience, boundaries and endurance
 - Bookmarks, colour highlights, reading history, search and a verse of the day
+- A timeline of every chapter from before the Sun to the far future, and a glossary
+- Listen mode with your phone's own offline voice, and verses shared as images
 - Continue exactly where you paused
 - Works fully offline
 
