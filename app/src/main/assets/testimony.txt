@@ -158,6 +158,20 @@ Gold is rare on the surface of the Earth because most of it sank into the iron h
 So every grain you hold was twice delivered: once from the collision of dead stars, and again by stones falling from the sky.
 Wear it, if you wear it, as a relic older than the Sun.
 
+@chapter The Golden Eye at the Edge of Time
+@epigraph A golden mirror was sent into the dark to see the first galaxies ever born.
+@image v01_c11.webp
+On Christmas morning of the year 2021, a rocket rose from the coast of South America carrying the greatest telescope ever sent into space.
+Its mirror was folded like the petals of a flower, eighteen gold-covered hexagons that opened only once it was far from the Earth.
+> History: The James Webb Space Telescope launched on 25 December 2021 from Kourou, French Guiana. Its primary mirror is 6.5 metres across.
+It travelled one and a half million kilometres, to a quiet point beyond the Moon, and turned its golden eye toward the deepest dark.
+There it saw galaxies whose light had been travelling for more than thirteen billion years.
+> Science: In 2024, Webb confirmed a galaxy seen as it was about 290 million years after the Big Bang, among the most distant ever observed.
+It looked back almost to the first light that the testimony has already described, to an age long before the cloud of our own realm.
+And it also turned toward the Firstborn, and photographed his rings, his moons and his auroras burning at his poles.
+> Science: Webb's infrared images of Jupiter, released in 2022, show its auroras, faint rings and small moons Amalthea and Adrastea.
+So the newest eye of humanity looked at both ends of this story: the dawn of the universe, and the king of our realm.
+
 @chapter The Order of the Testimony
 @epigraph A map for the road ahead, so that no reader walks it blind.
 @image v01_c04.webp
@@ -1760,6 +1774,20 @@ Law, justice and peace: the poets understood that these three are sisters, and t
 And the poets gave the Sky Father the title Zeus Polieus, guardian of the city, because no city stands without law.
 In every courtroom where a judge weighs a case with honest scales, the old poets would have said that Dike is standing near.
 
+@chapter The Flood and the Stones
+@epigraph The Sky Father washed the world, and two just people threw stones that became a new humanity.
+@image sky_c18.webp
+The poets say there came an age when humankind grew cruel, and broke every law of guest and oath and kin.
+The Sky Father looked down and saw that the world had forgotten justice, and he opened the floodgates of heaven.
+The rain fell and the seas rose until only the peak of Mount Parnassus stood above the water.
+But two people had kept the law: Deucalion and his wife Pyrrha. They had built a vessel, and the waters carried them to the mountain.
+> History: The flood of Deucalion is told by Ovid in the Metamorphoses and by the mythographer Apollodorus. Many cultures preserve flood stories.
+When the waters fell, they prayed for counsel, and the answer came: throw behind you the bones of your great mother.
+They understood that the great mother was the Earth, and her bones were stones.
+The stones Deucalion threw became men, and the stones Pyrrha threw became women, and the world was peopled again.
+> Science: In a sense the poets were right: the calcium, iron and silicon in human bodies were once part of the rocks and stars of the realm.
+So the Sky Father did not end humanity; he remade it from the bones of the Earth, through the hands of the just.
+
 @chapter The Law of the Stranger
 @epigraph Open your door to the traveller. You do not know who stands outside.
 @image sky_c05.webp
@@ -1830,6 +1858,21 @@ And on the Earth, the water that falls on every field crossed the realm from bey
 So the old prayer and the new knowledge meet: the rain truly comes, in part, from the realm the Sky Father ruled.
 So the old ones, looking at a cloud, saw a hand; the watchers, looking deeper, found a whole world of rain.
 
+@chapter The Sacred Truce
+@epigraph In the name of the Sky Father, the wars of Greece were made to pause.
+@image sky_c19.webp
+Before every festival at Olympia, heralds went out from the sanctuary of the Sky Father to every city of the Greek world.
+They carried a message called the ekecheiria, the holding of hands: the sacred truce.
+> History: The Olympic truce guaranteed safe passage to athletes and spectators travelling to and from the Games in honour of Zeus.
+While the truce held, armies were not to enter the land of Elis, and travellers to the festival were not to be harmed, even by enemies at war.
+In the year 420 before the common era, the city of Sparta broke the truce, and was fined two thousand minae and barred from the Games.
+> History: The historian Thucydides records that Sparta was excluded from the Olympic Games of 420 BCE for violating the truce.
+So even the most feared army of Greece bowed, at least in law, to the peace of the Sky Father.
+In the modern age, the nations of the world have revived the idea, and the United Nations calls for an Olympic truce before every Games.
+> History: Since 1993 the United Nations General Assembly has adopted resolutions supporting an Olympic Truce before each Olympic Games.
+> Wisdom: A god of thunder who could command a pause in war: that is a power greater than the bolt.
+For the length of the festival, the voice of the Sky Father was louder than the war drums of every city.
+
 @chapter The Wonder at Olympia
 @epigraph So great was the image of the king that if he had stood, he would have lifted the roof.
 @image sky_c09.webp
@@ -1858,6 +1901,20 @@ The priest greeted him, and Alexander came out of the temple saying he had recei
 > History: Alexander's visit to Siwa in 331 BCE is described by ancient historians, including Arrian and Plutarch. Afterwards coins showed him with the ram's horns of Zeus-Ammon.
 So the Sky Father's name reached from the mountains of Greece to the heart of Africa, and kings crossed the desert to hear it.
 Its ruins still stand on a hill in the oasis, where the wind of the Sahara passes through the empty doorways.
+
+@chapter The Sky Father of Many Nations
+@epigraph One name, spoken in a thousand tongues, from India to the cold northern seas.
+@image sky_c20.webp
+Long before Greece and Rome, there lived a people whose language became the mother of half the world's tongues.
+Scholars call them the Proto-Indo-Europeans, and among their gods was the Sky Father, whose name they spoke as Dyeus.
+> History: Linguists reconstruct the phrase *Dyeus ph2ter, meaning "Sky Father", from words preserved in many later languages.
+In India, the ancient hymns of the Rigveda sing of Dyaus Pita, Father Sky.
+In Greece he became Zeus Pater, father of gods and men.
+In Rome his name was worn into a single word: Iuppiter, Jupiter, the Sky Father.
+In the north the same root became Tiwaz, and from Tiwaz came Tyr, and from Tyr came the English word Tuesday.
+> History: Tuesday comes from Old English Tiwesdaeg, the day of Tiw, a god whose name descends from the same ancient root as Zeus.
+So the name of the Sky Father was carried by migrating peoples across a whole continent, and it is spoken still, every week, by people who do not know it.
+The Firstborn of the realm bears that name in the sky; the nations bore it in their mouths.
 
 @chapter Marduk and the Making of Heaven
 @epigraph In Babylon, the king of the gods split the dragon of chaos and built the sky from her body.
@@ -1899,6 +1956,33 @@ But the chameleon was slow and stopped to eat along the way, and a lizard was se
 So, the elders say, death came into the world, because the slow messenger was overtaken.
 This testimony places the story of the reed beside the story of the cloud: in both, life comes forth from a place of gathering.
 > Wisdom: The elders told this story to explain what cannot be undone. Listen to it, and to the stories of every land, with respect.
+
+@chapter The Eye Given for Wisdom
+@epigraph In the north, the All-Father paid for wisdom with his own eye.
+@image sky_c21.webp
+The peoples of the north told of Odin, the All-Father, chief of the gods of Asgard.
+Beneath the roots of the great world-tree Yggdrasil there was a well, guarded by the wise one named Mimir, and its water held all wisdom.
+Odin came and asked to drink, and Mimir named the price: one of his eyes.
+Odin gave it without hesitation, and drank, and saw the shape of all things.
+> History: The story of Odin's sacrifice at Mimir's well is told in the Prose Edda, written down by Snorri Sturluson in Iceland around 1220.
+The poets also told that he hung on the world-tree for nine nights, wounded and without food, until he saw the runes and took them up.
+> History: Odin's ordeal on the tree is described in the Old Norse poem Havamal. Wednesday is named after him, as Woden's day.
+So among the gods of the sky, one king won his throne with the thunderbolt, and another won his wisdom with sacrifice.
+> Wisdom: The king of the north teaches that true sight is bought dearly. The watchers of the sky would agree.
+And two ravens, Thought and Memory, flew over the world each day and returned to tell him all they had seen.
+
+@chapter How the Sky God's Stories Were Won
+@epigraph Every story in the world once belonged to the Sky God. This is how they came to the people.
+@image sky_c22.webp
+The Akan people of Ghana tell that long ago, all the stories in the world belonged to Nyame, the Sky God.
+Kwaku Anansi, the spider, climbed up to the sky and asked to buy them.
+Nyame laughed, for great kings had tried and failed, and named his price: Onini the python, Osebo the leopard, Mmoboro the hornets, and Mmoatia the spirit whom no one sees.
+> History: This tale is one of the best known Akan stories. Folktales of this kind are called Anansesem, "spider stories", in honour of Anansi.
+By cleverness, not strength, Anansi caught them all, one by one, and brought them bound to the Sky God.
+Nyame kept his word before his court, and gave the stories to Anansi, and from that day they have belonged to all the people.
+> History: Anansi stories travelled with African people across the Atlantic and are still told in the Caribbean and the Americas.
+So among the sky gods of the world, one is remembered for keeping his word to the smallest of creatures.
+And the stories in this testimony, too, are part of that gift: words that came down from the sky to be shared.
 
 @chapter The Thunderers of Every Land
 @epigraph Every people that heard the thunder gave it a name, and many of those names point to the same sky.
@@ -2086,6 +2170,21 @@ His ashes were wrapped in a small piece of brass foil, engraved with images of a
 > History: The capsule carried a quotation from Romeo and Juliet: "And, when he shall die, take him and cut him out in little stars."
 Carolyn Shoemaker, his wife and partner in discovery, found 32 comets and hundreds of asteroids in her lifetime.
 So the geologist who studied the scars of the sky now rests in one.
+
+@chapter The Messenger to the Hidden Sea
+@epigraph It left the Earth in 2024. In 2030 it will reach the daughter with the hidden ocean.
+@image v11_c11.webp
+In October of the year 2024, the largest planetary spacecraft NASA has ever built rose from Florida on a great rocket.
+It was named Europa Clipper, and its wings of solar panels stretch more than thirty metres from tip to tip, wider than a basketball court.
+> History: Europa Clipper launched on 14 October 2024 aboard a SpaceX Falcon Heavy. Its solar arrays span about 30 metres.
+It cannot fly straight to the king. It swings past Mars, and then past the Earth, borrowing speed from each world as it goes.
+> Science: Europa Clipper flew past Mars in March 2025 and is planned to fly past Earth in December 2026 on its way to Jupiter.
+In the year 2030 it will arrive, and pass close by Europa about fifty times, tasting her breath and reading the ice above her sea.
+It carries a poem engraved in metal, and the names of millions of people who asked to travel with it.
+> History: A plate aboard the spacecraft carries "In Praise of Mystery", a poem by the US Poet Laureate Ada Limon, and a microchip holding about 2.6 million names.
+So the watchers of the Earth are sending their words, and their names, to the threshold of the hidden sea.
+> Wisdom: Some journeys begin in one age and end in another. The reader of this book lives in the years between.
+Its instruments will measure the thickness of the ice, the saltiness of the ocean and the chemistry of the surface, looking for the conditions that life would need.
 
 @volume The Book of Wisdom
 @subtitle Proverbs, Psalms and Witnesses of the Realm
