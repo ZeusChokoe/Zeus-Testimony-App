@@ -979,6 +979,21 @@ They brought out more than fifteen hundred fossil pieces, one of the richest fin
 > History: The Rising Star expeditions recovered over 1,500 fossil elements from the Dinaledi Chamber, belonging to at least 15 individuals of Homo naledi.
 > Wisdom: Great discoveries sometimes need people who can fit through the narrowest openings. Do not overlook those the world considers too small.
 
+@chapter The Great Dying
+@epigraph Before the age of the great reptiles, the world nearly ended in fire and poison.
+@image v06_c11.webp
+Long before the stone that fell on Mexico, there was a darker hour.
+About two hundred and fifty two million years ago, the land that is now Siberia split open.
+> Science: The Siberian Traps are vast layers of volcanic rock formed by enormous eruptions around 252 million years ago.
+For thousands upon thousands of years, molten rock poured out over an area larger than many nations, and poison gases rose into the sky.
+The air grew hot, the seas grew warm and lost their breath, and the oceans turned acid.
+> Science: The end-Permian mass extinction, often called the Great Dying, wiped out roughly 90 percent of marine species and about 70 percent of land vertebrate species. It is the most severe extinction known.
+Nearly every kind of living thing in the sea perished.
+Yet a few held on, and from their descendants, over millions of years, the world was filled again, and the age of the great reptiles began.
+> Wisdom: The record of the Earth is not a smooth road. Its chapters are separated by fire. What lives now is what came through.
+Among the survivors was a small, sturdy creature called Lystrosaurus, which spread across the emptied world.
+> Science: Fossils of Lystrosaurus are found in the Karoo Basin of South Africa, where rocks preserve one of the best records of the Great Dying on land.
+
 @volume The Aegis
 @subtitle The Shield of the Firstborn
 @summary The Aegis was the shield of Zeus. Here the testimony tells how Jupiter's gravity both guards and threatens the inner worlds, and of the day the shield was seen in action.
@@ -1495,6 +1510,19 @@ They jostle but do not merge, like dancers who keep their places in a circle.
 > Science: Juno discovered these polar cyclone clusters in 2017. Their stable geometric arrangement surprised scientists.
 > Wisdom: Order and chaos are not opposites. Even storms can keep formation.
 
+@chapter When the Red Eye Was First Seen
+@epigraph Men have watched the great storm for two centuries. But was it always the same eye?
+@image v09_c11.webp
+In the year 1664, the English scientist Robert Hooke recorded a spot on the face of the Firstborn.
+A year later, Giovanni Cassini in Paris saw a dark spot as well, and watched it for decades.
+He called it the permanent spot, and it was observed on and off until the year 1713.
+> History: Cassini's "permanent spot" was recorded from 1665 to 1713. Then it was lost from view for more than a century.
+Then the records fall silent.
+In 1831, astronomers again recorded a great spot at about the same latitude, and it has been watched without a break ever since.
+> Science: A 2024 study of historical observations concluded that Cassini's spot was probably a different storm, and that the present Great Red Spot has been watched continuously since 1831.
+So the eye that men call ancient may be younger than the oldest stories told about it; yet it has watched every age of modern history.
+The king's storms rise, endure and fade, and new ones take their place, and the face of the king remains.
+
 @volume The Image of the Stars
 @subtitle What You Are Made Of
 @summary You are not a spectator of this history; you are made of it. This volume follows the hydrogen, iron, calcium and water of the realm into your own body, and tells what it means to be formed from the same story as the stars and the Firstborn.
@@ -1648,7 +1676,7 @@ And when you look up and see the steady light of the Firstborn, know that you ar
 
 @volume The Acts of the Sky Father
 @subtitle What the Nations Saw When They Looked Up
-@summary The world the astronomers call Jupiter, the nations called a king. Here are the acts the old poets sang of Zeus, the Sky Father: his rise, his justice, his gifts and his laws, and the thunder gods of every land who answered to the same sky.
+@summary The world the astronomers call Jupiter, the nations called a king. Here are the acts the old poets sang of Zeus, the Sky Father: his rise, his justice, his gifts and his laws, and the gods of other nations who answered to the same sky.
 @image vol_sky.webp
 @seal The child they hid became the sky that hides nothing.
 
@@ -1691,6 +1719,20 @@ The Hundred-Handed giants hurled stones three hundred at a time, and the old ord
 Note this, reader: the power that ended the war was the same power that had first been used to set prisoners free.
 And when it was over, the Sky Father did not rule by fear, but by law.
 
+@chapter The Fall of Typhon
+@epigraph The greatest monster the poets ever imagined rose against the sky. The sky answered.
+@image sky_c12.webp
+After the war of ten years, the earth itself brought forth one last enemy: Typhon, the storm-giant.
+From his shoulders rose a hundred serpent heads, and from every mouth came a different terrible voice, the bellow of a bull, the roar of a lion, the hiss of a thousand snakes.
+> History: Hesiod describes Typhoeus, or Typhon, with a hundred serpent heads and many voices, as the last great challenger to Zeus.
+The poets say that even the gods of Olympus trembled when he came.
+But the Sky Father rose and met him, and the earth and sea and sky blazed with lightning until the heavens themselves seemed to burn.
+Bolt after bolt struck the monster, and every head was scorched, and Typhon fell.
+Later poets told that the Sky Father buried him beneath Mount Etna in Sicily, and that the mountain's fire is his breath, still struggling under the weight.
+> Science: Mount Etna is one of the most active volcanoes on Earth and has erupted thousands of times in recorded history.
+So when the mountain rumbles, the old Greeks heard not defeat, but the endless proof of a victory.
+> Wisdom: The poets placed the greatest danger under the greatest weight. Some powers are not destroyed; they are held down, forever, by a stronger one.
+
 @chapter The Casting of the Lots
 @epigraph He could have taken everything. He drew lots instead.
 @image sky_c04.webp
@@ -1703,6 +1745,20 @@ So the first act of the victor was not to hoard, but to divide by fair chance.
 This testimony has told how the Firstborn also divided the disk into two treasuries before any other world was finished.
 The poets and the stones tell the same shape of story: the first power in the realm is a power that divides and orders.
 > Wisdom: Read twice: he who could take all, and shared, is the one who was trusted to rule.
+
+@chapter The Lord of Justice
+@epigraph Beside his throne sits a maiden who reports every wrong done under the sky.
+@image sky_c13.webp
+The poets say that after the war, the Sky Father took as his counsellor and bride Themis, the goddess of divine order and right custom.
+From them came the Horae, the keepers of the seasons and of human order: Eunomia, good law; Dike, justice; and Eirene, peace.
+> History: In the Theogony, Hesiod names Eunomia, Dike and Eirene as daughters of Zeus and Themis.
+Of Dike the poet Hesiod sang that whenever she is dragged away by crooked judgements, she sits down beside her father and tells him of the hearts of unjust men.
+> History: This image appears in Hesiod's Works and Days, a poem addressed to his brother Perses about honest work and justice.
+So the Greeks believed that no unjust verdict went unseen, for the daughter of the Sky Father was always watching.
+Law, justice and peace: the poets understood that these three are sisters, and that none of them lives long without the others.
+> Wisdom: Order without justice becomes tyranny. Justice without peace becomes war. The Sky Father kept all three at his side.
+And the poets gave the Sky Father the title Zeus Polieus, guardian of the city, because no city stands without law.
+In every courtroom where a judge weighs a case with honest scales, the old poets would have said that Dike is standing near.
 
 @chapter The Law of the Stranger
 @epigraph Open your door to the traveller. You do not know who stands outside.
@@ -1760,6 +1816,20 @@ His sight reaches across the realm in the form of his gravity; his storms rise i
 > Science: Juno has detected lightning on Jupiter more powerful than most lightning on Earth, flashing in clouds of water and ammonia.
 The signs the ancients chose by instinct, the instruments of the watchers have found by measurement.
 
+@chapter The Giver of Rain
+@epigraph The Greeks did not say "it rains". They said "Zeus rains".
+@image sky_c14.webp
+In the language of the Greeks, when rain fell, they said simply: Zeus is raining.
+> History: The ancient Greek phrase "Zeus huei", Zeus rains, was the ordinary way of saying that it was raining.
+On Mount Hymettus above Athens stood an altar to Zeus Ombrios, the bringer of rain, where farmers came in the dry season to pray.
+> History: The traveller Pausanias recorded the altar of Zeus Ombrios on Mount Hymettus.
+The emperor Marcus Aurelius preserved the simplest of their prayers: Rain, rain, dear Zeus, on the fields and plains of the Athenians.
+> History: Marcus Aurelius quotes this prayer in his Meditations as an example of praying simply and directly.
+The watchers now know that the king's own world is a world of rain, of water and ammonia in his clouds and helium falling in his depths.
+And on the Earth, the water that falls on every field crossed the realm from beyond his wall in the age of the giants.
+So the old prayer and the new knowledge meet: the rain truly comes, in part, from the realm the Sky Father ruled.
+So the old ones, looking at a cloud, saw a hand; the watchers, looking deeper, found a whole world of rain.
+
 @chapter The Wonder at Olympia
 @epigraph So great was the image of the king that if he had stood, he would have lifted the roof.
 @image sky_c09.webp
@@ -1775,6 +1845,20 @@ The image of gold and ivory has passed from the earth. But the one it was made t
 The Games themselves were reborn in the year 1896, and their flame is still kindled at Olympia by the light of the Sun.
 > History: The Olympic flame is lit at Olympia with a parabolic mirror focusing the Sun's rays, before each modern Games.
 
+@chapter The Oracle in the Desert
+@epigraph In the sands of Egypt, the Sky Father had a temple that conquerors crossed the desert to reach.
+@image sky_c15.webp
+Far to the west of the Nile, in the oasis of Siwa, stood the oracle of Ammon, whom the Greeks called Zeus-Ammon.
+His fame was so great that Greek poets wrote hymns to him, and Greek cities sent messengers across the sea and the sand to ask his counsel.
+> History: The oracle of Amun at Siwa was known to the Greeks as the oracle of Zeus-Ammon. Herodotus and Pindar both mention it.
+The historian Herodotus tells that a Persian king once sent an army of fifty thousand men to destroy it, and that a great sandstorm swallowed them, and they were never seen again.
+> History: Herodotus describes the lost army of Cambyses, around 524 BCE. Its fate has never been confirmed by archaeology.
+In the year 331 before the common era, Alexander the Great crossed the desert to Siwa, guided, the stories say, by ravens.
+The priest greeted him, and Alexander came out of the temple saying he had received the answer his heart desired.
+> History: Alexander's visit to Siwa in 331 BCE is described by ancient historians, including Arrian and Plutarch. Afterwards coins showed him with the ram's horns of Zeus-Ammon.
+So the Sky Father's name reached from the mountains of Greece to the heart of Africa, and kings crossed the desert to hear it.
+Its ruins still stand on a hill in the oasis, where the wind of the Sahara passes through the empty doorways.
+
 @chapter Marduk and the Making of Heaven
 @epigraph In Babylon, the king of the gods split the dragon of chaos and built the sky from her body.
 @image sky_c10.webp
@@ -1788,6 +1872,33 @@ And the Babylonians linked Marduk with the brightest of the wanderers, the plane
 > History: In Babylonian astronomy the planet Jupiter was associated with Marduk, the chief god of Babylon.
 So two great peoples, in two languages, looked at the same light and saw the king who brought order out of chaos.
 > Wisdom: When different peoples, who never met, tell the same story, listen carefully. Something true may lie beneath it.
+
+@chapter Ra and the Boat of the Sun
+@epigraph In Egypt, the Sun sailed across the sky by day, and fought a serpent every night.
+@image sky_c16.webp
+The people of the Nile told that the Sun was Ra, who sailed across the sky each day in a shining boat.
+At evening he passed into the Duat, the underworld, and sailed through the twelve hours of the night.
+> History: Egyptian texts such as the Amduat describe the Sun god's journey through the twelve hours of the night in the underworld.
+There, every night, the great serpent Apep rose to swallow the boat and end the world.
+And every night Apep was defeated, and every morning the Sun rose again.
+> History: Apep, called Apophis by the Greeks, was the Egyptian serpent of chaos. The asteroid Apophis, which will pass close to Earth in 2029, is named after him.
+This testimony has told of the hearth of Helios, kindled in the cloud; the Egyptians saw the same hearth as a king on a journey.
+And the serpent they feared each night now has its name in the sky, a stone that will pass the Earth and be watched by the whole world.
+> Wisdom: The Egyptians knew what the watchers know: the order of the sky is not given once. It is kept, every night, against the dark.
+In the tombs of the pharaohs, the walls were painted with this journey, so that the dead might sail with the Sun and rise with it.
+
+@chapter uNkulunkulu and the Reed
+@epigraph In the land of the Zulu, the first of all came out of a bed of reeds.
+@image sky_c17.webp
+The amaZulu of southern Africa tell of uNkulunkulu, the Old Old One, the first of all.
+He came out of a bed of reeds, the uhlanga, and from the reeds he brought forth the first people, and the cattle, and all living things.
+> History: Accounts of uNkulunkulu and the uhlanga were recorded in the 1860s by Henry Callaway, who collected Zulu traditions in the words of Zulu speakers, published as The Religious System of the Amazulu.
+He taught them how to live, how to make fire, how to plant and how to keep the herds.
+Then he sent the chameleon to tell the people that they would not die.
+But the chameleon was slow and stopped to eat along the way, and a lizard was sent after with a different message, and the lizard arrived first.
+So, the elders say, death came into the world, because the slow messenger was overtaken.
+This testimony places the story of the reed beside the story of the cloud: in both, life comes forth from a place of gathering.
+> Wisdom: The elders told this story to explain what cannot be undone. Listen to it, and to the stories of every land, with respect.
 
 @chapter The Thunderers of Every Land
 @epigraph Every people that heard the thunder gave it a name, and many of those names point to the same sky.
