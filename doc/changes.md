@@ -1,5 +1,10 @@
 # Changes
 
+## 2.13.0
+- Repetition removed: 12 near-duplicate sentence pairs rewritten, the Galileo probe and Europa Clipper stories each told once with cross-references, "So the..." conclusions cut from 102 to 14, "In the year" openings varied.
+- Volume XII recap chapters (which retold earlier volumes) replaced by "The Book of What Is to Come": the brightening Sun, Halley's return in 2061, the Milky Way and Andromeda, the red giant, the white ember, what will outlast us, and the last light.
+- The content validator now fails the build on near-duplicate sentences across chapters.
+
 ## 2.12.0
 - 7 new chapters (147 total): The Flood and the Stones (Deucalion and Pyrrha), The Sacred Truce (ekecheiria), The Sky Father of Many Nations (Dyeus, Dyaus Pita, Iuppiter, Tyr), The Eye Given for Wisdom (Odin), How the Sky God's Stories Were Won (Nyame and Anansi), The Golden Eye at the Edge of Time (James Webb), and The Messenger to the Hidden Sea (Europa Clipper).
 
