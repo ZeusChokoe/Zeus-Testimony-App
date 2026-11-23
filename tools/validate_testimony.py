@@ -15,6 +15,29 @@ SAFE_IMAGE = re.compile(r"^[A-Za-z0-9_\-]+(/[A-Za-z0-9_\-]+)*\.(webp|png|jpg|jpe
 MAX_IMAGE_BYTES = 360 * 1024
 
 
+STOP = set("the a an of and to in is was were his her its it that this for on by with as at from be he she "
+           "they their are not but or which who into than so".split())
+
+
+def repetition_errors(threshold: float = 0.45) -> list:
+    """Flag sentences in different chapters that share most of their words (Jaccard >= threshold)."""
+    items, chapter = [], None
+    for line in TEXT.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line.startswith("@chapter "):
+            chapter = line[9:]
+        elif chapter and line and not line.startswith(("@", "#")):
+            words = {w for w in re.findall(r"[a-z0-9']+", line.lstrip("> ").lower()) if w not in STOP and len(w) > 2}
+            if len(words) >= 5:
+                items.append((chapter, line, words))
+    found = []
+    for i, (ca, la, wa) in enumerate(items):
+        for cb, lb, wb in items[i + 1:]:
+            if ca != cb and len(wa & wb) / len(wa | wb) >= threshold:
+                found.append(f"repeated sentence in {ca!r} and {cb!r}: {la[:70]!r} / {lb[:70]!r}")
+    return found
+
+
 def main() -> int:
     errors, volumes = [], []
     for n, raw in enumerate(TEXT.read_text(encoding="utf-8").splitlines(), 1):
@@ -80,6 +103,7 @@ def main() -> int:
     for name in oversized:
         print(f"  warning: {name} is over {MAX_IMAGE_BYTES // 1024} KB; compress it to WebP")
 
+    errors += repetition_errors()
     text = TEXT.read_text(encoding="utf-8")
     for bad, name in (("\u2014", "em dash"), ("\u2013", "en dash")):
         if bad in text:
